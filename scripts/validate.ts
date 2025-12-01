@@ -32,6 +32,9 @@ const donationSchema = JSON.parse(
 const eventSchema = JSON.parse(
   fs.readFileSync(path.join(ROOT_DIR, "schemas/event.schema.json"), "utf-8")
 );
+const addressSchema = JSON.parse(
+  fs.readFileSync(path.join(ROOT_DIR, "schemas/address.schema.json"), "utf-8")
+);
 
 const validateToken = ajv.compile(tokenSchema);
 const validateNetwork = ajv.compile(networkSchema);
@@ -40,6 +43,7 @@ const validateOrg = ajv.compile(orgSchema);
 const validateSupporter = ajv.compile(supporterSchema);
 const validateDonation = ajv.compile(donationSchema);
 const validateEvent = ajv.compile(eventSchema);
+const validateAddress = ajv.compile(addressSchema);
 
 interface ValidationResult {
   file: string;
@@ -94,8 +98,8 @@ function validateJsonFiles(
           // Additional validations
           const additionalErrors: string[] = [];
 
-          // Check address checksum for tokens
-          if (type === "token" && content.address) {
+          // Check address checksum for tokens and addresses
+          if ((type === "token" || type === "address") && content.address) {
             if (!isValidChecksumAddress(content.address)) {
               additionalErrors.push(
                 `Invalid address format: ${content.address}`
@@ -103,8 +107,8 @@ function validateJsonFiles(
             }
           }
 
-          // Check that chainId in filename matches content for tokens
-          if (type === "token") {
+          // Check that chainId in filename matches content for tokens and addresses
+          if (type === "token" || type === "address") {
             const parentDir = path.basename(path.dirname(fullPath));
             const expectedChainId = parseInt(parentDir, 10);
             if (!isNaN(expectedChainId) && content.chainId !== expectedChainId) {
@@ -433,6 +437,9 @@ if (fs.existsSync(eventsDir)) {
     }
   }
 }
+
+// Validate addresses files
+validateJsonFiles(path.join(ROOT_DIR, "data/addresses"), validateAddress, "address");
 
 // Report results
 const validCount = results.filter((r) => r.valid).length;

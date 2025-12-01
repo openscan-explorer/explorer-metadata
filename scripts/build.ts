@@ -17,6 +17,7 @@ interface BuildManifest {
     supporters: number;
     donations: number;
     events: number;
+    addresses: number;
   };
 }
 
@@ -68,6 +69,54 @@ function loadJsonFilesFromDir(dir: string): Record<string, unknown>[] {
   }
 
   return items;
+}
+
+function buildAddresses(): number {
+  const addressesDir = path.join(ROOT_DIR, "data/addresses");
+  const distAddressesDir = path.join(DIST_DIR, "addresses");
+  ensureDir(distAddressesDir);
+
+  let totalAddresses = 0;
+
+  if (!fs.existsSync(addressesDir)) return totalAddresses;
+
+  const chainDirs = fs.readdirSync(addressesDir, { withFileTypes: true });
+
+  for (const chainDir of chainDirs) {
+    if (!chainDir.isDirectory()) continue;
+
+    const chainId = parseInt(chainDir.name, 10);
+    if (isNaN(chainId)) continue;
+
+    const chainPath = path.join(addressesDir, chainDir.name);
+    const addresses = loadJsonFilesFromDir(chainPath);
+
+    if (addresses.length === 0) continue;
+
+    // Sort by label or address
+    addresses.sort((a, b) => {
+      const labelA = (a.label as string) || (a.address as string) || "";
+      const labelB = (b.label as string) || (b.address as string) || "";
+      return labelA.localeCompare(labelB);
+    });
+
+    const output = {
+      chainId,
+      updatedAt: new Date().toISOString(),
+      count: addresses.length,
+      addresses,
+    };
+
+    fs.writeFileSync(
+      path.join(distAddressesDir, `${chainId}.json`),
+      JSON.stringify(output, null, 2)
+    );
+
+    totalAddresses += addresses.length;
+    console.log(`  Built addresses/${chainId}.json (${addresses.length} addresses)`);
+  }
+
+  return totalAddresses;
 }
 
 function buildEvents(): number {
@@ -274,6 +323,7 @@ if (fs.existsSync(DIST_DIR)) {
 ensureDir(DIST_DIR);
 
 console.log("Building JSON aggregates:");
+const addressCount = buildAddresses();
 const eventCount = buildEvents();
 const tokenCount = buildTokens();
 const networkCount = buildNetworks();
@@ -324,6 +374,7 @@ const manifest: BuildManifest = {
     supporters: supporterCount,
     donations: donationCount,
     events: eventCount,
+    addresses: addressCount,
   },
 };
 
@@ -333,6 +384,7 @@ fs.writeFileSync(
 );
 
 console.log("\nBuild complete!");
+console.log(`  Addresses: ${addressCount}`);
 console.log(`  Events: ${eventCount}`);
 console.log(`  Tokens: ${tokenCount}`);
 console.log(`  Networks: ${networkCount}`);

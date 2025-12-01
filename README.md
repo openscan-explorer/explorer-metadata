@@ -2,7 +2,7 @@
 
 Open, community-driven metadata repository for the OpenScan blockchain explorer.
 
-This repository contains verified metadata for tokens, networks, apps, organizations, events, supporters, and donations displayed on OpenScan.
+This repository contains verified metadata for tokens, networks, apps, organizations, addresses, events, supporters, and donations displayed on OpenScan.
 
 ## Structure
 
@@ -10,6 +10,7 @@ This repository contains verified metadata for tokens, networks, apps, organizat
 explorer-metadata/
 ├── data/
 │   ├── tokens/{chainId}/{address}.json    # Token metadata
+│   ├── addresses/{chainId}/{address}.json # Verified addresses per chain
 │   ├── events/{chainId}.json              # Chain-specific events
 │   ├── networks.json                      # All networks
 │   ├── apps/{id}.json                     # App metadata
@@ -227,6 +228,24 @@ Events are stored per chain in `data/events/{chainId}.json`. Each event is index
 }
 ```
 
+### Address
+
+Verified addresses for apps and organizations are stored per chain in `data/addresses/{chainId}/{address}.json`.
+
+```json
+{
+  "address": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+  "chainId": 1,
+  "supporter": "uniswap",
+  "label": "Router V2"
+}
+```
+
+- `address`: Checksummed contract address
+- `chainId`: Chain ID where this address is deployed
+- `supporter`: ID of the app or organization
+- `label`: Optional human-readable label for the address
+
 ## Subscription Tiers
 
 Tiers are represented as integers:
@@ -236,23 +255,23 @@ Tiers are represented as integers:
 
 ### Tokens
 - **Free**: Basic listing with address, name, symbol, decimals (verified contract required)
-- **Backer** ($500/mo): + Logo, links, project info, tags
+- **Backer** ($500/mo): + Logo, links, project info, tags, allow events submission
 - **Partner** ($1,500/mo): + Balance shown in explorer, markdown profile, voting power
 - **Ally** ($3,000/mo): + DAO token allocation, custom explorer subdomain
 
 ### Networks - Backer $2,000/month
 - **Backer** ($2,000/mo): Profile page, priority home page placement
-- **Partner** ($6,000/mo): + Dedicated subdomain explorer, voting power
+- **Partner** ($6,000/mo): + Dedicated subdomain explorer, roadmap voting power
 - **Ally** ($12,000/mo): + DAO token allocation, network-specific features
 
 ### Apps - Backer $1,000/month
-- **Backer** ($1,000/mo): Profile page, contract tagging
-- **Partner** ($3,000/mo): + Direct tech support, voting power
+- **Backer** ($1,000/mo): Profile page, contract tagging, allow events submission
+- **Partner** ($3,000/mo): + Direct tech support, roadmap voting power
 - **Ally** ($6,000/mo): + DAO token allocation, plugin integration
 
 ### Organizations - Backer $500/month
-- **Backer** ($500/mo): Profile page, contract tagging
-- **Partner** ($1,500/mo): + Direct tech support, voting power
+- **Backer** ($500/mo): Profile page, contract tagging, allow events submission
+- **Partner** ($1,500/mo): + Direct tech support, roadmap voting power
 - **Ally** ($3,000/mo): + DAO token allocation
 
 ## Donations
@@ -317,6 +336,9 @@ curl https://metadata.openscan.io/donations.json
 
 # Get events for Ethereum
 curl https://metadata.openscan.io/events/1.json
+
+# Get addresses for Ethereum
+curl https://metadata.openscan.io/addresses/1.json
 
 # Get a token profile
 curl https://metadata.openscan.io/profiles/tokens/1/0x....md
