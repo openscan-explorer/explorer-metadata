@@ -2,7 +2,7 @@
 
 Open, community-driven metadata repository for the OpenScan blockchain explorer.
 
-This repository contains verified metadata for tokens, networks, apps, organizations, supporters, and donations displayed on OpenScan.
+This repository contains verified metadata for tokens, networks, apps, organizations, events, supporters, and donations displayed on OpenScan.
 
 ## Structure
 
@@ -10,6 +10,7 @@ This repository contains verified metadata for tokens, networks, apps, organizat
 explorer-metadata/
 ├── data/
 │   ├── tokens/{chainId}/{address}.json    # Token metadata
+│   ├── events/{chainId}.json              # Chain-specific events
 │   ├── networks.json                      # All networks
 │   ├── apps/{id}.json                     # App metadata
 │   ├── organizations.json                 # All organizations
@@ -205,6 +206,27 @@ Tokens support **free listings** and **paid subscriptions**:
 }
 ```
 
+### Event
+
+Events are stored per chain in `data/events/{chainId}.json`. Each event is indexed by its topic0 (keccak256 hash of the event signature).
+
+```json
+{
+  "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef": {
+    "event": "Transfer(address,address,uint256)",
+    "description": "ERC20/ERC721 token transfer."
+  },
+  "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925": {
+    "event": "Approval(address,address,uint256)",
+    "description": "ERC20/ERC721 approval granted."
+  },
+  "0x2f8788117e7af2f4c44cc979f409775888b8597f5b8bfeb3c5c50411c276d0b3": {
+    "event": "RoleGranted(bytes32,address,address)",
+    "description": "AccessControl role granted."
+  }
+}
+```
+
 ## Subscription Tiers
 
 Tiers are represented as integers:
@@ -292,6 +314,9 @@ curl https://metadata.openscan.io/supporters.json
 
 # Get donations list
 curl https://metadata.openscan.io/donations.json
+
+# Get events for Ethereum
+curl https://metadata.openscan.io/events/1.json
 
 # Get a token profile
 curl https://metadata.openscan.io/profiles/tokens/1/0x....md

@@ -1,0 +1,38 @@
+{
+  "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef": {
+    "event": "Transfer(address,address,uint256)",
+    "description": "ERC20/ERC721 token transfer."
+  },
+  "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925": {
+    "event": "Approval(address,address,uint256)",
+    "description": "ERC20/ERC721 approval granted."
+  },
+  "0x17307eab39ab6107e8899845ad3d59bd9653f200f220920489ca2b5937696c31": {
+    "event": "ApprovalForAll(address,address,bool)",
+    "description": "ERC721/ERC1155 operator approval."
+  },
+  "0x2f8788117e7af2f4c44cc979f409775888b8597f5b8bfeb3c5c50411c276d0b3": {
+    "event": "RoleGranted(bytes32,address,address)",
+    "description": "AccessControl role granted."
+  },
+  "0xf6391f5c32d9c69d2a47ea670b442974b53935d1edc7fd64eb21e047a839171b": {
+    "event": "RoleRevoked(bytes32,address,address)",
+    "description": "AccessControl role revoked."
+  },
+  "0xbd79b86ffe0ab8e8776151514217cd7cacd52c909f66475c3af44e129f0b00ff": {
+    "event": "RoleAdminChanged(bytes32,bytes32,bytes32)",
+    "description": "AccessControl role admin changed."
+  },
+  "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0": {
+    "event": "OwnershipTransferred(address,address)",
+    "description": "Ownership transferred to new owner."
+  },
+  "0xe9c9b456cb2994b80aeef036cf59d26e9617df80f816a6ee5a5b4166e07e2f5c": {
+    "event": "Paused(address)",
+    "description": "Contract paused."
+  },
+  "0x5db9ee0a495bf2e6ff9c91a7834c1ba4fdd244a5e8aa4e537bd38aeae4b073aa": {
+    "event": "Unpaused(address)",
+    "description": "Contract unpaused."
+  }
+}

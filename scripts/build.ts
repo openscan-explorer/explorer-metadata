@@ -16,6 +16,7 @@ interface BuildManifest {
     organizations: number;
     supporters: number;
     donations: number;
+    events: number;
   };
 }
 
@@ -67,6 +68,50 @@ function loadJsonFilesFromDir(dir: string): Record<string, unknown>[] {
   }
 
   return items;
+}
+
+function buildEvents(): number {
+  const eventsDir = path.join(ROOT_DIR, "data/events");
+  const distEventsDir = path.join(DIST_DIR, "events");
+  ensureDir(distEventsDir);
+
+  let totalEvents = 0;
+
+  if (!fs.existsSync(eventsDir)) return totalEvents;
+
+  const eventFiles = fs.readdirSync(eventsDir, { withFileTypes: true });
+
+  for (const eventFile of eventFiles) {
+    if (!eventFile.isFile() || !eventFile.name.endsWith(".json")) continue;
+
+    const chainId = parseInt(eventFile.name.replace(".json", ""), 10);
+    if (isNaN(chainId)) continue;
+
+    const filePath = path.join(eventsDir, eventFile.name);
+    try {
+      const events = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+      const eventCount = Object.keys(events).length;
+
+      const output = {
+        chainId,
+        updatedAt: new Date().toISOString(),
+        count: eventCount,
+        events,
+      };
+
+      fs.writeFileSync(
+        path.join(distEventsDir, `${chainId}.json`),
+        JSON.stringify(output, null, 2)
+      );
+
+      totalEvents += eventCount;
+      console.log(`  Built events/${chainId}.json (${eventCount} events)`);
+    } catch (e) {
+      console.warn(`Warning: Failed to parse ${filePath}: ${e}`);
+    }
+  }
+
+  return totalEvents;
 }
 
 function buildTokens(): number {
@@ -229,6 +274,7 @@ if (fs.existsSync(DIST_DIR)) {
 ensureDir(DIST_DIR);
 
 console.log("Building JSON aggregates:");
+const eventCount = buildEvents();
 const tokenCount = buildTokens();
 const networkCount = buildNetworks();
 const appCount = buildApps();
@@ -277,6 +323,7 @@ const manifest: BuildManifest = {
     organizations: orgCount,
     supporters: supporterCount,
     donations: donationCount,
+    events: eventCount,
   },
 };
 
@@ -286,6 +333,7 @@ fs.writeFileSync(
 );
 
 console.log("\nBuild complete!");
+console.log(`  Events: ${eventCount}`);
 console.log(`  Tokens: ${tokenCount}`);
 console.log(`  Networks: ${networkCount}`);
 console.log(`  Apps: ${appCount}`);

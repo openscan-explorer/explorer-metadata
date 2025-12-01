@@ -29,6 +29,9 @@ const supporterSchema = JSON.parse(
 const donationSchema = JSON.parse(
   fs.readFileSync(path.join(ROOT_DIR, "schemas/donation.schema.json"), "utf-8")
 );
+const eventSchema = JSON.parse(
+  fs.readFileSync(path.join(ROOT_DIR, "schemas/event.schema.json"), "utf-8")
+);
 
 const validateToken = ajv.compile(tokenSchema);
 const validateNetwork = ajv.compile(networkSchema);
@@ -36,6 +39,7 @@ const validateApp = ajv.compile(appSchema);
 const validateOrg = ajv.compile(orgSchema);
 const validateSupporter = ajv.compile(supporterSchema);
 const validateDonation = ajv.compile(donationSchema);
+const validateEvent = ajv.compile(eventSchema);
 
 interface ValidationResult {
   file: string;
@@ -376,6 +380,59 @@ if (fs.existsSync(donationsFile)) {
 }
 
 checkDuplicates();
+
+// Validate events files
+const eventsDir = path.join(ROOT_DIR, "data/events");
+if (fs.existsSync(eventsDir)) {
+  const eventFiles = fs.readdirSync(eventsDir, { withFileTypes: true });
+
+  for (const eventFile of eventFiles) {
+    if (!eventFile.isFile() || !eventFile.name.endsWith(".json")) continue;
+
+    const filePath = path.join(eventsDir, eventFile.name);
+
+    try {
+      const content = JSON.parse(fs.readFileSync(filePath, "utf-8")) as Record<string, unknown>;
+      const isValid = validateEvent(content);
+
+      if (!isValid) {
+        results.push({
+          file: filePath,
+          valid: false,
+          errors: validateEvent.errors?.map(
+            (e) => `${e.instancePath} ${e.message}`
+          ),
+        });
+      } else {
+        // Additional validation: check topic0 hash format
+        const additionalErrors: string[] = [];
+        for (const topic0 of Object.keys(content)) {
+          if (!/^0x[a-f0-9]{64}$/.test(topic0)) {
+            additionalErrors.push(
+              `Invalid topic0 hash format: ${topic0}`
+            );
+          }
+        }
+
+        if (additionalErrors.length > 0) {
+          results.push({
+            file: filePath,
+            valid: false,
+            errors: additionalErrors,
+          });
+        } else {
+          results.push({ file: filePath, valid: true });
+        }
+      }
+    } catch (e) {
+      results.push({
+        file: filePath,
+        valid: false,
+        errors: [`Failed to parse JSON: ${e}`],
+      });
+    }
+  }
+}
 
 // Report results
 const validCount = results.filter((r) => r.valid).length;
