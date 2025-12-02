@@ -33,10 +33,16 @@ about: Submit a new token to OpenScan metadata
 
 ## Payment Details (Paid only)
 
+- **ETH Address** (subscriber wallet):
 - **Transaction Hash**:
 - **Chain ID** (where payment was made):
 - **Amount Paid**:
 - **Subscription Period**: <!-- e.g., 2025-01-01 to 2026-01-01 -->
+- **Payment Signature**: <!-- Sign the transaction hash with your ETH address -->
+
+```
+<paste signature here>
+```
 
 ## Checklist
 

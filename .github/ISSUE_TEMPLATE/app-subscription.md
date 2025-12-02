@@ -1,6 +1,8 @@
 ---
-name: Add App
-about: Submit a wallet, dApp, exchange, or tool to OpenScan
+name: App Subscription Request
+about: Request to add a wallet, dApp, exchange, or tool
+title: "[App] <App Name>"
+labels: app, subscription
 ---
 
 ## App Information
@@ -38,7 +40,7 @@ about: Submit a wallet, dApp, exchange, or tool to OpenScan
 - [ ] Partner (Tier 2 - $3,000/month)
 - [ ] Ally (Tier 3 - $6,000/month)
 
-## Payment Details
+## Payment Information
 
 - **ETH Address** (subscriber wallet):
 - **Transaction Hash**:
@@ -51,13 +53,10 @@ about: Submit a wallet, dApp, exchange, or tool to OpenScan
 <paste signature here>
 ```
 
-## Checklist
+## Assets to Include
 
-- [ ] App data JSON file added to `data/apps/{id}.json`
-- [ ] Logo added to `assets/apps/{id}.svg` (SVG preferred, or 256x256px PNG)
-- [ ] Profile markdown added to `profiles/apps/{id}.md`
-- [ ] All contract addresses are checksummed (EIP-55)
-- [ ] Ran `npm run validate` locally with no errors
+- [ ] Logo (SVG preferred, or 256x256px PNG)
+- [ ] Profile markdown
 
 ## Additional Context
 

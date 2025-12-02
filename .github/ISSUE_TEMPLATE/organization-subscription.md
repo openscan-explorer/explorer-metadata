@@ -1,6 +1,8 @@
 ---
-name: Add Organization
-about: Submit a company or organization to OpenScan
+name: Organization Subscription Request
+about: Request to add a company or organization
+title: "[Organization] <Organization Name>"
+labels: organization, subscription
 ---
 
 ## Organization Information
@@ -31,7 +33,7 @@ about: Submit a company or organization to OpenScan
 - [ ] Partner (Tier 2 - $1,500/month)
 - [ ] Ally (Tier 3 - $3,000/month)
 
-## Payment Details
+## Payment Information
 
 - **ETH Address** (subscriber wallet):
 - **Transaction Hash**:
@@ -44,13 +46,10 @@ about: Submit a company or organization to OpenScan
 <paste signature here>
 ```
 
-## Checklist
+## Assets to Include
 
-- [ ] Organization data JSON file added to `data/organizations/{id}.json`
-- [ ] Logo added to `assets/organizations/{id}.svg` (SVG preferred, or 256x256px PNG)
-- [ ] Profile markdown added to `profiles/organizations/{id}.md`
-- [ ] All contract addresses are checksummed (EIP-55)
-- [ ] Ran `npm run validate` locally with no errors
+- [ ] Logo (SVG preferred, or 256x256px PNG)
+- [ ] Profile markdown
 
 ## Additional Context
 

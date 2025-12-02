@@ -1,6 +1,8 @@
 ---
-name: Add Network
-about: Submit a new network to OpenScan
+name: Network Subscription Request
+about: Request to add a new network
+title: "[Network] <Network Name> - Chain ID <ID>"
+labels: network, subscription
 ---
 
 ## Network Information
@@ -31,7 +33,7 @@ Public RPC 2:
 - [ ] Partner (Tier 2 - $6,000/month)
 - [ ] Ally (Tier 3 - $12,000/month)
 
-## Payment Details
+## Payment Information
 
 - **ETH Address** (subscriber wallet):
 - **Transaction Hash**:
@@ -44,13 +46,10 @@ Public RPC 2:
 <paste signature here>
 ```
 
-## Checklist
+## Assets to Include
 
-- [ ] Network data JSON file added to `data/networks/{chainId}.json`
-- [ ] Logo added to `assets/networks/{chainId}.svg` (SVG preferred, or 256x256px PNG)
-- [ ] Profile markdown added to `profiles/networks/{chainId}.md`
-- [ ] At least one public RPC endpoint provided
-- [ ] Ran `npm run validate` locally with no errors
+- [ ] Logo (SVG preferred, or 256x256px PNG)
+- [ ] Profile markdown
 
 ## Technical Details
 
