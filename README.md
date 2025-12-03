@@ -286,8 +286,8 @@ Full RPC methods support, dedicated technical maintenance, subdomain availabilit
 
 | Tier | Monthly Rate | Key Benefits |
 |------|--------------|--------------|
-| **Backer** (Tier 1) | $2,000 | Markdown profile on network page. Priority placement on home page. |
-| **Partner** (Tier 2) | $6,000 (3x) | Dedicated subdomain network explorer. Direct communication with technical team. |
+| **Backer** (Tier 1) | $2,000 | Complete profile page. Priority placement on home page. |
+| **Partner** (Tier 2) | $6,000 (3x) | Dedicated subdomain network explorer. Multiple network listing. Direct communication with technical team. |
 | **Ally** (Tier 3) | $12,000 (6x) | Roadmap voting power. Network-specific features in dedicated explorer. |
 
 ### Apps
@@ -297,7 +297,7 @@ Dedicated listing and verified branding for wallets, dApps, supplementary explor
 | Tier | Monthly Rate | Key Benefits |
 |------|--------------|--------------|
 | **Backer** (Tier 1) | $1,000 | Simple profile page. Important contracts verified and tagged. Contract events listing. |
-| **Partner** (Tier 2) | $3,000 (3x) | OpenScan subdomain. Complete profile page with markdown description. |
+| **Partner** (Tier 2) | $3,000 (3x) | OpenScan subdomain. Complete profile. |
 | **Ally** (Tier 3) | $6,000 (6x) | Roadmap voting power. Direct communication with technical team. |
 
 ### Organizations
@@ -307,8 +307,17 @@ Formal recognition and visibility for infrastructure providers, venture funds, a
 | Tier | Monthly Rate | Key Benefits |
 |------|--------------|--------------|
 | **Backer** (Tier 1) | $500 | Simple profile page. Important contracts verified and tagged. Contract events listing. |
-| **Partner** (Tier 2) | $1,500 (3x) | Complete profile page with markdown description. Direct communication with technical team. |
-| **Ally** (Tier 3) | $3,000 (6x) | OpenScan subdomain. Roadmap voting power. |
+| **Partner** (Tier 2) | $1,500 (3x) | Complete profile. OpenScan subdomain. |
+| **Ally** (Tier 3) | $3,000 (6x) | Roadmap voting power. Direct communication with technical team. |
+
+### Profile Limits
+
+| Entity Type | Simple Profile | Complete Profile |
+|-------------|----------------|------------------|
+| **Tokens** | ≤1,000 characters (Tier 2) | Unlimited markdown (Tier 3) |
+| **Networks** | Unlimited markdown (all tiers) | Unlimited markdown (all tiers) |
+| **Apps** | ≤1,000 characters (Tier 1) | Unlimited markdown (Tier 2+) |
+| **Organizations** | ≤1,000 characters (Tier 1) | Unlimited markdown (Tier 2+) |
 
 ## Donations
 
