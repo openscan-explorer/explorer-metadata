@@ -3,26 +3,5 @@
   "chainId": 1,
   "name": "USD Coin",
   "symbol": "USDC",
-  "decimals": 6,
-  "subscription": {
-    "tier": 2,
-    "expiresAt": "2026-01-01"
-  },
-  "verified": true,
-  "project": {
-    "name": "Circle",
-    "description": "USDC is a fully reserved stablecoin pegged 1:1 to the U.S. dollar"
-  },
-  "links": [
-    { "name": "Website", "url": "https://www.circle.com/usdc", "description": "Official USDC website" },
-    { "name": "Twitter", "url": "https://twitter.com/circle", "description": "Circle Twitter" },
-    { "name": "GitHub", "url": "https://github.com/circlefin", "description": "Circle GitHub" }
-  ],
-  "networks": [
-    { "chainId": 42161, "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831" },
-    { "chainId": 10, "address": "0x0b2c639c533813f4aa9d7837caf62653d097ff85" },
-    { "chainId": 137, "address": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359" },
-    { "chainId": 8453, "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913" }
-  ],
-  "tags": ["stablecoin", "defi"]
+  "decimals": 6
 }
