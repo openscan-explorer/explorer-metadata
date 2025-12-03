@@ -1,0 +1,14 @@
+{
+  "id": "hardhat",
+  "name": "Hardhat",
+  "type": "infrastructure",
+  "description": "Ethereum development environment for compiling, deploying, testing, and debugging smart contracts",
+  "logo": "assets/organizations/hardhat.svg",
+  "profile": "profiles/organizations/hardhat.md",
+  "links": [
+    { "name": "Website", "url": "https://hardhat.org", "description": "Official Hardhat website" },
+    { "name": "Docs", "url": "https://hardhat.org/docs", "description": "Documentation" },
+    { "name": "GitHub", "url": "https://github.com/NomicFoundation/hardhat", "description": "Hardhat repository" },
+    { "name": "Twitter", "url": "https://twitter.com/HardhatHQ", "description": "Hardhat Twitter" }
+  ]
+}

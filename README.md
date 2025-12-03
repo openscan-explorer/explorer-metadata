@@ -15,7 +15,7 @@ explorer-metadata/
 │   ├── events/{chainId}/{address}.json    # Address-specific events
 │   ├── networks.json                      # All networks
 │   ├── apps/{id}.json                     # App metadata
-│   ├── organizations.json                 # All organizations
+│   ├── orgs/{id}.json                     # Organization metadata
 │   ├── supporters.json                    # Supporters list
 │   └── donations.json                     # Donations list
 ├── profiles/
