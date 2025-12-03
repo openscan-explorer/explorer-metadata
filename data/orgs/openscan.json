@@ -7,7 +7,7 @@
     "tier": 3,
     "expiresAt": "2099-12-31"
   },
-  "logo": "assets/organizations/openscan.svg",
+  "logo": "assets/organizations/openscan.png",
   "profile": "profiles/organizations/openscan.md",
   "links": [
     { "name": "Website", "url": "https://openscan.io", "description": "Official OpenScan website" },

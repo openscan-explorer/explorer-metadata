@@ -8,7 +8,7 @@
     "expiresAt": "2099-12-31"
   },
   "verified": true,
-  "logo": "assets/apps/openscan.svg",
+  "logo": "assets/apps/openscan.png",
   "profile": "profiles/apps/openscan.md",
   "networks": [1, 10, 56, 137, 8453, 42161, 11155111, 31337],
   "links": [

@@ -9,7 +9,6 @@
     "expiresAt": "2099-12-31"
   },
   "verified": true,
-  "logo": "assets/tokens/31337/0xc6fde3fd2cc2b173aec24cc3f267cb3cd78a26b7.png",
   "profile": "profiles/tokens/31337/0xc6fde3fd2cc2b173aec24cc3f267cb3cd78a26b7.md",
   "project": {
     "name": "Yeenus Token",

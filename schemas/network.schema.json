@@ -64,6 +64,10 @@
       "type": "string",
       "description": "Relative path to network logo"
     },
+    "profile": {
+      "type": "string",
+      "description": "Relative path to markdown profile"
+    },
     "explorer": {
       "type": "object",
       "properties": {

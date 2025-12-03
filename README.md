@@ -53,7 +53,7 @@ Follow the interactive prompts to add a new token.
 
 ### Token
 
-Tokens support **free listings** and **paid subscriptions**:
+Tokens support **ERC20**, **ERC721** (NFTs), and **ERC1155** (Multi-Token) standards. All token types support **free listings** and **paid subscriptions**.
 
 #### Free Listing (verified contract required)
 
@@ -64,6 +64,20 @@ Tokens support **free listings** and **paid subscriptions**:
   "name": "USD Coin",
   "symbol": "USDC",
   "decimals": 6
+}
+```
+
+#### NFT Collection (ERC721)
+
+```json
+{
+  "address": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+  "chainId": 1,
+  "type": "ERC721",
+  "name": "Bored Ape Yacht Club",
+  "symbol": "BAYC",
+  "decimals": 0,
+  "totalSupply": 10000
 }
 ```
 

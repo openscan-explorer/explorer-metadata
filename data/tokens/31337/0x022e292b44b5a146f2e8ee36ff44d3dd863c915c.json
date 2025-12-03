@@ -9,7 +9,6 @@
     "expiresAt": "2099-12-31"
   },
   "verified": true,
-  "logo": "assets/tokens/31337/0x022e292b44b5a146f2e8ee36ff44d3dd863c915c.png",
   "project": {
     "name": "Xeenus Token",
     "description": "Test ERC20 token for development and testing purposes"

@@ -9,7 +9,6 @@
     "expiresAt": "2099-12-31"
   },
   "verified": true,
-  "logo": "assets/tokens/31337/0x101848d5c5bbca18e6b4431eedf6b95e9adf82fa.png",
   "profile": "profiles/tokens/31337/0x101848d5c5bbca18e6b4431eedf6b95e9adf82fa.md",
   "project": {
     "name": "Weenus Token",

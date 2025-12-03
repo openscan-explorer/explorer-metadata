@@ -118,6 +118,15 @@ function validateJsonFiles(
             }
           }
 
+          // NFT-specific validation: ERC721/ERC1155 should have decimals = 0
+          if (type === "token" && content.type && content.type !== "ERC20") {
+            if (content.decimals !== 0) {
+              additionalErrors.push(
+                `NFT tokens (${content.type}) should have decimals = 0, got ${content.decimals}`
+              );
+            }
+          }
+
           // Check profile file exists if referenced
           if (content.profile) {
             const profilePath = path.join(ROOT_DIR, content.profile);

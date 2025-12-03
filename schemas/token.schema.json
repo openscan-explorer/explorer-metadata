@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://metadata.openscan.io/schemas/token.schema.json",
   "title": "Token",
-  "description": "Token metadata for OpenScan explorer. Free listings require: address, chainId, name, symbol, decimals, and verified contract. Paid subscriptions unlock additional features like logo, profile, links, and project info.",
+  "description": "Token metadata for OpenScan explorer. Supports ERC20, ERC721, and ERC1155 tokens. Free listings require: address, chainId, name, symbol, decimals, and verified contract. Paid subscriptions unlock additional features like logo, profile, links, and project info.",
   "type": "object",
   "required": ["address", "chainId", "name", "symbol", "decimals"],
   "properties": {
@@ -14,6 +14,12 @@
     "chainId": {
       "type": "integer",
       "description": "Chain ID where the token is deployed"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["ERC20", "ERC721", "ERC1155"],
+      "default": "ERC20",
+      "description": "Token standard type"
     },
     "name": {
       "type": "string",
@@ -125,6 +131,11 @@
         "type": "string"
       },
       "description": "Categorization tags (e.g., stablecoin, defi, governance)"
+    },
+    "totalSupply": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Total supply for NFT collections (ERC721/ERC1155)"
     }
   },
   "additionalProperties": false
