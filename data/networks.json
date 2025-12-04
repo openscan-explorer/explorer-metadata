@@ -186,7 +186,7 @@
     },
     {
       "chainId": 11155111,
-      "name": "Sepolia",
+      "name": "Ethereum Sepolia",
       "shortName": "Sepolia",
       "description": "Ethereum testnet for developers",
       "currency": "ETH",
