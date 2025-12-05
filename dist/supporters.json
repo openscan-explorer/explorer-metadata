@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-04T19:46:49.353Z",
+  "updatedAt": "2025-12-05T14:11:53.215Z",
   "count": 7,
   "supporters": [
     {
@@ -36,7 +36,7 @@
       "expiresAt": "2099-12-31"
     },
     {
-      "id": "0x2823589ae095d99bd64deea80b4690313e2fb519",
+      "id": "0x7439E9Bb6D8a84dd3A23fe621A30F95403F87fB9",
       "type": "token",
       "chainId": 11155111,
       "name": "Weenus (WEENUS)",
@@ -45,7 +45,7 @@
       "expiresAt": "2099-12-31"
     },
     {
-      "id": "0xeef5e2d8255e973d587217f9509b416b41ca5870",
+      "id": "0xc21d97673B9E0B3AA53a06439F71fDc1facE393B",
       "type": "token",
       "chainId": 11155111,
       "name": "Xeenus (XEENUS)",
@@ -54,7 +54,7 @@
       "expiresAt": "2099-12-31"
     },
     {
-      "id": "0x187e63f9eba692a0ac98d3ede6feb870af0079e1",
+      "id": "0x93fCA4c6E2525C09c95269055B46f16b1459BF9d",
       "type": "token",
       "chainId": 11155111,
       "name": "Yeenus (YEENUS)",

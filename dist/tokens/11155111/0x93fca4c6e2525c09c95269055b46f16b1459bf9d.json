@@ -1,5 +1,5 @@
 {
-  "address": "0x187e63f9eba692a0ac98d3ede6feb870af0079e1",
+  "address": "0x93fCA4c6E2525C09c95269055B46f16b1459BF9d",
   "chainId": 11155111,
   "name": "Yeenus",
   "symbol": "YEENUS",
@@ -9,8 +9,8 @@
     "expiresAt": "2099-12-31"
   },
   "verified": true,
-  "logo": "assets/tokens/11155111/0x187e63f9eba692a0ac98d3ede6feb870af0079e1.png",
-  "profile": "profiles/tokens/11155111/0x187e63f9eba692a0ac98d3ede6feb870af0079e1.md",
+  "logo": "assets/tokens/11155111/0x93fCA4c6E2525C09c95269055B46f16b1459BF9d.png",
+  "profile": "profiles/tokens/11155111/0x93fCA4c6E2525C09c95269055B46f16b1459BF9d.md",
   "project": {
     "name": "Yeenus Token",
     "description": "Test ERC20 token with 8 decimals for development and testing purposes"

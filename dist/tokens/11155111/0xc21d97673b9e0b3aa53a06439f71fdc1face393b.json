@@ -1,5 +1,5 @@
 {
-  "address": "0xeef5e2d8255e973d587217f9509b416b41ca5870",
+  "address": "0xc21d97673B9E0B3AA53a06439F71fDc1facE393B",
   "chainId": 11155111,
   "name": "Xeenus",
   "symbol": "XEENUS",
@@ -9,7 +9,7 @@
     "expiresAt": "2099-12-31"
   },
   "verified": true,
-  "logo": "assets/tokens/11155111/0xeef5e2d8255e973d587217f9509b416b41ca5870.png",
+  "logo": "assets/tokens/11155111/0xc21d97673B9E0B3AA53a06439F71fDc1facE393B.png",
   "project": {
     "name": "Xeenus Token",
     "description": "Test ERC20 token for development and testing purposes"

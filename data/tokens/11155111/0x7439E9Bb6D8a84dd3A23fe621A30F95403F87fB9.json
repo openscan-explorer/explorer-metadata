@@ -1,5 +1,5 @@
 {
-  "address": "0x2823589ae095d99bd64deea80b4690313e2fb519",
+  "address": "0x7439E9Bb6D8a84dd3A23fe621A30F95403F87fB9",
   "chainId": 11155111,
   "name": "Weenus",
   "symbol": "WEENUS",
@@ -9,8 +9,8 @@
     "expiresAt": "2099-12-31"
   },
   "verified": true,
-  "logo": "assets/tokens/11155111/0x2823589ae095d99bd64deea80b4690313e2fb519.png",
-  "profile": "profiles/tokens/11155111/0x2823589ae095d99bd64deea80b4690313e2fb519.md",
+  "logo": "assets/tokens/11155111/0x7439E9Bb6D8a84dd3A23fe621A30F95403F87fB9.png",
+  "profile": "profiles/tokens/11155111/0x7439E9Bb6D8a84dd3A23fe621A30F95403F87fB9.md",
   "project": {
     "name": "Weenus Token",
     "description": "Test ERC20 token for development and testing purposes"

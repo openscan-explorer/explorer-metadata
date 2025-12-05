@@ -1,6 +1,6 @@
 {
   "chainId": 11155111,
-  "updatedAt": "2025-12-04T19:46:49.325Z",
+  "updatedAt": "2025-12-05T14:11:53.187Z",
   "count": 14,
   "tokens": [
     {
@@ -52,7 +52,7 @@
       "decimals": 6
     },
     {
-      "address": "0x2823589ae095d99bd64deea80b4690313e2fb519",
+      "address": "0x7439e9bb6d8a84dd3a23fe621a30f95403f87fb9",
       "name": "Weenus",
       "symbol": "WEENUS",
       "decimals": 18
@@ -70,19 +70,19 @@
       "decimals": 18
     },
     {
-      "address": "0xeef5e2d8255e973d587217f9509b416b41ca5870",
+      "address": "0xc21d97673b9e0b3aa53a06439f71fdc1face393b",
       "name": "Xeenus",
       "symbol": "XEENUS",
       "decimals": 18
     },
     {
-      "address": "0x187e63f9eba692a0ac98d3ede6feb870af0079e1",
+      "address": "0x93fca4c6e2525c09c95269055b46f16b1459bf9d",
       "name": "Yeenus",
       "symbol": "YEENUS",
       "decimals": 8
     },
     {
-      "address": "0x0693c3a780a0a757e803a4bd76bcf43d438f8806",
+      "address": "0xe9ef74a6568e9f0e42a587c9363c9bcc582dcc6c",
       "name": "Zeenus",
       "symbol": "ZEENUS",
       "decimals": 0
