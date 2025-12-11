@@ -482,11 +482,33 @@ function copyProfiles(): void {
   console.log("  Copied profiles/");
 }
 
+function copyAssetsWithNormalization(src: string, dest: string, normalizeFilenames = false): void {
+  if (!fs.existsSync(src)) return;
+
+  ensureDir(dest);
+  const entries = fs.readdirSync(src, { withFileTypes: true });
+
+  for (const entry of entries) {
+    const srcPath = path.join(src, entry.name);
+    // Normalize filenames to lowercase if flag is set (for token addresses)
+    const destName = normalizeFilenames ? entry.name.toLowerCase() : entry.name;
+    const destPath = path.join(dest, destName);
+
+    if (entry.isDirectory()) {
+      // For tokens directory, normalize filenames in subdirectories (the address files)
+      const shouldNormalize = normalizeFilenames || src.includes("/tokens");
+      copyAssetsWithNormalization(srcPath, destPath, shouldNormalize);
+    } else {
+      fs.copyFileSync(srcPath, destPath);
+    }
+  }
+}
+
 function copyAssets(): void {
   const assetsDir = path.join(ROOT_DIR, "assets");
   const distAssetsDir = path.join(DIST_DIR, "assets");
 
-  copyDirectory(assetsDir, distAssetsDir);
+  copyAssetsWithNormalization(assetsDir, distAssetsDir);
   console.log("  Copied assets/");
 }
 
