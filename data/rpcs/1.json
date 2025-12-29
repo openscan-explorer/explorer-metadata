@@ -1,0 +1,503 @@
+{
+  "chainId": 1,
+  "updatedAt": "2025-12-29",
+  "endpoints": [
+    {
+      "url": "https://0xrpc.io/eth",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "0xRPC",
+      "isPublic": true
+    },
+    {
+      "url": "https://1rpc.io/eth",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "1RPC",
+      "isPublic": true
+    },
+    {
+      "url": "https://eth.blockrazor.xyz",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "BlockRazor",
+      "isPublic": true
+    },
+    {
+      "url": "https://eth.drpc.org",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "dRPC",
+      "isPublic": true
+    },
+    {
+      "url": "https://rpc.flashbots.net",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "Flashbots",
+      "isPublic": true
+    },
+    {
+      "url": "https://eth.llamarpc.com",
+      "tracking": "none",
+      "isOpenSource": true,
+      "provider": "LlamaNodes",
+      "isPublic": true
+    },
+    {
+      "url": "https://eth.meowrpc.com",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "MeowRPC",
+      "isPublic": true
+    },
+    {
+      "url": "https://eth.merkle.io",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "Merkle",
+      "isPublic": true
+    },
+    {
+      "url": "https://rpc.mevblocker.io",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "MEV Blocker",
+      "isPublic": true
+    },
+    {
+      "url": "https://endpoints.omniatech.io/v1/eth/mainnet/public",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "Omnia",
+      "isPublic": true
+    },
+    {
+      "url": "https://rpc.payload.de",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "Payload",
+      "isPublic": true
+    },
+    {
+      "url": "https://eth.api.pocket.network",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "Pocket Network",
+      "isPublic": true
+    },
+    {
+      "url": "https://ethereum-rpc.publicnode.com",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "PublicNode",
+      "isPublic": true
+    },
+    {
+      "url": "https://ethereum-json-rpc.stakely.io",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "Stakely",
+      "isPublic": true
+    },
+    {
+      "url": "https://api.stateless.solutions/ethereum/v1/demo",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "Stateless",
+      "isPublic": true
+    },
+    {
+      "url": "https://go.getblock.io/aefd01aa907c4805ba3c00a9e5b48c6b",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://rpc.builder0x69.io",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://api.zmok.io/mainnet/oaen6dy8ff6hju9k",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://rpc.lokibuilder.xyz/wallet",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://rpc.polysplit.cloud/v1/chain/1",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://rpc.nodifi.ai/api/rpc/free",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://rpc.public.curie.radiumblock.co/http/ethereum",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://rpc.public.curie.radiumblock.co/ws/ethereum",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://rpc.fullsend.to",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://eth-mainnet.public.blastapi.io",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "Blast",
+      "isPublic": true
+    },
+    {
+      "url": "https://ethereum.public.blockpi.network/v1/rpc/public",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "BlockPI",
+      "isPublic": true
+    },
+    {
+      "url": "https://eth-mainnet.diamondswap.org/rpc",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "DiamondSwap",
+      "isPublic": true
+    },
+    {
+      "url": "https://ethereum-public.nodies.app",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "Nodies",
+      "isPublic": true
+    },
+    {
+      "url": "https://eth.api.onfinality.io/public",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "OnFinality",
+      "isPublic": true
+    },
+    {
+      "url": "https://rpc.poolz.finance/eth",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "Poolz",
+      "isPublic": true
+    },
+    {
+      "url": "https://public.stackup.sh/api/v1/node/ethereum-mainnet",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "Stackup",
+      "isPublic": true
+    },
+    {
+      "url": "https://ethereum.therpc.io",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "TheRPC",
+      "isPublic": true
+    },
+    {
+      "url": "https://eth-mainnet-public.unifra.io",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "Unifra",
+      "isPublic": true
+    },
+    {
+      "url": "https://rpc.graffiti.farm",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://eth-mainnet.4everland.org/v1/37fa9972c1b1cd5fab542c7bdd4cde2f",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://rpc.owlracle.info/eth/70d38ce1826c4a60bb2a8e05a6c8b20f",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://api-ethereum-mainnet-reth.n.dwellir.com/2ccf18bf-2916-4198-8856-42172854353c",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://api.zan.top/eth-mainnet",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "ZAN",
+      "isPublic": true
+    },
+    {
+      "url": "https://rpc.flashbots.net/fast",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "Flashbots",
+      "isPublic": true
+    },
+    {
+      "url": "https://rpc.mevblocker.io/fast",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "MEV Blocker",
+      "isPublic": true
+    },
+    {
+      "url": "https://rpc.mevblocker.io/noreverts",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "MEV Blocker",
+      "isPublic": true
+    },
+    {
+      "url": "https://rpc.mevblocker.io/fullprivacy",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "MEV Blocker",
+      "isPublic": true
+    },
+    {
+      "url": "https://rpc.notadegen.com/eth",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "NotADegen",
+      "isPublic": true
+    },
+    {
+      "url": "https://ethereum.rpc.subquery.network/public",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "SubQuery",
+      "isPublic": true
+    },
+    {
+      "url": "https://api.securerpc.com/v1",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://mainnet.eth.cloud.ava.do",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://ethereumnodelight.app.runonflux.io",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://eth-mainnet.rpcfast.com?api_key=xbhWBI1Wkguk8SNMu1bvvLurPGLXmgwYeC4S6g2H7WdwFigZSmPWVZRxrskEQwIf",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://main-light.eth.linkpool.io",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://api.mycryptoapi.com/eth",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://rpc.blocknative.com/boost",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://eth-mainnet.g.alchemy.com/v2/demo",
+      "tracking": "yes",
+      "isOpenSource": false,
+      "provider": "Alchemy",
+      "isPublic": true
+    },
+    {
+      "url": "https://mainnet.gateway.tenderly.co",
+      "tracking": "yes",
+      "isOpenSource": false,
+      "provider": "Tenderly",
+      "isPublic": true
+    },
+    {
+      "url": "https://virtual.mainnet.rpc.tenderly.co/7355b215-ef17-4e3e-8f64-d494284ef18a",
+      "tracking": "yes",
+      "isOpenSource": false,
+      "provider": "Tenderly",
+      "isPublic": true
+    },
+    {
+      "url": "https://virtual.mainnet.rpc.tenderly.co/5804dcf7-70e6-4988-b2b0-3672193e0c91",
+      "tracking": "yes",
+      "isOpenSource": false,
+      "provider": "Tenderly",
+      "isPublic": true
+    },
+    {
+      "url": "https://gateway.tenderly.co/public/mainnet",
+      "tracking": "yes",
+      "isOpenSource": false,
+      "provider": "Tenderly",
+      "isPublic": true
+    },
+    {
+      "url": "https://eth-mainnet.nodereal.io/v1/1659dfb40aa24bbb8153a677b98064d7",
+      "tracking": "yes",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://virginia.rpc.blxrbdn.com",
+      "tracking": "yes",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://uk.rpc.blxrbdn.com",
+      "tracking": "yes",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://singapore.rpc.blxrbdn.com",
+      "tracking": "yes",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://eth.rpc.blxrbdn.com",
+      "tracking": "yes",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://cloudflare-eth.com",
+      "tracking": "yes",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://openapi.bitstack.com/v1/wNFxbiJyQsSeLrX8RRCHi7NpRxrlErZk/DjShIqLishPCTB9HiMkPHXjUM9CNM9Na/ETH/mainnet",
+      "tracking": "yes",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://core.gashawk.io/rpc",
+      "tracking": "yes",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://rpc.eth.gateway.fm",
+      "tracking": "yes",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://rpc.chain49.com/ethereum?api_key=14d1a8b86d8a4b4797938332394203dc",
+      "tracking": "yes",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://services.tokenview.io/vipapi/nodeservice/eth?apikey=qVHq2o6jpaakcw3lRstl",
+      "tracking": "yes",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://eth.nodeconnect.org",
+      "tracking": "yes",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://ethereum-mainnet.gateway.tatum.io",
+      "tracking": "yes",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://public-eth.nownodes.io",
+      "tracking": "yes",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://eth1.lava.build",
+      "tracking": "yes",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    }
+  ]
+}

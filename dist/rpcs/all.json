@@ -1,0 +1,35 @@
+{
+  "updatedAt": "2025-12-30T20:26:08.598Z",
+  "count": 7,
+  "totalEndpoints": 247,
+  "chains": [
+    {
+      "chainId": 1,
+      "endpointCount": 71
+    },
+    {
+      "chainId": 10,
+      "endpointCount": 29
+    },
+    {
+      "chainId": 56,
+      "endpointCount": 49
+    },
+    {
+      "chainId": 97,
+      "endpointCount": 16
+    },
+    {
+      "chainId": 8453,
+      "endpointCount": 29
+    },
+    {
+      "chainId": 42161,
+      "endpointCount": 26
+    },
+    {
+      "chainId": 11155111,
+      "endpointCount": 27
+    }
+  ]
+}

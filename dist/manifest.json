@@ -1,9 +1,10 @@
 {
   "version": "0.1.0",
-  "buildTime": "2025-12-11T12:01:22.416Z",
+  "buildTime": "2025-12-30T20:26:08.612Z",
   "counts": {
     "tokens": 414,
     "networks": 8,
+    "rpcs": 247,
     "apps": 1,
     "organizations": 2,
     "supporters": 7,

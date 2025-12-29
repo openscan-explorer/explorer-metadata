@@ -12,6 +12,7 @@ interface BuildManifest {
   counts: {
     tokens: number;
     networks: number;
+    rpcs: number;
     apps: number;
     organizations: number;
     supporters: number;
@@ -300,6 +301,61 @@ function buildNetworks(): number {
   return networks.length;
 }
 
+function buildRpcs(): number {
+  const rpcsDir = path.join(ROOT_DIR, "data/rpcs");
+  const distRpcsDir = path.join(DIST_DIR, "rpcs");
+  ensureDir(distRpcsDir);
+
+  let totalEndpoints = 0;
+
+  if (!fs.existsSync(rpcsDir)) return totalEndpoints;
+
+  const rpcFiles = fs.readdirSync(rpcsDir, { withFileTypes: true });
+  const allRpcs: { chainId: number; endpointCount: number }[] = [];
+
+  for (const rpcFile of rpcFiles) {
+    if (!rpcFile.isFile() || !rpcFile.name.endsWith(".json")) continue;
+
+    const chainId = parseInt(rpcFile.name.replace(".json", ""), 10);
+    if (isNaN(chainId)) continue;
+
+    const srcPath = path.join(rpcsDir, rpcFile.name);
+    const destPath = path.join(distRpcsDir, rpcFile.name);
+
+    try {
+      const content = JSON.parse(fs.readFileSync(srcPath, "utf-8"));
+
+      // Copy individual chain RPC file
+      fs.copyFileSync(srcPath, destPath);
+
+      const endpointCount = content.endpoints?.length || 0;
+      totalEndpoints += endpointCount;
+      allRpcs.push({ chainId, endpointCount });
+
+      console.log(`  Built rpcs/${chainId}.json (${endpointCount} endpoints)`);
+    } catch (e) {
+      console.warn(`Warning: Failed to parse ${srcPath}: ${e}`);
+    }
+  }
+
+  // Write summary file
+  if (allRpcs.length > 0) {
+    const summary = {
+      updatedAt: new Date().toISOString(),
+      count: allRpcs.length,
+      totalEndpoints,
+      chains: allRpcs.sort((a, b) => a.chainId - b.chainId),
+    };
+
+    fs.writeFileSync(
+      path.join(distRpcsDir, "all.json"),
+      JSON.stringify(summary, null, 2)
+    );
+  }
+
+  return totalEndpoints;
+}
+
 function buildApps(): number {
   const appsDir = path.join(ROOT_DIR, "data/apps");
   const apps = loadJsonFilesFromDir(appsDir);
@@ -519,6 +575,7 @@ const addressCount = buildAddresses();
 const eventCount = buildEvents();
 const tokenCount = buildTokens();
 const networkCount = buildNetworks();
+const rpcCount = buildRpcs();
 const appCount = buildApps();
 const orgCount = buildOrganizations();
 const supporterCount = buildSupporters();
@@ -550,6 +607,7 @@ const manifest: BuildManifest = {
   counts: {
     tokens: tokenCount,
     networks: networkCount,
+    rpcs: rpcCount,
     apps: appCount,
     organizations: orgCount,
     supporters: supporterCount,
@@ -569,6 +627,7 @@ console.log(`  Addresses: ${addressCount}`);
 console.log(`  Events: ${eventCount}`);
 console.log(`  Tokens: ${tokenCount}`);
 console.log(`  Networks: ${networkCount}`);
+console.log(`  RPCs: ${rpcCount} endpoints`);
 console.log(`  Apps: ${appCount}`);
 console.log(`  Organizations: ${orgCount}`);
 console.log(`  Supporters: ${supporterCount}`);

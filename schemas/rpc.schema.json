@@ -1,0 +1,61 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://metadata.openscan.io/schemas/rpc.schema.json",
+  "title": "RPC Endpoints",
+  "description": "RPC endpoint metadata for blockchain networks. Each file contains endpoints for a single chain, including privacy tracking information and provider details.",
+  "type": "object",
+  "required": ["chainId", "endpoints"],
+  "properties": {
+    "chainId": {
+      "type": "integer",
+      "description": "Chain ID this RPC configuration belongs to"
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date",
+      "description": "Last update date (YYYY-MM-DD)"
+    },
+    "endpoints": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/rpcEndpoint"
+      },
+      "description": "List of RPC endpoints"
+    }
+  },
+  "definitions": {
+    "rpcEndpoint": {
+      "type": "object",
+      "required": ["url", "tracking", "isOpenSource", "provider", "isPublic"],
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "description": "RPC endpoint URL (HTTP, HTTPS, or WSS)"
+        },
+        "tracking": {
+          "type": "string",
+          "enum": ["none", "limited", "yes", "unspecified"],
+          "default": "unspecified",
+          "description": "Privacy tracking status: none (no tracking), limited (minimal tracking), yes (tracks users), unspecified (unknown)"
+        },
+        "isOpenSource": {
+          "type": "boolean",
+          "description": "Whether the RPC provider is open source"
+        },
+        "provider": {
+          "type": "string",
+          "maxLength": 64,
+          "description": "RPC provider name (e.g., 'Ankr', 'LlamaNodes', 'PublicNode')"
+        },
+        "isPublic": {
+          "type": "boolean",
+          "default": true,
+          "description": "Whether this is a public endpoint (no API key required)"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
