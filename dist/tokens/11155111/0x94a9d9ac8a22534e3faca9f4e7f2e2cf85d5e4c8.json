@@ -1,7 +1,7 @@
 {
-  "address": "0x94a9d9ac8a22534e3faca9f4e7f2e2cf85d5e4c8",
-  "chainId": 11155111,
-  "name": "Aave Token",
-  "symbol": "AAVE",
-  "decimals": 18
+	"address": "0x94a9d9ac8a22534e3faca9f4e7f2e2cf85d5e4c8",
+	"chainId": 11155111,
+	"name": "Aave Token",
+	"symbol": "AAVE",
+	"decimals": 18
 }

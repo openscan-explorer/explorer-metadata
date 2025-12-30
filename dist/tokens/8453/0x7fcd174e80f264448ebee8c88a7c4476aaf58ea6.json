@@ -1,7 +1,7 @@
 {
-  "address": "0x7fcd174e80f264448ebee8c88a7c4476aaf58ea6",
-  "chainId": 8453,
-  "name": "Wrapped AVAX",
-  "symbol": "WAVAX",
-  "decimals": 18
+	"address": "0x7fcd174e80f264448ebee8c88a7c4476aaf58ea6",
+	"chainId": 8453,
+	"name": "Wrapped AVAX",
+	"symbol": "WAVAX",
+	"decimals": 18
 }

@@ -1,91 +1,91 @@
 {
-  "chainId": 11155111,
-  "updatedAt": "2025-12-11T12:01:22.378Z",
-  "count": 14,
-  "tokens": [
-    {
-      "address": "0x94a9d9ac8a22534e3faca9f4e7f2e2cf85d5e4c8",
-      "name": "Aave Token",
-      "symbol": "AAVE",
-      "decimals": 18
-    },
-    {
-      "address": "0x779877a7b0d9e8603169ddbd7836e478b4624789",
-      "name": "ChainLink Token",
-      "symbol": "LINK",
-      "decimals": 18
-    },
-    {
-      "address": "0x8267cf9254734c6eb452a7bb9aaf97b392258b21",
-      "name": "Dai Stablecoin",
-      "symbol": "DAI",
-      "decimals": 18
-    },
-    {
-      "address": "0x68194a729c2450ad26072b3d33adfff1cc69b3f3",
-      "name": "DAI Stablecoin",
-      "symbol": "DAI",
-      "decimals": 18
-    },
-    {
-      "address": "0xc558dbdd856501fcd9aaf1e62eae57a9f0629a3c",
-      "name": "GHO Token",
-      "symbol": "GHO",
-      "decimals": 18
-    },
-    {
-      "address": "0xaa8e23fb1079ea71e0a56f48a2aa51851d8433d0",
-      "name": "Tether USD",
-      "symbol": "USDT",
-      "decimals": 6
-    },
-    {
-      "address": "0x1c7d4b196cb0c7b01d743fbc6116a902379c7238",
-      "name": "USDC",
-      "symbol": "USDC",
-      "decimals": 6
-    },
-    {
-      "address": "0x7169d38820dfd117c3fa1f22a697dba58d90ba06",
-      "name": "USDT",
-      "symbol": "USDT",
-      "decimals": 6
-    },
-    {
-      "address": "0x7439e9bb6d8a84dd3a23fe621a30f95403f87fb9",
-      "name": "Weenus",
-      "symbol": "WEENUS",
-      "decimals": 18
-    },
-    {
-      "address": "0xb19382073c7a0addbb56ac6af1808fa49e377b75",
-      "name": "Wrapped BTC",
-      "symbol": "WBTC",
-      "decimals": 8
-    },
-    {
-      "address": "0xfff9976782d46cc05630d1f6ebab18b2324d6b14",
-      "name": "Wrapped Ether",
-      "symbol": "WETH",
-      "decimals": 18
-    },
-    {
-      "address": "0xc21d97673b9e0b3aa53a06439f71fdc1face393b",
-      "name": "Xeenus",
-      "symbol": "XEENUS",
-      "decimals": 18
-    },
-    {
-      "address": "0x93fca4c6e2525c09c95269055b46f16b1459bf9d",
-      "name": "Yeenus",
-      "symbol": "YEENUS",
-      "decimals": 8
-    },
-    {
-      "address": "0xe9ef74a6568e9f0e42a587c9363c9bcc582dcc6c",
-      "name": "Zeenus",
-      "symbol": "ZEENUS",
-      "decimals": 0
-    }
-  ]
+	"chainId": 11155111,
+	"updatedAt": "2025-12-30T20:46:42.855Z",
+	"count": 14,
+	"tokens": [
+		{
+			"address": "0x94a9d9ac8a22534e3faca9f4e7f2e2cf85d5e4c8",
+			"name": "Aave Token",
+			"symbol": "AAVE",
+			"decimals": 18
+		},
+		{
+			"address": "0x779877a7b0d9e8603169ddbd7836e478b4624789",
+			"name": "ChainLink Token",
+			"symbol": "LINK",
+			"decimals": 18
+		},
+		{
+			"address": "0x8267cf9254734c6eb452a7bb9aaf97b392258b21",
+			"name": "Dai Stablecoin",
+			"symbol": "DAI",
+			"decimals": 18
+		},
+		{
+			"address": "0x68194a729c2450ad26072b3d33adfff1cc69b3f3",
+			"name": "DAI Stablecoin",
+			"symbol": "DAI",
+			"decimals": 18
+		},
+		{
+			"address": "0xc558dbdd856501fcd9aaf1e62eae57a9f0629a3c",
+			"name": "GHO Token",
+			"symbol": "GHO",
+			"decimals": 18
+		},
+		{
+			"address": "0xaa8e23fb1079ea71e0a56f48a2aa51851d8433d0",
+			"name": "Tether USD",
+			"symbol": "USDT",
+			"decimals": 6
+		},
+		{
+			"address": "0x1c7d4b196cb0c7b01d743fbc6116a902379c7238",
+			"name": "USDC",
+			"symbol": "USDC",
+			"decimals": 6
+		},
+		{
+			"address": "0x7169d38820dfd117c3fa1f22a697dba58d90ba06",
+			"name": "USDT",
+			"symbol": "USDT",
+			"decimals": 6
+		},
+		{
+			"address": "0x7439e9bb6d8a84dd3a23fe621a30f95403f87fb9",
+			"name": "Weenus",
+			"symbol": "WEENUS",
+			"decimals": 18
+		},
+		{
+			"address": "0xb19382073c7a0addbb56ac6af1808fa49e377b75",
+			"name": "Wrapped BTC",
+			"symbol": "WBTC",
+			"decimals": 8
+		},
+		{
+			"address": "0xfff9976782d46cc05630d1f6ebab18b2324d6b14",
+			"name": "Wrapped Ether",
+			"symbol": "WETH",
+			"decimals": 18
+		},
+		{
+			"address": "0xc21d97673b9e0b3aa53a06439f71fdc1face393b",
+			"name": "Xeenus",
+			"symbol": "XEENUS",
+			"decimals": 18
+		},
+		{
+			"address": "0x93fca4c6e2525c09c95269055b46f16b1459bf9d",
+			"name": "Yeenus",
+			"symbol": "YEENUS",
+			"decimals": 8
+		},
+		{
+			"address": "0xe9ef74a6568e9f0e42a587c9363c9bcc582dcc6c",
+			"name": "Zeenus",
+			"symbol": "ZEENUS",
+			"decimals": 0
+		}
+	]
 }

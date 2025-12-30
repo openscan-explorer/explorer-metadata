@@ -1,7 +1,7 @@
 {
-  "address": "0x4e15361fd6b4bb609fa63c81a2be19d873717870",
-  "chainId": 1,
-  "name": "Fantom Token",
-  "symbol": "FTM",
-  "decimals": 18
+	"address": "0x4e15361fd6b4bb609fa63c81a2be19d873717870",
+	"chainId": 1,
+	"name": "Fantom Token",
+	"symbol": "FTM",
+	"decimals": 18
 }

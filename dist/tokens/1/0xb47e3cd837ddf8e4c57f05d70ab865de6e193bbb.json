@@ -1,9 +1,9 @@
 {
-  "address": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
-  "chainId": 1,
-  "type": "ERC721",
-  "name": "CryptoPunks",
-  "symbol": "PUNK",
-  "decimals": 0,
-  "totalSupply": 10000
+	"address": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+	"chainId": 1,
+	"type": "ERC721",
+	"name": "CryptoPunks",
+	"symbol": "PUNK",
+	"decimals": 0,
+	"totalSupply": 10000
 }

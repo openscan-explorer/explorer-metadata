@@ -1,7 +1,7 @@
 {
-  "address": "0xf17e65822b568b3903685a7c9f496cf7656cc6c2",
-  "chainId": 1,
-  "name": "Biconomy Token",
-  "symbol": "BICO",
-  "decimals": 18
+	"address": "0xf17e65822b568b3903685a7c9f496cf7656cc6c2",
+	"chainId": 1,
+	"name": "Biconomy Token",
+	"symbol": "BICO",
+	"decimals": 18
 }

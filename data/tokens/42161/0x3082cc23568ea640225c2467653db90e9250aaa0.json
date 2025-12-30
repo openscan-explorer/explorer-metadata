@@ -1,7 +1,7 @@
 {
-  "address": "0x3082cc23568ea640225c2467653db90e9250aaa0",
-  "chainId": 42161,
-  "name": "Radiant",
-  "symbol": "RDNT",
-  "decimals": 18
+	"address": "0x3082cc23568ea640225c2467653db90e9250aaa0",
+	"chainId": 42161,
+	"name": "Radiant",
+	"symbol": "RDNT",
+	"decimals": 18
 }

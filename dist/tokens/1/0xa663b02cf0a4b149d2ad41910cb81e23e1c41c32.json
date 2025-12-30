@@ -1,7 +1,7 @@
 {
-  "address": "0xa663b02cf0a4b149d2ad41910cb81e23e1c41c32",
-  "chainId": 1,
-  "name": "sFRAX",
-  "symbol": "sFRAX",
-  "decimals": 18
+	"address": "0xa663b02cf0a4b149d2ad41910cb81e23e1c41c32",
+	"chainId": 1,
+	"name": "sFRAX",
+	"symbol": "sFRAX",
+	"decimals": 18
 }

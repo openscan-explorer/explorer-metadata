@@ -1,7 +1,7 @@
 {
-  "address": "0xb6fe221fe9eef5aba221c348ba20a1bf5e73624c",
-  "chainId": 8453,
-  "name": "Rocket Pool ETH",
-  "symbol": "rETH",
-  "decimals": 18
+	"address": "0xb6fe221fe9eef5aba221c348ba20a1bf5e73624c",
+	"chainId": 8453,
+	"name": "Rocket Pool ETH",
+	"symbol": "rETH",
+	"decimals": 18
 }

@@ -1,39 +1,39 @@
 {
-  "name": "@openscan/metadata",
-  "version": "0.1.1",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/openscan-explorer/explorer-metadata"
-  },
-  "description": "OpenScan metadata repository for tokens, networks, apps, and organizations",
-  "type": "module",
-  "scripts": {
-    "validate": "tsx scripts/validate.ts",
-    "build": "tsx scripts/build.ts",
-    "optimize-images": "tsx scripts/optimize-images.ts",
-    "add-token": "tsx scripts/add-token.ts",
-    "lint": "biome check .",
-    "format": "biome format --write ."
-  },
-  "keywords": [
-    "openscan",
-    "blockchain",
-    "explorer",
-    "metadata",
-    "tokens",
-    "networks"
-  ],
-  "license": "MIT",
-  "devDependencies": {
-    "@biomejs/biome": "^1.9.0",
-    "@types/node": "^22.0.0",
-    "ajv": "^8.17.0",
-    "ajv-formats": "^3.0.0",
-    "sharp": "^0.33.0",
-    "tsx": "^4.19.0",
-    "typescript": "^5.6.0"
-  },
-  "publishConfig": {
-    "access": "public"
-  }
+	"name": "@openscan/metadata",
+	"version": "0.1.1",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/openscan-explorer/explorer-metadata"
+	},
+	"description": "OpenScan metadata repository for tokens, networks, apps, and organizations",
+	"type": "module",
+	"scripts": {
+		"validate": "tsx scripts/validate.ts",
+		"build": "tsx scripts/build.ts",
+		"optimize-images": "tsx scripts/optimize-images.ts",
+		"add-token": "tsx scripts/add-token.ts",
+		"lint": "biome check .",
+		"format": "biome format --write ."
+	},
+	"keywords": [
+		"openscan",
+		"blockchain",
+		"explorer",
+		"metadata",
+		"tokens",
+		"networks"
+	],
+	"license": "MIT",
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.0",
+		"@types/node": "^22.0.0",
+		"ajv": "^8.17.0",
+		"ajv-formats": "^3.0.0",
+		"sharp": "^0.33.0",
+		"tsx": "^4.19.0",
+		"typescript": "^5.6.0"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }

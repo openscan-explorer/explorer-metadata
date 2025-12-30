@@ -1,8 +1,8 @@
 {
-  "address": "0xdb46d1dc155634fbc732f92e853b10b288ad5a1d",
-  "chainId": 137,
-  "type": "ERC721",
-  "name": "Lens Protocol Profiles",
-  "symbol": "LENS",
-  "decimals": 0
+	"address": "0xdb46d1dc155634fbc732f92e853b10b288ad5a1d",
+	"chainId": 137,
+	"type": "ERC721",
+	"name": "Lens Protocol Profiles",
+	"symbol": "LENS",
+	"decimals": 0
 }

@@ -1,8 +1,8 @@
 {
-  "address": "0x2b4a66557a79263275826ad31a4cddc2789334bd",
-  "chainId": 137,
-  "type": "ERC721",
-  "name": "Sunflower Land",
-  "symbol": "SFL",
-  "decimals": 0
+	"address": "0x2b4a66557a79263275826ad31a4cddc2789334bd",
+	"chainId": 137,
+	"type": "ERC721",
+	"name": "Sunflower Land",
+	"symbol": "SFL",
+	"decimals": 0
 }

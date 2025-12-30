@@ -1,7 +1,7 @@
 {
-  "address": "0x5875eee11cf8398102fdad704c9e96607675467a",
-  "chainId": 8453,
-  "name": "Savings USDS",
-  "symbol": "sUSDS",
-  "decimals": 18
+	"address": "0x5875eee11cf8398102fdad704c9e96607675467a",
+	"chainId": 8453,
+	"name": "Savings USDS",
+	"symbol": "sUSDS",
+	"decimals": 18
 }

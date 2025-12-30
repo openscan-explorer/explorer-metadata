@@ -1,9 +1,9 @@
 {
-  "address": "0xf0d0df7142f60f7f3847463a509fd8969e3e3a27",
-  "chainId": 8453,
-  "type": "ERC721",
-  "name": "Tiny Based Frogs",
-  "symbol": "TINYFROG",
-  "decimals": 0,
-  "totalSupply": 999
+	"address": "0xf0d0df7142f60f7f3847463a509fd8969e3e3a27",
+	"chainId": 8453,
+	"type": "ERC721",
+	"name": "Tiny Based Frogs",
+	"symbol": "TINYFROG",
+	"decimals": 0,
+	"totalSupply": 999
 }

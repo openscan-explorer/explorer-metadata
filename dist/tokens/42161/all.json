@@ -1,252 +1,252 @@
 {
-  "chainId": 42161,
-  "updatedAt": "2025-12-11T12:01:22.386Z",
-  "count": 40,
-  "tokens": [
-    {
-      "address": "0xba5ddd1f9d7f570dc94a51479a000e3bce967196",
-      "name": "Aave Token",
-      "symbol": "AAVE",
-      "decimals": 18
-    },
-    {
-      "address": "0x912ce59144191c1204e64559fe8253a0e49e6548",
-      "name": "Arbitrum",
-      "symbol": "ARB",
-      "decimals": 18
-    },
-    {
-      "address": "0x3d9907f9a368ad0a51be60f7da3b97cf940982d8",
-      "name": "Camelot Staked Position",
-      "symbol": "xGRAIL",
-      "decimals": 18
-    },
-    {
-      "address": "0x6daf586b7370b14163171544fca24abcc0862ac5",
-      "name": "Camelot Token",
-      "symbol": "GRAIL",
-      "decimals": 18
-    },
-    {
-      "address": "0xf97f4df75117a78c1a5a0dbb814af92458539fb4",
-      "name": "ChainLink Token",
-      "symbol": "LINK",
-      "decimals": 18
-    },
-    {
-      "address": "0x11cdb42b0eb46d95f990bedd4695a6e3fa034978",
-      "name": "Curve DAO Token",
-      "symbol": "CRV",
-      "decimals": 18
-    },
-    {
-      "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1",
-      "name": "Dai Stablecoin",
-      "symbol": "DAI",
-      "decimals": 18
-    },
-    {
-      "address": "0xede855ced3e5a59aaa267abdddb0db21ccfe5072",
-      "name": "Diamond Pepes",
-      "symbol": "DPEPE",
-      "decimals": 0,
-      "type": "ERC721"
-    },
-    {
-      "address": "0x6c2c06790b3e3e3c38e12ee22f8183b37a13ee55",
-      "name": "Dopex Governance Token",
-      "symbol": "DPX",
-      "decimals": 18
-    },
-    {
-      "address": "0x32eb7902d4134bf98a28b963d26de779af92a212",
-      "name": "Dopex Rebate Token",
-      "symbol": "rDPX",
-      "decimals": 18
-    },
-    {
-      "address": "0x17fc002b466eec40dae837fc4be5c67993ddbd6f",
-      "name": "Frax",
-      "symbol": "FRAX",
-      "decimals": 18
-    },
-    {
-      "address": "0x9d2f299715d94d8a7e6f5eaa8e654e8c74a988a7",
-      "name": "Frax Share",
-      "symbol": "FXS",
-      "decimals": 18
-    },
-    {
-      "address": "0x18c11fd286c5ec11c3b683caa813b77f5163a122",
-      "name": "Gains Network",
-      "symbol": "GNS",
-      "decimals": 18
-    },
-    {
-      "address": "0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a",
-      "name": "GMX",
-      "symbol": "GMX",
-      "decimals": 18
-    },
-    {
-      "address": "0x17f4baa9d35ee54ffbcb2608e20786473c7aa49f",
-      "name": "GMX Blueberry Club",
-      "symbol": "GBC",
-      "decimals": 0,
-      "type": "ERC721"
-    },
-    {
-      "address": "0xa0b862f60edef4452f25b4160f177db44deb6cf1",
-      "name": "Gnosis",
-      "symbol": "GNO",
-      "decimals": 18
-    },
-    {
-      "address": "0x6985884c4392d348587b19cb9eaaf157f13271cd",
-      "name": "LayerZero",
-      "symbol": "ZRO",
-      "decimals": 18
-    },
-    {
-      "address": "0x13ad51ed4f1b7e9dc168d8a00cb3f4ddd85efa60",
-      "name": "Lido DAO Token",
-      "symbol": "LDO",
-      "decimals": 18
-    },
-    {
-      "address": "0x93b346b6bc2548da6a1e7d98e9a421b42541425b",
-      "name": "LUSD Stablecoin",
-      "symbol": "LUSD",
-      "decimals": 18
-    },
-    {
-      "address": "0x539bde0d7dbd336b79148aa742883198bbf60342",
-      "name": "MAGIC",
-      "symbol": "MAGIC",
-      "decimals": 18
-    },
-    {
-      "address": "0x3f56e0c36d275367b8c502090edf38289b3dea0d",
-      "name": "MAI",
-      "symbol": "MAI",
-      "decimals": 18
-    },
-    {
-      "address": "0x4e352cf164e64adcbad318c3a1e222e9eba4ce42",
-      "name": "Merkle",
-      "symbol": "MKL",
-      "decimals": 18
-    },
-    {
-      "address": "0x0c880f6761f1af8d9aa9c466984b80dab9a8c9e8",
-      "name": "Pendle",
-      "symbol": "PENDLE",
-      "decimals": 18
-    },
-    {
-      "address": "0x3082cc23568ea640225c2467653db90e9250aaa0",
-      "name": "Radiant",
-      "symbol": "RDNT",
-      "decimals": 18
-    },
-    {
-      "address": "0x2416092f143378750bb29b79ed961ab195cceea5",
-      "name": "Renzo Restaked ETH",
-      "symbol": "ezETH",
-      "decimals": 18
-    },
-    {
-      "address": "0xec70dcb4a1efa46b8f2d97c310c9c4790ba5ffa8",
-      "name": "Rocket Pool ETH",
-      "symbol": "rETH",
-      "decimals": 18
-    },
-    {
-      "address": "0x17dacad7975960833f374622fad08b90ed67d1b5",
-      "name": "Smol Bodies",
-      "symbol": "SMOLBODY",
-      "decimals": 0,
-      "type": "ERC721"
-    },
-    {
-      "address": "0x6325439389e0797ab35752b4f43a14c004f22a9c",
-      "name": "Smol Brains",
-      "symbol": "SMOLBRAIN",
-      "decimals": 0,
-      "type": "ERC721"
-    },
-    {
-      "address": "0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2",
-      "name": "sUSDe",
-      "symbol": "sUSDe",
-      "decimals": 18
-    },
-    {
-      "address": "0xd4d42f0b6def4ce0383636770ef773390d85c61a",
-      "name": "SushiToken",
-      "symbol": "SUSHI",
-      "decimals": 18
-    },
-    {
-      "address": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
-      "name": "Tether USD",
-      "symbol": "USDT",
-      "decimals": 6
-    },
-    {
-      "address": "0xe31cf085098af22bc5f5ce5f08fbb8e31c7a1e30",
-      "name": "The Lost Donkeys",
-      "symbol": "DONKEY",
-      "decimals": 0,
-      "type": "ERC721"
-    },
-    {
-      "address": "0xfa7f8980b0f1e64a2062791cc3b0871572f1f7f0",
-      "name": "Uniswap",
-      "symbol": "UNI",
-      "decimals": 18
-    },
-    {
-      "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
-      "name": "USD Coin",
-      "symbol": "USDC",
-      "decimals": 6
-    },
-    {
-      "address": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
-      "name": "USD Coin (Bridged)",
-      "symbol": "USDC.e",
-      "decimals": 6
-    },
-    {
-      "address": "0x5de1677344d3cb0d7d465c10b72a8f60699c062d",
-      "name": "USDe",
-      "symbol": "USDe",
-      "decimals": 18
-    },
-    {
-      "address": "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f",
-      "name": "Wrapped BTC",
-      "symbol": "WBTC",
-      "decimals": 8
-    },
-    {
-      "address": "0x35751007a407ca6feffe80b3cb397736d2cf4dbe",
-      "name": "Wrapped eETH",
-      "symbol": "weETH",
-      "decimals": 18
-    },
-    {
-      "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
-      "name": "Wrapped Ether",
-      "symbol": "WETH",
-      "decimals": 18
-    },
-    {
-      "address": "0x5979d7b546e38e414f7e9822514be443a4800529",
-      "name": "Wrapped liquid staked Ether 2.0",
-      "symbol": "wstETH",
-      "decimals": 18
-    }
-  ]
+	"chainId": 42161,
+	"updatedAt": "2025-12-30T20:46:42.860Z",
+	"count": 40,
+	"tokens": [
+		{
+			"address": "0xba5ddd1f9d7f570dc94a51479a000e3bce967196",
+			"name": "Aave Token",
+			"symbol": "AAVE",
+			"decimals": 18
+		},
+		{
+			"address": "0x912ce59144191c1204e64559fe8253a0e49e6548",
+			"name": "Arbitrum",
+			"symbol": "ARB",
+			"decimals": 18
+		},
+		{
+			"address": "0x3d9907f9a368ad0a51be60f7da3b97cf940982d8",
+			"name": "Camelot Staked Position",
+			"symbol": "xGRAIL",
+			"decimals": 18
+		},
+		{
+			"address": "0x6daf586b7370b14163171544fca24abcc0862ac5",
+			"name": "Camelot Token",
+			"symbol": "GRAIL",
+			"decimals": 18
+		},
+		{
+			"address": "0xf97f4df75117a78c1a5a0dbb814af92458539fb4",
+			"name": "ChainLink Token",
+			"symbol": "LINK",
+			"decimals": 18
+		},
+		{
+			"address": "0x11cdb42b0eb46d95f990bedd4695a6e3fa034978",
+			"name": "Curve DAO Token",
+			"symbol": "CRV",
+			"decimals": 18
+		},
+		{
+			"address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1",
+			"name": "Dai Stablecoin",
+			"symbol": "DAI",
+			"decimals": 18
+		},
+		{
+			"address": "0xede855ced3e5a59aaa267abdddb0db21ccfe5072",
+			"name": "Diamond Pepes",
+			"symbol": "DPEPE",
+			"decimals": 0,
+			"type": "ERC721"
+		},
+		{
+			"address": "0x6c2c06790b3e3e3c38e12ee22f8183b37a13ee55",
+			"name": "Dopex Governance Token",
+			"symbol": "DPX",
+			"decimals": 18
+		},
+		{
+			"address": "0x32eb7902d4134bf98a28b963d26de779af92a212",
+			"name": "Dopex Rebate Token",
+			"symbol": "rDPX",
+			"decimals": 18
+		},
+		{
+			"address": "0x17fc002b466eec40dae837fc4be5c67993ddbd6f",
+			"name": "Frax",
+			"symbol": "FRAX",
+			"decimals": 18
+		},
+		{
+			"address": "0x9d2f299715d94d8a7e6f5eaa8e654e8c74a988a7",
+			"name": "Frax Share",
+			"symbol": "FXS",
+			"decimals": 18
+		},
+		{
+			"address": "0x18c11fd286c5ec11c3b683caa813b77f5163a122",
+			"name": "Gains Network",
+			"symbol": "GNS",
+			"decimals": 18
+		},
+		{
+			"address": "0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a",
+			"name": "GMX",
+			"symbol": "GMX",
+			"decimals": 18
+		},
+		{
+			"address": "0x17f4baa9d35ee54ffbcb2608e20786473c7aa49f",
+			"name": "GMX Blueberry Club",
+			"symbol": "GBC",
+			"decimals": 0,
+			"type": "ERC721"
+		},
+		{
+			"address": "0xa0b862f60edef4452f25b4160f177db44deb6cf1",
+			"name": "Gnosis",
+			"symbol": "GNO",
+			"decimals": 18
+		},
+		{
+			"address": "0x6985884c4392d348587b19cb9eaaf157f13271cd",
+			"name": "LayerZero",
+			"symbol": "ZRO",
+			"decimals": 18
+		},
+		{
+			"address": "0x13ad51ed4f1b7e9dc168d8a00cb3f4ddd85efa60",
+			"name": "Lido DAO Token",
+			"symbol": "LDO",
+			"decimals": 18
+		},
+		{
+			"address": "0x93b346b6bc2548da6a1e7d98e9a421b42541425b",
+			"name": "LUSD Stablecoin",
+			"symbol": "LUSD",
+			"decimals": 18
+		},
+		{
+			"address": "0x539bde0d7dbd336b79148aa742883198bbf60342",
+			"name": "MAGIC",
+			"symbol": "MAGIC",
+			"decimals": 18
+		},
+		{
+			"address": "0x3f56e0c36d275367b8c502090edf38289b3dea0d",
+			"name": "MAI",
+			"symbol": "MAI",
+			"decimals": 18
+		},
+		{
+			"address": "0x4e352cf164e64adcbad318c3a1e222e9eba4ce42",
+			"name": "Merkle",
+			"symbol": "MKL",
+			"decimals": 18
+		},
+		{
+			"address": "0x0c880f6761f1af8d9aa9c466984b80dab9a8c9e8",
+			"name": "Pendle",
+			"symbol": "PENDLE",
+			"decimals": 18
+		},
+		{
+			"address": "0x3082cc23568ea640225c2467653db90e9250aaa0",
+			"name": "Radiant",
+			"symbol": "RDNT",
+			"decimals": 18
+		},
+		{
+			"address": "0x2416092f143378750bb29b79ed961ab195cceea5",
+			"name": "Renzo Restaked ETH",
+			"symbol": "ezETH",
+			"decimals": 18
+		},
+		{
+			"address": "0xec70dcb4a1efa46b8f2d97c310c9c4790ba5ffa8",
+			"name": "Rocket Pool ETH",
+			"symbol": "rETH",
+			"decimals": 18
+		},
+		{
+			"address": "0x17dacad7975960833f374622fad08b90ed67d1b5",
+			"name": "Smol Bodies",
+			"symbol": "SMOLBODY",
+			"decimals": 0,
+			"type": "ERC721"
+		},
+		{
+			"address": "0x6325439389e0797ab35752b4f43a14c004f22a9c",
+			"name": "Smol Brains",
+			"symbol": "SMOLBRAIN",
+			"decimals": 0,
+			"type": "ERC721"
+		},
+		{
+			"address": "0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2",
+			"name": "sUSDe",
+			"symbol": "sUSDe",
+			"decimals": 18
+		},
+		{
+			"address": "0xd4d42f0b6def4ce0383636770ef773390d85c61a",
+			"name": "SushiToken",
+			"symbol": "SUSHI",
+			"decimals": 18
+		},
+		{
+			"address": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+			"name": "Tether USD",
+			"symbol": "USDT",
+			"decimals": 6
+		},
+		{
+			"address": "0xe31cf085098af22bc5f5ce5f08fbb8e31c7a1e30",
+			"name": "The Lost Donkeys",
+			"symbol": "DONKEY",
+			"decimals": 0,
+			"type": "ERC721"
+		},
+		{
+			"address": "0xfa7f8980b0f1e64a2062791cc3b0871572f1f7f0",
+			"name": "Uniswap",
+			"symbol": "UNI",
+			"decimals": 18
+		},
+		{
+			"address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+			"name": "USD Coin",
+			"symbol": "USDC",
+			"decimals": 6
+		},
+		{
+			"address": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
+			"name": "USD Coin (Bridged)",
+			"symbol": "USDC.e",
+			"decimals": 6
+		},
+		{
+			"address": "0x5de1677344d3cb0d7d465c10b72a8f60699c062d",
+			"name": "USDe",
+			"symbol": "USDe",
+			"decimals": 18
+		},
+		{
+			"address": "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f",
+			"name": "Wrapped BTC",
+			"symbol": "WBTC",
+			"decimals": 8
+		},
+		{
+			"address": "0x35751007a407ca6feffe80b3cb397736d2cf4dbe",
+			"name": "Wrapped eETH",
+			"symbol": "weETH",
+			"decimals": 18
+		},
+		{
+			"address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+			"name": "Wrapped Ether",
+			"symbol": "WETH",
+			"decimals": 18
+		},
+		{
+			"address": "0x5979d7b546e38e414f7e9822514be443a4800529",
+			"name": "Wrapped liquid staked Ether 2.0",
+			"symbol": "wstETH",
+			"decimals": 18
+		}
+	]
 }

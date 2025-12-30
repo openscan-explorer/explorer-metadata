@@ -1,7 +1,7 @@
 {
-  "address": "0x9e5aac1ba1a2e6aed6b32689dfcf62a509ca96f3",
-  "chainId": 10,
-  "name": "dForce USD",
-  "symbol": "USX",
-  "decimals": 18
+	"address": "0x9e5aac1ba1a2e6aed6b32689dfcf62a509ca96f3",
+	"chainId": 10,
+	"name": "dForce USD",
+	"symbol": "USX",
+	"decimals": 18
 }

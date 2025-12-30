@@ -1,7 +1,7 @@
 {
-  "address": "0x80c62fe4487e1351b47ba49809ebd60ed085bf52",
-  "chainId": 1,
-  "name": "Clover Finance",
-  "symbol": "CLV",
-  "decimals": 18
+	"address": "0x80c62fe4487e1351b47ba49809ebd60ed085bf52",
+	"chainId": 1,
+	"name": "Clover Finance",
+	"symbol": "CLV",
+	"decimals": 18
 }

@@ -1,7 +1,7 @@
 {
-  "address": "0xc3c7d422809852031b44ab29eec9f1eff2a58756",
-  "chainId": 137,
-  "name": "Lido DAO Token",
-  "symbol": "LDO",
-  "decimals": 18
+	"address": "0xc3c7d422809852031b44ab29eec9f1eff2a58756",
+	"chainId": 137,
+	"name": "Lido DAO Token",
+	"symbol": "LDO",
+	"decimals": 18
 }

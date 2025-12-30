@@ -1,7 +1,7 @@
 {
-  "address": "0x5f98805a4e8be255a32880fdec7f6728c6568ba0",
-  "chainId": 1,
-  "name": "LUSD Stablecoin",
-  "symbol": "LUSD",
-  "decimals": 18
+	"address": "0x5f98805a4e8be255a32880fdec7f6728c6568ba0",
+	"chainId": 1,
+	"name": "LUSD Stablecoin",
+	"symbol": "LUSD",
+	"decimals": 18
 }

@@ -1,7 +1,7 @@
 {
-  "address": "0xa1c57f48f0deb89f569dfbe6e2b7f46d33606fd4",
-  "chainId": 137,
-  "name": "Decentraland MANA",
-  "symbol": "MANA",
-  "decimals": 18
+	"address": "0xa1c57f48f0deb89f569dfbe6e2b7f46d33606fd4",
+	"chainId": 137,
+	"name": "Decentraland MANA",
+	"symbol": "MANA",
+	"decimals": 18
 }

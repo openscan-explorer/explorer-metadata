@@ -1,7 +1,7 @@
 {
-  "address": "0x6e2a43be0b1d33b726f0ca3b8de60b3482b8b050",
-  "chainId": 1,
-  "name": "Arkham",
-  "symbol": "ARKM",
-  "decimals": 18
+	"address": "0x6e2a43be0b1d33b726f0ca3b8de60b3482b8b050",
+	"chainId": 1,
+	"name": "Arkham",
+	"symbol": "ARKM",
+	"decimals": 18
 }

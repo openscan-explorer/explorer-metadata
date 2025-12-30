@@ -1,7 +1,7 @@
 {
-  "address": "0x03b54a6e9a984069379fae1a4fc4dbae93b3bccd",
-  "chainId": 137,
-  "name": "Wrapped liquid staked Ether 2.0",
-  "symbol": "wstETH",
-  "decimals": 18
+	"address": "0x03b54a6e9a984069379fae1a4fc4dbae93b3bccd",
+	"chainId": 137,
+	"name": "Wrapped liquid staked Ether 2.0",
+	"symbol": "wstETH",
+	"decimals": 18
 }

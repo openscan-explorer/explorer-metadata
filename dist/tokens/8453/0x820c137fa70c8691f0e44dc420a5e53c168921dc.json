@@ -1,7 +1,7 @@
 {
-  "address": "0x820c137fa70c8691f0e44dc420a5e53c168921dc",
-  "chainId": 8453,
-  "name": "Ethena",
-  "symbol": "ENA",
-  "decimals": 18
+	"address": "0x820c137fa70c8691f0e44dc420a5e53c168921dc",
+	"chainId": 8453,
+	"name": "Ethena",
+	"symbol": "ENA",
+	"decimals": 18
 }

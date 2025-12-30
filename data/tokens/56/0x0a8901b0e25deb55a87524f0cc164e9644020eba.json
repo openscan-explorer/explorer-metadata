@@ -1,9 +1,9 @@
 {
-  "address": "0x0a8901b0e25deb55a87524f0cc164e9644020eba",
-  "chainId": 56,
-  "type": "ERC721",
-  "name": "Pancake Squad",
-  "symbol": "PS",
-  "decimals": 0,
-  "totalSupply": 10000
+	"address": "0x0a8901b0e25deb55a87524f0cc164e9644020eba",
+	"chainId": 56,
+	"type": "ERC721",
+	"name": "Pancake Squad",
+	"symbol": "PS",
+	"decimals": 0,
+	"totalSupply": 10000
 }

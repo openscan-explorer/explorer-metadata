@@ -1,7 +1,7 @@
 {
-  "address": "0x5fe2b58c013d7601147dcdd68c143a77499f5531",
-  "chainId": 137,
-  "name": "Graph Token",
-  "symbol": "GRT",
-  "decimals": 18
+	"address": "0x5fe2b58c013d7601147dcdd68c143a77499f5531",
+	"chainId": 137,
+	"name": "Graph Token",
+	"symbol": "GRT",
+	"decimals": 18
 }

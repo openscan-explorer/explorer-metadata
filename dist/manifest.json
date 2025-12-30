@@ -1,14 +1,14 @@
 {
-  "version": "0.1.0",
-  "buildTime": "2025-12-11T12:01:22.416Z",
-  "counts": {
-    "tokens": 414,
-    "networks": 8,
-    "apps": 1,
-    "organizations": 2,
-    "supporters": 7,
-    "donations": 0,
-    "events": 23,
-    "addresses": 1
-  }
+	"version": "0.1.0",
+	"buildTime": "2025-12-30T20:46:42.884Z",
+	"counts": {
+		"tokens": 414,
+		"networks": 8,
+		"apps": 1,
+		"organizations": 2,
+		"supporters": 7,
+		"donations": 0,
+		"events": 23,
+		"addresses": 1
+	}
 }

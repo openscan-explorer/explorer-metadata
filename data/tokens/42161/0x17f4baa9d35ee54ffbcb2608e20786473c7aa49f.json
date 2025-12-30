@@ -1,9 +1,9 @@
 {
-  "address": "0x17f4baa9d35ee54ffbcb2608e20786473c7aa49f",
-  "chainId": 42161,
-  "type": "ERC721",
-  "name": "GMX Blueberry Club",
-  "symbol": "GBC",
-  "decimals": 0,
-  "totalSupply": 10000
+	"address": "0x17f4baa9d35ee54ffbcb2608e20786473c7aa49f",
+	"chainId": 42161,
+	"type": "ERC721",
+	"name": "GMX Blueberry Club",
+	"symbol": "GBC",
+	"decimals": 0,
+	"totalSupply": 10000
 }

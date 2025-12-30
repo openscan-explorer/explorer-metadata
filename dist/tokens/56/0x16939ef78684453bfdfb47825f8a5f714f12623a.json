@@ -1,7 +1,7 @@
 {
-  "address": "0x16939ef78684453bfdfb47825f8a5f714f12623a",
-  "chainId": 56,
-  "name": "Tezos Token",
-  "symbol": "XTZ",
-  "decimals": 18
+	"address": "0x16939ef78684453bfdfb47825f8a5f714f12623a",
+	"chainId": 56,
+	"name": "Tezos Token",
+	"symbol": "XTZ",
+	"decimals": 18
 }

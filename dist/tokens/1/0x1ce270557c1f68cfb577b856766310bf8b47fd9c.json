@@ -1,7 +1,7 @@
 {
-  "address": "0x1ce270557c1f68cfb577b856766310bf8b47fd9c",
-  "chainId": 1,
-  "name": "MX Token",
-  "symbol": "MX",
-  "decimals": 18
+	"address": "0x1ce270557c1f68cfb577b856766310bf8b47fd9c",
+	"chainId": 1,
+	"name": "MX Token",
+	"symbol": "MX",
+	"decimals": 18
 }

@@ -1,7 +1,7 @@
 {
-  "address": "0x4f9fd6be4a90f2620860d680c0d4d5fb53d1a825",
-  "chainId": 8453,
-  "name": "Axelar",
-  "symbol": "AXL",
-  "decimals": 6
+	"address": "0x4f9fd6be4a90f2620860d680c0d4d5fb53d1a825",
+	"chainId": 8453,
+	"name": "Axelar",
+	"symbol": "AXL",
+	"decimals": 6
 }

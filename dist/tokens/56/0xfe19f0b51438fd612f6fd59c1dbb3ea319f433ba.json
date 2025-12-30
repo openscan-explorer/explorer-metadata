@@ -1,7 +1,7 @@
 {
-  "address": "0xfe19f0b51438fd612f6fd59c1dbb3ea319f433ba",
-  "chainId": 56,
-  "name": "Magic Internet Money",
-  "symbol": "MIM",
-  "decimals": 18
+	"address": "0xfe19f0b51438fd612f6fd59c1dbb3ea319f433ba",
+	"chainId": 56,
+	"name": "Magic Internet Money",
+	"symbol": "MIM",
+	"decimals": 18
 }

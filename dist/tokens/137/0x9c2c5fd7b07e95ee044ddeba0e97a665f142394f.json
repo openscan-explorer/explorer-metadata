@@ -1,7 +1,7 @@
 {
-  "address": "0x9c2c5fd7b07e95ee044ddeba0e97a665f142394f",
-  "chainId": 137,
-  "name": "1INCH Token",
-  "symbol": "1INCH",
-  "decimals": 18
+	"address": "0x9c2c5fd7b07e95ee044ddeba0e97a665f142394f",
+	"chainId": 137,
+	"name": "1INCH Token",
+	"symbol": "1INCH",
+	"decimals": 18
 }

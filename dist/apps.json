@@ -1,56 +1,56 @@
 {
-  "updatedAt": "2025-12-11T12:01:22.402Z",
-  "count": 1,
-  "apps": [
-    {
-      "id": "openscan",
-      "name": "OpenScan",
-      "type": "dapp",
-      "description": "Open-source blockchain explorer for EVM networks",
-      "subscription": {
-        "tier": 3,
-        "expiresAt": "2099-12-31"
-      },
-      "verified": true,
-      "logo": "assets/apps/openscan.png",
-      "profile": "profiles/apps/openscan.md",
-      "networks": [
-        1,
-        10,
-        56,
-        137,
-        8453,
-        42161,
-        11155111,
-        31337
-      ],
-      "links": [
-        {
-          "name": "Website",
-          "url": "https://openscan.io",
-          "description": "Official OpenScan website"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/openscan-io",
-          "description": "OpenScan GitHub"
-        },
-        {
-          "name": "Docs",
-          "url": "https://docs.openscan.io",
-          "description": "Documentation"
-        },
-        {
-          "name": "Twitter",
-          "url": "https://twitter.com/openscan_io",
-          "description": "OpenScan Twitter"
-        }
-      ],
-      "tags": [
-        "explorer",
-        "infrastructure",
-        "open-source"
-      ]
-    }
-  ]
+	"updatedAt": "2025-12-30T20:46:42.870Z",
+	"count": 1,
+	"apps": [
+		{
+			"id": "openscan",
+			"name": "OpenScan",
+			"type": "dapp",
+			"description": "Open-source blockchain explorer for EVM networks",
+			"subscription": {
+				"tier": 3,
+				"expiresAt": "2099-12-31"
+			},
+			"verified": true,
+			"logo": "assets/apps/openscan.png",
+			"profile": "profiles/apps/openscan.md",
+			"networks": [
+				1,
+				10,
+				56,
+				137,
+				8453,
+				42161,
+				11155111,
+				31337
+			],
+			"links": [
+				{
+					"name": "Website",
+					"url": "https://openscan.io",
+					"description": "Official OpenScan website"
+				},
+				{
+					"name": "GitHub",
+					"url": "https://github.com/openscan-io",
+					"description": "OpenScan GitHub"
+				},
+				{
+					"name": "Docs",
+					"url": "https://docs.openscan.io",
+					"description": "Documentation"
+				},
+				{
+					"name": "Twitter",
+					"url": "https://twitter.com/openscan_io",
+					"description": "OpenScan Twitter"
+				}
+			],
+			"tags": [
+				"explorer",
+				"infrastructure",
+				"open-source"
+			]
+		}
+	]
 }

@@ -1,9 +1,9 @@
 {
-  "address": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
-  "chainId": 1,
-  "type": "ERC721",
-  "name": "Bored Ape Yacht Club",
-  "symbol": "BAYC",
-  "decimals": 0,
-  "totalSupply": 10000
+	"address": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+	"chainId": 1,
+	"type": "ERC721",
+	"name": "Bored Ape Yacht Club",
+	"symbol": "BAYC",
+	"decimals": 0,
+	"totalSupply": 10000
 }

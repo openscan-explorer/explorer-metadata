@@ -1,74 +1,74 @@
 {
-  "updatedAt": "2025-12-11T12:01:22.402Z",
-  "count": 2,
-  "organizations": [
-    {
-      "id": "hardhat",
-      "name": "Hardhat",
-      "type": "infrastructure",
-      "description": "Ethereum development environment for compiling, deploying, testing, and debugging smart contracts",
-      "subscription": {
-        "tier": 2,
-        "expiresAt": "2099-12-31"
-      },
-      "logo": "assets/organizations/hardhat.svg",
-      "profile": "profiles/organizations/hardhat.md",
-      "links": [
-        {
-          "name": "Website",
-          "url": "https://hardhat.org",
-          "description": "Official Hardhat website"
-        },
-        {
-          "name": "Docs",
-          "url": "https://hardhat.org/docs",
-          "description": "Documentation"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/NomicFoundation/hardhat",
-          "description": "Hardhat repository"
-        },
-        {
-          "name": "Twitter",
-          "url": "https://twitter.com/HardhatHQ",
-          "description": "Hardhat Twitter"
-        }
-      ]
-    },
-    {
-      "id": "openscan",
-      "name": "OpenScan",
-      "type": "infrastructure",
-      "description": "Open-source blockchain explorer and metadata repository for EVM networks",
-      "subscription": {
-        "tier": 3,
-        "expiresAt": "2099-12-31"
-      },
-      "logo": "assets/organizations/openscan.png",
-      "profile": "profiles/organizations/openscan.md",
-      "links": [
-        {
-          "name": "Website",
-          "url": "https://openscan.io",
-          "description": "Official OpenScan website"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/openscan-io",
-          "description": "OpenScan GitHub"
-        },
-        {
-          "name": "Docs",
-          "url": "https://docs.openscan.io",
-          "description": "Documentation"
-        },
-        {
-          "name": "Twitter",
-          "url": "https://twitter.com/openscan_io",
-          "description": "OpenScan Twitter"
-        }
-      ]
-    }
-  ]
+	"updatedAt": "2025-12-30T20:46:42.871Z",
+	"count": 2,
+	"organizations": [
+		{
+			"id": "hardhat",
+			"name": "Hardhat",
+			"type": "infrastructure",
+			"description": "Ethereum development environment for compiling, deploying, testing, and debugging smart contracts",
+			"subscription": {
+				"tier": 2,
+				"expiresAt": "2099-12-31"
+			},
+			"logo": "assets/organizations/hardhat.svg",
+			"profile": "profiles/organizations/hardhat.md",
+			"links": [
+				{
+					"name": "Website",
+					"url": "https://hardhat.org",
+					"description": "Official Hardhat website"
+				},
+				{
+					"name": "Docs",
+					"url": "https://hardhat.org/docs",
+					"description": "Documentation"
+				},
+				{
+					"name": "GitHub",
+					"url": "https://github.com/NomicFoundation/hardhat",
+					"description": "Hardhat repository"
+				},
+				{
+					"name": "Twitter",
+					"url": "https://twitter.com/HardhatHQ",
+					"description": "Hardhat Twitter"
+				}
+			]
+		},
+		{
+			"id": "openscan",
+			"name": "OpenScan",
+			"type": "infrastructure",
+			"description": "Open-source blockchain explorer and metadata repository for EVM networks",
+			"subscription": {
+				"tier": 3,
+				"expiresAt": "2099-12-31"
+			},
+			"logo": "assets/organizations/openscan.png",
+			"profile": "profiles/organizations/openscan.md",
+			"links": [
+				{
+					"name": "Website",
+					"url": "https://openscan.io",
+					"description": "Official OpenScan website"
+				},
+				{
+					"name": "GitHub",
+					"url": "https://github.com/openscan-io",
+					"description": "OpenScan GitHub"
+				},
+				{
+					"name": "Docs",
+					"url": "https://docs.openscan.io",
+					"description": "Documentation"
+				},
+				{
+					"name": "Twitter",
+					"url": "https://twitter.com/openscan_io",
+					"description": "OpenScan Twitter"
+				}
+			]
+		}
+	]
 }

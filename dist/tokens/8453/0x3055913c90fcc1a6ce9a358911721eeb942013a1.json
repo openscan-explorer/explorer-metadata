@@ -1,7 +1,7 @@
 {
-  "address": "0x3055913c90fcc1a6ce9a358911721eeb942013a1",
-  "chainId": 8453,
-  "name": "Puffer Unified ETH",
-  "symbol": "pufETH",
-  "decimals": 18
+	"address": "0x3055913c90fcc1a6ce9a358911721eeb942013a1",
+	"chainId": 8453,
+	"name": "Puffer Unified ETH",
+	"symbol": "pufETH",
+	"decimals": 18
 }

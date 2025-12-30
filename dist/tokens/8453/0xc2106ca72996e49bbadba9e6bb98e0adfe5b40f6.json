@@ -1,7 +1,7 @@
 {
-  "address": "0xc2106ca72996e49bbadba9e6bb98e0adfe5b40f6",
-  "chainId": 8453,
-  "name": "Alien Base",
-  "symbol": "ALB",
-  "decimals": 18
+	"address": "0xc2106ca72996e49bbadba9e6bb98e0adfe5b40f6",
+	"chainId": 8453,
+	"name": "Alien Base",
+	"symbol": "ALB",
+	"decimals": 18
 }

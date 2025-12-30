@@ -1,7 +1,7 @@
 {
-  "address": "0xdc6ff44d5d932cbd77b52e5612ba0529dc6226f1",
-  "chainId": 10,
-  "name": "Worldcoin",
-  "symbol": "WLD",
-  "decimals": 18
+	"address": "0xdc6ff44d5d932cbd77b52e5612ba0529dc6226f1",
+	"chainId": 10,
+	"name": "Worldcoin",
+	"symbol": "WLD",
+	"decimals": 18
 }

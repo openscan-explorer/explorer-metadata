@@ -1,7 +1,7 @@
 {
-  "address": "0x17fc002b466eec40dae837fc4be5c67993ddbd6f",
-  "chainId": 42161,
-  "name": "Frax",
-  "symbol": "FRAX",
-  "decimals": 18
+	"address": "0x17fc002b466eec40dae837fc4be5c67993ddbd6f",
+	"chainId": 42161,
+	"name": "Frax",
+	"symbol": "FRAX",
+	"decimals": 18
 }

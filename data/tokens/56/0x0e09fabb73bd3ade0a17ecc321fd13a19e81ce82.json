@@ -1,7 +1,7 @@
 {
-  "address": "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82",
-  "chainId": 56,
-  "name": "PancakeSwap Token",
-  "symbol": "CAKE",
-  "decimals": 18
+	"address": "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82",
+	"chainId": 56,
+	"name": "PancakeSwap Token",
+	"symbol": "CAKE",
+	"decimals": 18
 }

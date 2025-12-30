@@ -1,9 +1,9 @@
 {
-  "address": "0xb8df6cc3050cc02f967db1ee48330ba23276a492",
-  "chainId": 10,
-  "type": "ERC721",
-  "name": "OptiPunks",
-  "symbol": "OPPUNK",
-  "decimals": 0,
-  "totalSupply": 10000
+	"address": "0xb8df6cc3050cc02f967db1ee48330ba23276a492",
+	"chainId": 10,
+	"type": "ERC721",
+	"name": "OptiPunks",
+	"symbol": "OPPUNK",
+	"decimals": 0,
+	"totalSupply": 10000
 }

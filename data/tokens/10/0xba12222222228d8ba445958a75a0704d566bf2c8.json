@@ -1,7 +1,7 @@
 {
-  "address": "0xba12222222228d8ba445958a75a0704d566bf2c8",
-  "chainId": 10,
-  "name": "Balancer Vault",
-  "symbol": "BAL",
-  "decimals": 18
+	"address": "0xba12222222228d8ba445958a75a0704d566bf2c8",
+	"chainId": 10,
+	"name": "Balancer Vault",
+	"symbol": "BAL",
+	"decimals": 18
 }

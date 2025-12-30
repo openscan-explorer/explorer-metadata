@@ -1,9 +1,9 @@
 {
-  "address": "0xa449b4f43d9a33fcdcf397b9cc7aa909012709fd",
-  "chainId": 8453,
-  "type": "ERC721",
-  "name": "Onchain Gaias",
-  "symbol": "EARLY",
-  "decimals": 0,
-  "totalSupply": 5556
+	"address": "0xa449b4f43d9a33fcdcf397b9cc7aa909012709fd",
+	"chainId": 8453,
+	"type": "ERC721",
+	"name": "Onchain Gaias",
+	"symbol": "EARLY",
+	"decimals": 0,
+	"totalSupply": 5556
 }

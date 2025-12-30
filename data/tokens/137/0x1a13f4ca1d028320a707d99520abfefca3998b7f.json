@@ -1,7 +1,7 @@
 {
-  "address": "0x1a13f4ca1d028320a707d99520abfefca3998b7f",
-  "chainId": 137,
-  "name": "Frax Share",
-  "symbol": "FXS",
-  "decimals": 18
+	"address": "0x1a13f4ca1d028320a707d99520abfefca3998b7f",
+	"chainId": 137,
+	"name": "Frax Share",
+	"symbol": "FXS",
+	"decimals": 18
 }

@@ -1,7 +1,7 @@
 {
-  "address": "0x88fb150bdc53a65fe94dea0c9ba0a6daf8c6e196",
-  "chainId": 8453,
-  "name": "MAI Stablecoin",
-  "symbol": "MAI",
-  "decimals": 18
+	"address": "0x88fb150bdc53a65fe94dea0c9ba0a6daf8c6e196",
+	"chainId": 8453,
+	"name": "MAI Stablecoin",
+	"symbol": "MAI",
+	"decimals": 18
 }

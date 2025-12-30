@@ -1,9 +1,9 @@
 {
-  "address": "0x17dacad7975960833f374622fad08b90ed67d1b5",
-  "chainId": 42161,
-  "type": "ERC721",
-  "name": "Smol Bodies",
-  "symbol": "SMOLBODY",
-  "decimals": 0,
-  "totalSupply": 6666
+	"address": "0x17dacad7975960833f374622fad08b90ed67d1b5",
+	"chainId": 42161,
+	"type": "ERC721",
+	"name": "Smol Bodies",
+	"symbol": "SMOLBODY",
+	"decimals": 0,
+	"totalSupply": 6666
 }

@@ -1,130 +1,130 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://metadata.openscan.io/schemas/network.schema.json",
-  "title": "Network",
-  "description": "Network metadata for OpenScan explorer",
-  "type": "object",
-  "required": ["chainId", "name", "shortName", "currency"],
-  "properties": {
-    "chainId": {
-      "type": "integer",
-      "description": "Unique chain identifier"
-    },
-    "name": {
-      "type": "string",
-      "minLength": 1,
-      "maxLength": 64,
-      "description": "Full network name"
-    },
-    "shortName": {
-      "type": "string",
-      "minLength": 1,
-      "maxLength": 16,
-      "description": "Short display name"
-    },
-    "description": {
-      "type": "string",
-      "maxLength": 500,
-      "description": "Network description"
-    },
-    "currency": {
-      "type": "string",
-      "minLength": 1,
-      "maxLength": 8,
-      "description": "Native currency symbol"
-    },
-    "color": {
-      "type": "string",
-      "pattern": "^#[a-fA-F0-9]{6}$",
-      "description": "Brand color in hex format"
-    },
-    "isTestnet": {
-      "type": "boolean",
-      "default": false,
-      "description": "Whether this is a test network"
-    },
-    "subscription": {
-      "type": "object",
-      "required": ["tier", "expiresAt"],
-      "properties": {
-        "tier": {
-          "type": "integer",
-          "minimum": 1,
-          "description": "Subscription tier (1: Backer, 2: Partner, 3: Ally)"
-        },
-        "expiresAt": {
-          "type": "string",
-          "format": "date",
-          "description": "Subscription expiration date (YYYY-MM-DD)"
-        }
-      },
-      "description": "Subscription details"
-    },
-    "logo": {
-      "type": "string",
-      "description": "Relative path to network logo"
-    },
-    "profile": {
-      "type": "string",
-      "description": "Relative path to markdown profile"
-    },
-    "explorer": {
-      "type": "object",
-      "properties": {
-        "subdomain": {
-          "type": "string",
-          "description": "Dedicated subdomain for partner/ally tiers"
-        },
-        "features": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          },
-          "description": "Network-specific explorer features"
-        },
-        "priority": {
-          "type": "integer",
-          "minimum": 0,
-          "description": "Display priority on home page (lower = higher priority)"
-        }
-      }
-    },
-    "rpc": {
-      "type": "object",
-      "properties": {
-        "public": {
-          "type": "array",
-          "items": {
-            "type": "string",
-            "format": "uri"
-          },
-          "description": "Public RPC endpoints"
-        }
-      }
-    },
-    "links": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "required": ["name", "url"],
-        "properties": {
-          "name": {
-            "type": "string",
-            "description": "Link display name (e.g., Website, Bridge, Docs)"
-          },
-          "url": {
-            "type": "string",
-            "format": "uri",
-            "description": "Link URL"
-          },
-          "description": {
-            "type": "string",
-            "description": "Optional description of the link"
-          }
-        }
-      },
-      "description": "Network links"
-    }
-  },
-  "additionalProperties": false
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "https://metadata.openscan.io/schemas/network.schema.json",
+	"title": "Network",
+	"description": "Network metadata for OpenScan explorer",
+	"type": "object",
+	"required": ["chainId", "name", "shortName", "currency"],
+	"properties": {
+		"chainId": {
+			"type": "integer",
+			"description": "Unique chain identifier"
+		},
+		"name": {
+			"type": "string",
+			"minLength": 1,
+			"maxLength": 64,
+			"description": "Full network name"
+		},
+		"shortName": {
+			"type": "string",
+			"minLength": 1,
+			"maxLength": 16,
+			"description": "Short display name"
+		},
+		"description": {
+			"type": "string",
+			"maxLength": 500,
+			"description": "Network description"
+		},
+		"currency": {
+			"type": "string",
+			"minLength": 1,
+			"maxLength": 8,
+			"description": "Native currency symbol"
+		},
+		"color": {
+			"type": "string",
+			"pattern": "^#[a-fA-F0-9]{6}$",
+			"description": "Brand color in hex format"
+		},
+		"isTestnet": {
+			"type": "boolean",
+			"default": false,
+			"description": "Whether this is a test network"
+		},
+		"subscription": {
+			"type": "object",
+			"required": ["tier", "expiresAt"],
+			"properties": {
+				"tier": {
+					"type": "integer",
+					"minimum": 1,
+					"description": "Subscription tier (1: Backer, 2: Partner, 3: Ally)"
+				},
+				"expiresAt": {
+					"type": "string",
+					"format": "date",
+					"description": "Subscription expiration date (YYYY-MM-DD)"
+				}
+			},
+			"description": "Subscription details"
+		},
+		"logo": {
+			"type": "string",
+			"description": "Relative path to network logo"
+		},
+		"profile": {
+			"type": "string",
+			"description": "Relative path to markdown profile"
+		},
+		"explorer": {
+			"type": "object",
+			"properties": {
+				"subdomain": {
+					"type": "string",
+					"description": "Dedicated subdomain for partner/ally tiers"
+				},
+				"features": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					},
+					"description": "Network-specific explorer features"
+				},
+				"priority": {
+					"type": "integer",
+					"minimum": 0,
+					"description": "Display priority on home page (lower = higher priority)"
+				}
+			}
+		},
+		"rpc": {
+			"type": "object",
+			"properties": {
+				"public": {
+					"type": "array",
+					"items": {
+						"type": "string",
+						"format": "uri"
+					},
+					"description": "Public RPC endpoints"
+				}
+			}
+		},
+		"links": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"required": ["name", "url"],
+				"properties": {
+					"name": {
+						"type": "string",
+						"description": "Link display name (e.g., Website, Bridge, Docs)"
+					},
+					"url": {
+						"type": "string",
+						"format": "uri",
+						"description": "Link URL"
+					},
+					"description": {
+						"type": "string",
+						"description": "Optional description of the link"
+					}
+				}
+			},
+			"description": "Network links"
+		}
+	},
+	"additionalProperties": false
 }

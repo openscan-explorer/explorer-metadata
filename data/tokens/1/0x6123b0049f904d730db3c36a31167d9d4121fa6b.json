@@ -1,7 +1,7 @@
 {
-  "address": "0x6123b0049f904d730db3c36a31167d9d4121fa6b",
-  "chainId": 1,
-  "name": "Ribbon Finance",
-  "symbol": "RBN",
-  "decimals": 18
+	"address": "0x6123b0049f904d730db3c36a31167d9d4121fa6b",
+	"chainId": 1,
+	"name": "Ribbon Finance",
+	"symbol": "RBN",
+	"decimals": 18
 }

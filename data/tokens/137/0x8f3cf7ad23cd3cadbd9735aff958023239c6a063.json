@@ -1,7 +1,7 @@
 {
-  "address": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
-  "chainId": 137,
-  "name": "Dai Stablecoin",
-  "symbol": "DAI",
-  "decimals": 18
+	"address": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
+	"chainId": 137,
+	"name": "Dai Stablecoin",
+	"symbol": "DAI",
+	"decimals": 18
 }

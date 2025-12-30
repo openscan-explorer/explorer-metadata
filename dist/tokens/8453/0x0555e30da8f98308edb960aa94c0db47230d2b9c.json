@@ -1,7 +1,7 @@
 {
-  "address": "0x0555e30da8f98308edb960aa94c0db47230d2b9c",
-  "chainId": 8453,
-  "name": "Wormhole",
-  "symbol": "W",
-  "decimals": 18
+	"address": "0x0555e30da8f98308edb960aa94c0db47230d2b9c",
+	"chainId": 8453,
+	"name": "Wormhole",
+	"symbol": "W",
+	"decimals": 18
 }

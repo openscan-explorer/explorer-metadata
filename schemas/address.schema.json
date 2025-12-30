@@ -1,28 +1,28 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://metadata.openscan.io/schemas/address.schema.json",
-  "title": "Address",
-  "description": "Verified address metadata for apps and organizations.",
-  "type": "object",
-  "properties": {
-    "address": {
-      "type": "string",
-      "description": "Checksummed Ethereum address",
-      "pattern": "^0x[a-fA-F0-9]{40}$"
-    },
-    "chainId": {
-      "type": "integer",
-      "description": "Chain ID where this address is deployed"
-    },
-    "supporter": {
-      "type": "string",
-      "description": "ID of the app or organization this address belongs to"
-    },
-    "label": {
-      "type": "string",
-      "description": "Human-readable label for this address (e.g., 'Router V2', 'Treasury')"
-    }
-  },
-  "required": ["address", "chainId", "supporter"],
-  "additionalProperties": false
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "https://metadata.openscan.io/schemas/address.schema.json",
+	"title": "Address",
+	"description": "Verified address metadata for apps and organizations.",
+	"type": "object",
+	"properties": {
+		"address": {
+			"type": "string",
+			"description": "Checksummed Ethereum address",
+			"pattern": "^0x[a-fA-F0-9]{40}$"
+		},
+		"chainId": {
+			"type": "integer",
+			"description": "Chain ID where this address is deployed"
+		},
+		"supporter": {
+			"type": "string",
+			"description": "ID of the app or organization this address belongs to"
+		},
+		"label": {
+			"type": "string",
+			"description": "Human-readable label for this address (e.g., 'Router V2', 'Treasury')"
+		}
+	},
+	"required": ["address", "chainId", "supporter"],
+	"additionalProperties": false
 }

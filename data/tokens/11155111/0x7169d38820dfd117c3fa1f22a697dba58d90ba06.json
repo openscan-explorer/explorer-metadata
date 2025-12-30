@@ -1,7 +1,7 @@
 {
-  "address": "0x7169d38820dfd117c3fa1f22a697dba58d90ba06",
-  "chainId": 11155111,
-  "name": "USDT",
-  "symbol": "USDT",
-  "decimals": 6
+	"address": "0x7169d38820dfd117c3fa1f22a697dba58d90ba06",
+	"chainId": 11155111,
+	"name": "USDT",
+	"symbol": "USDT",
+	"decimals": 6
 }

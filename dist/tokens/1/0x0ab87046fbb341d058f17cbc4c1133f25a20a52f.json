@@ -1,7 +1,7 @@
 {
-  "address": "0x0ab87046fbb341d058f17cbc4c1133f25a20a52f",
-  "chainId": 1,
-  "name": "Governance OHM",
-  "symbol": "gOHM",
-  "decimals": 18
+	"address": "0x0ab87046fbb341d058f17cbc4c1133f25a20a52f",
+	"chainId": 1,
+	"name": "Governance OHM",
+	"symbol": "gOHM",
+	"decimals": 18
 }

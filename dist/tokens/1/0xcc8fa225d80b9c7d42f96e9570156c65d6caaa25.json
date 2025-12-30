@@ -1,7 +1,7 @@
 {
-  "address": "0xcc8fa225d80b9c7d42f96e9570156c65d6caaa25",
-  "chainId": 1,
-  "name": "Smooth Love Potion",
-  "symbol": "SLP",
-  "decimals": 0
+	"address": "0xcc8fa225d80b9c7d42f96e9570156c65d6caaa25",
+	"chainId": 1,
+	"name": "Smooth Love Potion",
+	"symbol": "SLP",
+	"decimals": 0
 }

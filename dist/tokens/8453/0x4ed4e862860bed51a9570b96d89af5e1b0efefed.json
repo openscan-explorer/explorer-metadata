@@ -1,7 +1,7 @@
 {
-  "address": "0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
-  "chainId": 8453,
-  "name": "Degen",
-  "symbol": "DEGEN",
-  "decimals": 18
+	"address": "0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
+	"chainId": 8453,
+	"name": "Degen",
+	"symbol": "DEGEN",
+	"decimals": 18
 }

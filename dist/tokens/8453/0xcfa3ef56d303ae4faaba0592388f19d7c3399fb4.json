@@ -1,7 +1,7 @@
 {
-  "address": "0xcfa3ef56d303ae4faaba0592388f19d7c3399fb4",
-  "chainId": 8453,
-  "name": "Wrapped eETH",
-  "symbol": "weETH",
-  "decimals": 18
+	"address": "0xcfa3ef56d303ae4faaba0592388f19d7c3399fb4",
+	"chainId": 8453,
+	"name": "Wrapped eETH",
+	"symbol": "weETH",
+	"decimals": 18
 }

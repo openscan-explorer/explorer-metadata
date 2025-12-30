@@ -1,7 +1,7 @@
 {
-  "address": "0xfde4c96c8593536e31f229ea8f37b2ada2699bb2",
-  "chainId": 8453,
-  "name": "Toshi",
-  "symbol": "TOSHI",
-  "decimals": 18
+	"address": "0xfde4c96c8593536e31f229ea8f37b2ada2699bb2",
+	"chainId": 8453,
+	"name": "Toshi",
+	"symbol": "TOSHI",
+	"decimals": 18
 }

@@ -1,9 +1,9 @@
 {
-  "address": "0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b",
-  "chainId": 1,
-  "type": "ERC721",
-  "name": "CloneX",
-  "symbol": "CloneX",
-  "decimals": 0,
-  "totalSupply": 20000
+	"address": "0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b",
+	"chainId": 1,
+	"type": "ERC721",
+	"name": "CloneX",
+	"symbol": "CloneX",
+	"decimals": 0,
+	"totalSupply": 20000
 }

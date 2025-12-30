@@ -1,7 +1,7 @@
 {
-  "address": "0xa117000000f279d81a1d3cc75430faa017fa5a2e",
-  "chainId": 1,
-  "name": "Aragon Network Token",
-  "symbol": "ANT",
-  "decimals": 18
+	"address": "0xa117000000f279d81a1d3cc75430faa017fa5a2e",
+	"chainId": 1,
+	"name": "Aragon Network Token",
+	"symbol": "ANT",
+	"decimals": 18
 }

@@ -1,7 +1,7 @@
 {
-  "address": "0x1dd2d631c92b1acdfcdd51a0f7145a50130050c4",
-  "chainId": 8453,
-  "name": "USDe",
-  "symbol": "USDe",
-  "decimals": 18
+	"address": "0x1dd2d631c92b1acdfcdd51a0f7145a50130050c4",
+	"chainId": 8453,
+	"name": "USDe",
+	"symbol": "USDe",
+	"decimals": 18
 }

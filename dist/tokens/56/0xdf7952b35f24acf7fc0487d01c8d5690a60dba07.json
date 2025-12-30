@@ -1,8 +1,8 @@
 {
-  "address": "0xdf7952b35f24acf7fc0487d01c8d5690a60dba07",
-  "chainId": 56,
-  "type": "ERC721",
-  "name": "Pancake Bunnies",
-  "symbol": "PB",
-  "decimals": 0
+	"address": "0xdf7952b35f24acf7fc0487d01c8d5690a60dba07",
+	"chainId": 56,
+	"type": "ERC721",
+	"name": "Pancake Bunnies",
+	"symbol": "PB",
+	"decimals": 0
 }

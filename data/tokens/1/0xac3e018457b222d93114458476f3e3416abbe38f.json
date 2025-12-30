@@ -1,7 +1,7 @@
 {
-  "address": "0xac3e018457b222d93114458476f3e3416abbe38f",
-  "chainId": 1,
-  "name": "Staked Frax Ether",
-  "symbol": "sfrxETH",
-  "decimals": 18
+	"address": "0xac3e018457b222d93114458476f3e3416abbe38f",
+	"chainId": 1,
+	"name": "Staked Frax Ether",
+	"symbol": "sfrxETH",
+	"decimals": 18
 }

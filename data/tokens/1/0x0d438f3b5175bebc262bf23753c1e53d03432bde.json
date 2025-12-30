@@ -1,7 +1,7 @@
 {
-  "address": "0x0d438f3b5175bebc262bf23753c1e53d03432bde",
-  "chainId": 1,
-  "name": "Wrapped NXM",
-  "symbol": "wNXM",
-  "decimals": 18
+	"address": "0x0d438f3b5175bebc262bf23753c1e53d03432bde",
+	"chainId": 1,
+	"name": "Wrapped NXM",
+	"symbol": "wNXM",
+	"decimals": 18
 }

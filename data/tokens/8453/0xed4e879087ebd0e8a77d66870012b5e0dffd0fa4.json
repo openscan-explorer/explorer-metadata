@@ -1,7 +1,7 @@
 {
-  "address": "0xed4e879087ebd0e8a77d66870012b5e0dffd0fa4",
-  "chainId": 8453,
-  "name": "Moxie",
-  "symbol": "MOXIE",
-  "decimals": 18
+	"address": "0xed4e879087ebd0e8a77d66870012b5e0dffd0fa4",
+	"chainId": 8453,
+	"name": "Moxie",
+	"symbol": "MOXIE",
+	"decimals": 18
 }

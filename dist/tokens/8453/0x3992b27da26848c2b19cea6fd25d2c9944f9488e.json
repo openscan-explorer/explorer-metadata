@@ -1,7 +1,7 @@
 {
-  "address": "0x3992b27da26848c2b19cea6fd25d2c9944f9488e",
-  "chainId": 8453,
-  "name": "Sui",
-  "symbol": "SUI",
-  "decimals": 9
+	"address": "0x3992b27da26848c2b19cea6fd25d2c9944f9488e",
+	"chainId": 8453,
+	"name": "Sui",
+	"symbol": "SUI",
+	"decimals": 9
 }

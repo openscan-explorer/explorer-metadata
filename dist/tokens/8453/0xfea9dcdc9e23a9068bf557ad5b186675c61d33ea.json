@@ -1,7 +1,7 @@
 {
-  "address": "0xfea9dcdc9e23a9068bf557ad5b186675c61d33ea",
-  "chainId": 8453,
-  "name": "USDS Stablecoin",
-  "symbol": "USDS",
-  "decimals": 18
+	"address": "0xfea9dcdc9e23a9068bf557ad5b186675c61d33ea",
+	"chainId": 8453,
+	"name": "USDS Stablecoin",
+	"symbol": "USDS",
+	"decimals": 18
 }

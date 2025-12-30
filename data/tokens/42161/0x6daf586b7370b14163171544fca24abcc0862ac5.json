@@ -1,7 +1,7 @@
 {
-  "address": "0x6daf586b7370b14163171544fca24abcc0862ac5",
-  "chainId": 42161,
-  "name": "Camelot Token",
-  "symbol": "GRAIL",
-  "decimals": 18
+	"address": "0x6daf586b7370b14163171544fca24abcc0862ac5",
+	"chainId": 42161,
+	"name": "Camelot Token",
+	"symbol": "GRAIL",
+	"decimals": 18
 }

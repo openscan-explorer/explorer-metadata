@@ -1,252 +1,252 @@
 {
-  "chainId": 137,
-  "updatedAt": "2025-12-11T12:01:22.383Z",
-  "count": 40,
-  "tokens": [
-    {
-      "address": "0x9c2c5fd7b07e95ee044ddeba0e97a665f142394f",
-      "name": "1INCH Token",
-      "symbol": "1INCH",
-      "decimals": 18
-    },
-    {
-      "address": "0xd6df932a45c0f255f85145f286ea0b292b21c90b",
-      "name": "Aave Token",
-      "symbol": "AAVE",
-      "decimals": 18
-    },
-    {
-      "address": "0x86935f11c86623dec8a25696e1c19a8659cbf95d",
-      "name": "Aavegotchi",
-      "symbol": "GOTCHI",
-      "decimals": 0,
-      "type": "ERC721"
-    },
-    {
-      "address": "0x385eeac5cb85a38a9a07a70c73e0a3271cfb54a7",
-      "name": "Aavegotchi GHST Token",
-      "symbol": "GHST",
-      "decimals": 18
-    },
-    {
-      "address": "0xe0b52e49357fd4daf2c15e02058dce6bc0057db4",
-      "name": "agEUR",
-      "symbol": "agEUR",
-      "decimals": 18
-    },
-    {
-      "address": "0x9a71012b13ca4d3d0cdc72a177df3ef03b0e76a3",
-      "name": "Balancer",
-      "symbol": "BAL",
-      "decimals": 18
-    },
-    {
-      "address": "0x53e0bca35ec356bd5dddfebbd1fc0fd03fabad39",
-      "name": "ChainLink Token",
-      "symbol": "LINK",
-      "decimals": 18
-    },
-    {
-      "address": "0x8505b9d2254a7ae468c0e9dd10ccea3a837aef5c",
-      "name": "Compound",
-      "symbol": "COMP",
-      "decimals": 18
-    },
-    {
-      "address": "0x172370d5cd63279efa6d502dab29171933a610af",
-      "name": "Curve DAO Token",
-      "symbol": "CRV",
-      "decimals": 18
-    },
-    {
-      "address": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
-      "name": "Dai Stablecoin",
-      "symbol": "DAI",
-      "decimals": 18
-    },
-    {
-      "address": "0xa1c57f48f0deb89f569dfbe6e2b7f46d33606fd4",
-      "name": "Decentraland MANA",
-      "symbol": "MANA",
-      "decimals": 18
-    },
-    {
-      "address": "0x45c32fa6df82ead1e2ef74d17b76547eddfaff89",
-      "name": "Frax",
-      "symbol": "FRAX",
-      "decimals": 18
-    },
-    {
-      "address": "0x1a13f4ca1d028320a707d99520abfefca3998b7f",
-      "name": "Frax Share",
-      "symbol": "FXS",
-      "decimals": 18
-    },
-    {
-      "address": "0x5fe2b58c013d7601147dcdd68c143a77499f5531",
-      "name": "Graph Token",
-      "symbol": "GRT",
-      "decimals": 18
-    },
-    {
-      "address": "0x6985884c4392d348587b19cb9eaaf157f13271cd",
-      "name": "LayerZero",
-      "symbol": "ZRO",
-      "decimals": 18
-    },
-    {
-      "address": "0xdb46d1dc155634fbc732f92e853b10b288ad5a1d",
-      "name": "Lens Protocol Profiles",
-      "symbol": "LENS",
-      "decimals": 0,
-      "type": "ERC721"
-    },
-    {
-      "address": "0xc3c7d422809852031b44ab29eec9f1eff2a58756",
-      "name": "Lido DAO Token",
-      "symbol": "LDO",
-      "decimals": 18
-    },
-    {
-      "address": "0xa3fa99a148fa48d14ed51d610c367c61876997f1",
-      "name": "MAI",
-      "symbol": "MAI",
-      "decimals": 18
-    },
-    {
-      "address": "0x6e4e624106cb12e168e6533f8ec7c82263358940",
-      "name": "Ondo",
-      "symbol": "ONDO",
-      "decimals": 18
-    },
-    {
-      "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-      "name": "POL",
-      "symbol": "POL",
-      "decimals": 18
-    },
-    {
-      "address": "0x580a84c73811e1839f75d86d75d88cca0c241ff4",
-      "name": "Qi Dao",
-      "symbol": "QI",
-      "decimals": 18
-    },
-    {
-      "address": "0x831753dd7087cac61ab5644b308642cc1c33dc13",
-      "name": "Quickswap",
-      "symbol": "QUICK",
-      "decimals": 18
-    },
-    {
-      "address": "0xa93c62d7a23a1d31dcfc4a285401f8d4ed1f5cc4",
-      "name": "Reddit Collectible Avatars",
-      "symbol": "AVATAR",
-      "decimals": 0,
-      "type": "ERC721"
-    },
-    {
-      "address": "0x61299774020da444af134c82fa83e3810b309991",
-      "name": "Render Token",
-      "symbol": "RNDR",
-      "decimals": 18
-    },
-    {
-      "address": "0x6f8a06447ff6fcf75d803135a7de15ce88c1d4ec",
-      "name": "SHIBA INU",
-      "symbol": "SHIB",
-      "decimals": 18
-    },
-    {
-      "address": "0x2b4a66557a79263275826ad31a4cddc2789334bd",
-      "name": "Sunflower Land",
-      "symbol": "SFL",
-      "decimals": 0,
-      "type": "ERC721"
-    },
-    {
-      "address": "0x0b3f868e0be5597d5db7feb59e1cadbb0fdda50a",
-      "name": "SushiToken",
-      "symbol": "SUSHI",
-      "decimals": 18
-    },
-    {
-      "address": "0x50b728d8d964fd00c2d0aad81718b71311fef68a",
-      "name": "Synthetix Network Token",
-      "symbol": "SNX",
-      "decimals": 18
-    },
-    {
-      "address": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
-      "name": "Tether USD",
-      "symbol": "USDT",
-      "decimals": 6
-    },
-    {
-      "address": "0xbbba073c31bf03b8acf7c28ef0738decf3695683",
-      "name": "The Sandbox",
-      "symbol": "SAND",
-      "decimals": 18
-    },
-    {
-      "address": "0x5cc5b05a8a13e3fbdb0bb9fccd98d38e50f90c38",
-      "name": "The Sandbox LAND",
-      "symbol": "LAND",
-      "decimals": 0,
-      "type": "ERC721"
-    },
-    {
-      "address": "0xb33eaad8d922b1083446dc23f610c2567fb5180f",
-      "name": "Uniswap",
-      "symbol": "UNI",
-      "decimals": 18
-    },
-    {
-      "address": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
-      "name": "USD Coin",
-      "symbol": "USDC",
-      "decimals": 6
-    },
-    {
-      "address": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
-      "name": "USD Coin (PoS)",
-      "symbol": "USDC.e",
-      "decimals": 6
-    },
-    {
-      "address": "0x2c89bbc92bd86f8075d1decc58c7f4e0107f286b",
-      "name": "Wrapped AVAX",
-      "symbol": "wAVAX",
-      "decimals": 18
-    },
-    {
-      "address": "0x6a3e7c3c6ef65ee26975b12293ca1aad7e1daed2",
-      "name": "Wrapped AVAX",
-      "symbol": "WAVAX",
-      "decimals": 18
-    },
-    {
-      "address": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6",
-      "name": "Wrapped BTC",
-      "symbol": "WBTC",
-      "decimals": 8
-    },
-    {
-      "address": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
-      "name": "Wrapped Ether",
-      "symbol": "WETH",
-      "decimals": 18
-    },
-    {
-      "address": "0x03b54a6e9a984069379fae1a4fc4dbae93b3bccd",
-      "name": "Wrapped liquid staked Ether 2.0",
-      "symbol": "wstETH",
-      "decimals": 18
-    },
-    {
-      "address": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
-      "name": "Wrapped Matic",
-      "symbol": "WMATIC",
-      "decimals": 18
-    }
-  ]
+	"chainId": 137,
+	"updatedAt": "2025-12-30T20:46:42.857Z",
+	"count": 40,
+	"tokens": [
+		{
+			"address": "0x9c2c5fd7b07e95ee044ddeba0e97a665f142394f",
+			"name": "1INCH Token",
+			"symbol": "1INCH",
+			"decimals": 18
+		},
+		{
+			"address": "0xd6df932a45c0f255f85145f286ea0b292b21c90b",
+			"name": "Aave Token",
+			"symbol": "AAVE",
+			"decimals": 18
+		},
+		{
+			"address": "0x86935f11c86623dec8a25696e1c19a8659cbf95d",
+			"name": "Aavegotchi",
+			"symbol": "GOTCHI",
+			"decimals": 0,
+			"type": "ERC721"
+		},
+		{
+			"address": "0x385eeac5cb85a38a9a07a70c73e0a3271cfb54a7",
+			"name": "Aavegotchi GHST Token",
+			"symbol": "GHST",
+			"decimals": 18
+		},
+		{
+			"address": "0xe0b52e49357fd4daf2c15e02058dce6bc0057db4",
+			"name": "agEUR",
+			"symbol": "agEUR",
+			"decimals": 18
+		},
+		{
+			"address": "0x9a71012b13ca4d3d0cdc72a177df3ef03b0e76a3",
+			"name": "Balancer",
+			"symbol": "BAL",
+			"decimals": 18
+		},
+		{
+			"address": "0x53e0bca35ec356bd5dddfebbd1fc0fd03fabad39",
+			"name": "ChainLink Token",
+			"symbol": "LINK",
+			"decimals": 18
+		},
+		{
+			"address": "0x8505b9d2254a7ae468c0e9dd10ccea3a837aef5c",
+			"name": "Compound",
+			"symbol": "COMP",
+			"decimals": 18
+		},
+		{
+			"address": "0x172370d5cd63279efa6d502dab29171933a610af",
+			"name": "Curve DAO Token",
+			"symbol": "CRV",
+			"decimals": 18
+		},
+		{
+			"address": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
+			"name": "Dai Stablecoin",
+			"symbol": "DAI",
+			"decimals": 18
+		},
+		{
+			"address": "0xa1c57f48f0deb89f569dfbe6e2b7f46d33606fd4",
+			"name": "Decentraland MANA",
+			"symbol": "MANA",
+			"decimals": 18
+		},
+		{
+			"address": "0x45c32fa6df82ead1e2ef74d17b76547eddfaff89",
+			"name": "Frax",
+			"symbol": "FRAX",
+			"decimals": 18
+		},
+		{
+			"address": "0x1a13f4ca1d028320a707d99520abfefca3998b7f",
+			"name": "Frax Share",
+			"symbol": "FXS",
+			"decimals": 18
+		},
+		{
+			"address": "0x5fe2b58c013d7601147dcdd68c143a77499f5531",
+			"name": "Graph Token",
+			"symbol": "GRT",
+			"decimals": 18
+		},
+		{
+			"address": "0x6985884c4392d348587b19cb9eaaf157f13271cd",
+			"name": "LayerZero",
+			"symbol": "ZRO",
+			"decimals": 18
+		},
+		{
+			"address": "0xdb46d1dc155634fbc732f92e853b10b288ad5a1d",
+			"name": "Lens Protocol Profiles",
+			"symbol": "LENS",
+			"decimals": 0,
+			"type": "ERC721"
+		},
+		{
+			"address": "0xc3c7d422809852031b44ab29eec9f1eff2a58756",
+			"name": "Lido DAO Token",
+			"symbol": "LDO",
+			"decimals": 18
+		},
+		{
+			"address": "0xa3fa99a148fa48d14ed51d610c367c61876997f1",
+			"name": "MAI",
+			"symbol": "MAI",
+			"decimals": 18
+		},
+		{
+			"address": "0x6e4e624106cb12e168e6533f8ec7c82263358940",
+			"name": "Ondo",
+			"symbol": "ONDO",
+			"decimals": 18
+		},
+		{
+			"address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+			"name": "POL",
+			"symbol": "POL",
+			"decimals": 18
+		},
+		{
+			"address": "0x580a84c73811e1839f75d86d75d88cca0c241ff4",
+			"name": "Qi Dao",
+			"symbol": "QI",
+			"decimals": 18
+		},
+		{
+			"address": "0x831753dd7087cac61ab5644b308642cc1c33dc13",
+			"name": "Quickswap",
+			"symbol": "QUICK",
+			"decimals": 18
+		},
+		{
+			"address": "0xa93c62d7a23a1d31dcfc4a285401f8d4ed1f5cc4",
+			"name": "Reddit Collectible Avatars",
+			"symbol": "AVATAR",
+			"decimals": 0,
+			"type": "ERC721"
+		},
+		{
+			"address": "0x61299774020da444af134c82fa83e3810b309991",
+			"name": "Render Token",
+			"symbol": "RNDR",
+			"decimals": 18
+		},
+		{
+			"address": "0x6f8a06447ff6fcf75d803135a7de15ce88c1d4ec",
+			"name": "SHIBA INU",
+			"symbol": "SHIB",
+			"decimals": 18
+		},
+		{
+			"address": "0x2b4a66557a79263275826ad31a4cddc2789334bd",
+			"name": "Sunflower Land",
+			"symbol": "SFL",
+			"decimals": 0,
+			"type": "ERC721"
+		},
+		{
+			"address": "0x0b3f868e0be5597d5db7feb59e1cadbb0fdda50a",
+			"name": "SushiToken",
+			"symbol": "SUSHI",
+			"decimals": 18
+		},
+		{
+			"address": "0x50b728d8d964fd00c2d0aad81718b71311fef68a",
+			"name": "Synthetix Network Token",
+			"symbol": "SNX",
+			"decimals": 18
+		},
+		{
+			"address": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+			"name": "Tether USD",
+			"symbol": "USDT",
+			"decimals": 6
+		},
+		{
+			"address": "0xbbba073c31bf03b8acf7c28ef0738decf3695683",
+			"name": "The Sandbox",
+			"symbol": "SAND",
+			"decimals": 18
+		},
+		{
+			"address": "0x5cc5b05a8a13e3fbdb0bb9fccd98d38e50f90c38",
+			"name": "The Sandbox LAND",
+			"symbol": "LAND",
+			"decimals": 0,
+			"type": "ERC721"
+		},
+		{
+			"address": "0xb33eaad8d922b1083446dc23f610c2567fb5180f",
+			"name": "Uniswap",
+			"symbol": "UNI",
+			"decimals": 18
+		},
+		{
+			"address": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
+			"name": "USD Coin",
+			"symbol": "USDC",
+			"decimals": 6
+		},
+		{
+			"address": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+			"name": "USD Coin (PoS)",
+			"symbol": "USDC.e",
+			"decimals": 6
+		},
+		{
+			"address": "0x2c89bbc92bd86f8075d1decc58c7f4e0107f286b",
+			"name": "Wrapped AVAX",
+			"symbol": "wAVAX",
+			"decimals": 18
+		},
+		{
+			"address": "0x6a3e7c3c6ef65ee26975b12293ca1aad7e1daed2",
+			"name": "Wrapped AVAX",
+			"symbol": "WAVAX",
+			"decimals": 18
+		},
+		{
+			"address": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6",
+			"name": "Wrapped BTC",
+			"symbol": "WBTC",
+			"decimals": 8
+		},
+		{
+			"address": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+			"name": "Wrapped Ether",
+			"symbol": "WETH",
+			"decimals": 18
+		},
+		{
+			"address": "0x03b54a6e9a984069379fae1a4fc4dbae93b3bccd",
+			"name": "Wrapped liquid staked Ether 2.0",
+			"symbol": "wstETH",
+			"decimals": 18
+		},
+		{
+			"address": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+			"name": "Wrapped Matic",
+			"symbol": "WMATIC",
+			"decimals": 18
+		}
+	]
 }

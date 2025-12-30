@@ -1,8 +1,8 @@
 {
-  "address": "0x9c7305eb78a432ced5c4d14cac27e8ed569a2e26",
-  "chainId": 10,
-  "type": "ERC721",
-  "name": "Velodrome veNFT",
-  "symbol": "veNFT",
-  "decimals": 0
+	"address": "0x9c7305eb78a432ced5c4d14cac27e8ed569a2e26",
+	"chainId": 10,
+	"type": "ERC721",
+	"name": "Velodrome veNFT",
+	"symbol": "veNFT",
+	"decimals": 0
 }

@@ -1,7 +1,7 @@
 {
-  "address": "0x7d49a065d17d6d4a55dc13649901fdbb98b2afba",
-  "chainId": 8453,
-  "name": "Sushi",
-  "symbol": "SUSHI",
-  "decimals": 18
+	"address": "0x7d49a065d17d6d4a55dc13649901fdbb98b2afba",
+	"chainId": 8453,
+	"name": "Sushi",
+	"symbol": "SUSHI",
+	"decimals": 18
 }

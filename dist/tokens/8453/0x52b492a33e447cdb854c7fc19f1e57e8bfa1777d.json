@@ -1,7 +1,7 @@
 {
-  "address": "0x52b492a33e447cdb854c7fc19f1e57e8bfa1777d",
-  "chainId": 8453,
-  "name": "PEPE",
-  "symbol": "PEPE",
-  "decimals": 18
+	"address": "0x52b492a33e447cdb854c7fc19f1e57e8bfa1777d",
+	"chainId": 8453,
+	"name": "PEPE",
+	"symbol": "PEPE",
+	"decimals": 18
 }

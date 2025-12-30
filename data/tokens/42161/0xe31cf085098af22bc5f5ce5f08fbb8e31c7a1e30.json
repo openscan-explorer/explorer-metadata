@@ -1,9 +1,9 @@
 {
-  "address": "0xe31cf085098af22bc5f5ce5f08fbb8e31c7a1e30",
-  "chainId": 42161,
-  "type": "ERC721",
-  "name": "The Lost Donkeys",
-  "symbol": "DONKEY",
-  "decimals": 0,
-  "totalSupply": 6969
+	"address": "0xe31cf085098af22bc5f5ce5f08fbb8e31c7a1e30",
+	"chainId": 42161,
+	"type": "ERC721",
+	"name": "The Lost Donkeys",
+	"symbol": "DONKEY",
+	"decimals": 0,
+	"totalSupply": 6969
 }

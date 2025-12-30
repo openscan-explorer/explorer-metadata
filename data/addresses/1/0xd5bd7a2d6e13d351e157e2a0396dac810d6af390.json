@@ -1,6 +1,6 @@
 {
-  "address": "0xd5bd7a2d6e13d351e157e2a0396dac810d6af390",
-  "chainId": 1,
-  "supporter": "openscan",
-  "label": "Payment Contract"
+	"address": "0xd5bd7a2d6e13d351e157e2a0396dac810d6af390",
+	"chainId": 1,
+	"supporter": "openscan",
+	"label": "Payment Contract"
 }
