@@ -1,0 +1,209 @@
+{
+  "chainId": 8453,
+  "updatedAt": "2025-12-29",
+  "endpoints": [
+    {
+      "url": "https://1rpc.io/base",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "1RPC",
+      "isPublic": true
+    },
+    {
+      "url": "https://base.drpc.org",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "dRPC",
+      "isPublic": true
+    },
+    {
+      "url": "https://base.llamarpc.com",
+      "tracking": "none",
+      "isOpenSource": true,
+      "provider": "LlamaNodes",
+      "isPublic": true
+    },
+    {
+      "url": "https://base.meowrpc.com",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "MeowRPC",
+      "isPublic": true
+    },
+    {
+      "url": "https://endpoints.omniatech.io/v1/base/mainnet/public",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "Omnia",
+      "isPublic": true
+    },
+    {
+      "url": "https://base.api.pocket.network",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "Pocket Network",
+      "isPublic": true
+    },
+    {
+      "url": "https://base-rpc.publicnode.com",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "PublicNode",
+      "isPublic": true
+    },
+    {
+      "url": "https://base-mainnet.public.blastapi.io",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "Blast",
+      "isPublic": true
+    },
+    {
+      "url": "https://base.public.blockpi.network/v1/rpc/public",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "BlockPI",
+      "isPublic": true
+    },
+    {
+      "url": "https://base-mainnet.diamondswap.org/rpc",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "DiamondSwap",
+      "isPublic": true
+    },
+    {
+      "url": "https://base-public.nodies.app",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "Nodies",
+      "isPublic": true
+    },
+    {
+      "url": "https://base.api.onfinality.io/public",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "OnFinality",
+      "isPublic": true
+    },
+    {
+      "url": "https://rpc.poolz.finance/base",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "Poolz",
+      "isPublic": true
+    },
+    {
+      "url": "https://public.stackup.sh/api/v1/node/base-mainnet",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "Stackup",
+      "isPublic": true
+    },
+    {
+      "url": "https://base.therpc.io",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "TheRPC",
+      "isPublic": true
+    },
+    {
+      "url": "https://rpc.owlracle.info/base/70d38ce1826c4a60bb2a8e05a6c8b20f",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://api-base-mainnet-archive.n.dwellir.com/2ccf18bf-2916-4198-8856-42172854353c",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://api.zan.top/base-mainnet",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "ZAN",
+      "isPublic": true
+    },
+    {
+      "url": "https://mainnet.base.org",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "Base",
+      "isPublic": true
+    },
+    {
+      "url": "https://developer-access-mainnet.base.org",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "Base",
+      "isPublic": true
+    },
+    {
+      "url": "https://rpc.notadegen.com/base",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "NotADegen",
+      "isPublic": true
+    },
+    {
+      "url": "https://base.rpc.subquery.network/public",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "SubQuery",
+      "isPublic": true
+    },
+    {
+      "url": "https://li-fi-base.intustechno.workers.dev/rpc",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://base.gateway.tenderly.co",
+      "tracking": "yes",
+      "isOpenSource": false,
+      "provider": "Tenderly",
+      "isPublic": true
+    },
+    {
+      "url": "https://gateway.tenderly.co/public/base",
+      "tracking": "yes",
+      "isOpenSource": false,
+      "provider": "Tenderly",
+      "isPublic": true
+    },
+    {
+      "url": "https://base-mainnet.gateway.tatum.io",
+      "tracking": "yes",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://base.lava.build",
+      "tracking": "yes",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://rpc.numa.network/base",
+      "tracking": "yes",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://base.rpc.blxrbdn.com",
+      "tracking": "yes",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    }
+  ]
+}

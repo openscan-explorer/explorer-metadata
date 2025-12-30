@@ -1,0 +1,349 @@
+{
+  "chainId": 56,
+  "updatedAt": "2025-12-29",
+  "endpoints": [
+    {
+      "url": "https://1rpc.io/bnb",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "1RPC",
+      "isPublic": true
+    },
+    {
+      "url": "https://bsc.blockrazor.xyz",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "BlockRazor",
+      "isPublic": true
+    },
+    {
+      "url": "https://bsc.drpc.org",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "dRPC",
+      "isPublic": true
+    },
+    {
+      "url": "https://public-bsc-mainnet.fastnode.io",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "FastNode",
+      "isPublic": true
+    },
+    {
+      "url": "https://binance.llamarpc.com",
+      "tracking": "none",
+      "isOpenSource": true,
+      "provider": "LlamaNodes",
+      "isPublic": true
+    },
+    {
+      "url": "https://bsc.meowrpc.com",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "MeowRPC",
+      "isPublic": true
+    },
+    {
+      "url": "https://endpoints.omniatech.io/v1/bsc/mainnet/public",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "Omnia",
+      "isPublic": true
+    },
+    {
+      "url": "https://bsc.api.pocket.network",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "Pocket Network",
+      "isPublic": true
+    },
+    {
+      "url": "https://bsc-rpc.publicnode.com",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "PublicNode",
+      "isPublic": true
+    },
+    {
+      "url": "https://rpc.polysplit.cloud/v1/chain/56",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://rpc-bsc.48.club",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "48 Club",
+      "isPublic": true
+    },
+    {
+      "url": "https://0.48.club",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "48 Club",
+      "isPublic": true
+    },
+    {
+      "url": "https://bsc-mainnet.public.blastapi.io",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "Blast",
+      "isPublic": true
+    },
+    {
+      "url": "https://bsc.blockpi.network/v1/rpc/private",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "BlockPI",
+      "isPublic": true
+    },
+    {
+      "url": "https://binance-smart-chain-public.nodies.app",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "Nodies",
+      "isPublic": true
+    },
+    {
+      "url": "https://bnb.api.onfinality.io/public",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "OnFinality",
+      "isPublic": true
+    },
+    {
+      "url": "https://rpc.poolz.finance/bsc",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "Poolz",
+      "isPublic": true
+    },
+    {
+      "url": "https://public.stackup.sh/api/v1/node/bsc-mainnet",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "Stackup",
+      "isPublic": true
+    },
+    {
+      "url": "https://bsc.therpc.io",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "TheRPC",
+      "isPublic": true
+    },
+    {
+      "url": "https://go.getblock.io/cc778cdbdf5c4b028ec9456e0e6c0cf3",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://bsc-mainnet.4everland.org/v1/37fa9972c1b1cd5fab542c7bdd4cde2f",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://rpc.owlracle.info/bsc/70d38ce1826c4a60bb2a8e05a6c8b20f",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://api-bsc-mainnet-full.n.dwellir.com/2ccf18bf-2916-4198-8856-42172854353c",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://api.zan.top/bsc-mainnet",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "ZAN",
+      "isPublic": true
+    },
+    {
+      "url": "https://bsc-dataseed.bnbchain.org",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "BNB Chain",
+      "isPublic": true
+    },
+    {
+      "url": "https://bsc-dataseed1.bnbchain.org",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "BNB Chain",
+      "isPublic": true
+    },
+    {
+      "url": "https://bsc-dataseed2.bnbchain.org",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "BNB Chain",
+      "isPublic": true
+    },
+    {
+      "url": "https://bsc-dataseed3.bnbchain.org",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "BNB Chain",
+      "isPublic": true
+    },
+    {
+      "url": "https://bsc-dataseed4.bnbchain.org",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "BNB Chain",
+      "isPublic": true
+    },
+    {
+      "url": "https://bnb.rpc.subquery.network/public",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "SubQuery",
+      "isPublic": true
+    },
+    {
+      "url": "https://bsc-dataseed1.defibit.io",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://bsc-dataseed1.ninicoin.io",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://bsc-dataseed2.defibit.io",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://bsc-dataseed3.defibit.io",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://bsc-dataseed4.defibit.io",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://bsc-dataseed2.ninicoin.io",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://bsc-dataseed3.ninicoin.io",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://bsc-dataseed4.ninicoin.io",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://bsc-dataseed6.dict.life",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://bscrpc.com",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://bsc.rpcgator.com",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://bsc-mainnet.rpcfast.com?api_key=xbhWBI1Wkguk8SNMu1bvvLurPGLXmgwYeC4S6g2H7WdwFigZSmPWVZRxrskEQwIf",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://nodes.vefinetwork.org/smartchain",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+      "tracking": "yes",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://binance.nodereal.io",
+      "tracking": "yes",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://bsc.rpc.blxrbdn.com",
+      "tracking": "yes",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://services.tokenview.io/vipapi/nodeservice/bsc?apikey=gVFJX5OyPdc2kHH7youg",
+      "tracking": "yes",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://bsc-mainnet.gateway.tatum.io",
+      "tracking": "yes",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://public-bsc.nownodes.io",
+      "tracking": "yes",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "chainId": 11155111,
+  "updatedAt": "2025-12-29",
+  "endpoints": [
+    {
+      "url": "https://0xrpc.io/sep",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "0xRPC",
+      "isPublic": true
+    },
+    {
+      "url": "https://1rpc.io/sepolia",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "1RPC",
+      "isPublic": true
+    },
+    {
+      "url": "https://endpoints.omniatech.io/v1/eth/sepolia/public",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "Omnia",
+      "isPublic": true
+    },
+    {
+      "url": "https://eth-sepolia-testnet.api.pocket.network",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "Pocket Network",
+      "isPublic": true
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "PublicNode",
+      "isPublic": true
+    },
+    {
+      "url": "https://eth-sepolia.public.blastapi.io",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "Blast",
+      "isPublic": true
+    },
+    {
+      "url": "https://ethereum-sepolia-public.nodies.app",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "Nodies",
+      "isPublic": true
+    },
+    {
+      "url": "https://eth-sepolia.api.onfinality.io/public",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "OnFinality",
+      "isPublic": true
+    },
+    {
+      "url": "https://public.stackup.sh/api/v1/node/ethereum-sepolia",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "Stackup",
+      "isPublic": true
+    },
+    {
+      "url": "https://ethereum-sepolia.therpc.io",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "TheRPC",
+      "isPublic": true
+    },
+    {
+      "url": "https://eth-sepolia-public.unifra.io",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "Unifra",
+      "isPublic": true
+    },
+    {
+      "url": "https://eth-testnet.4everland.org/v1/37fa9972c1b1cd5fab542c7bdd4cde2f",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://rpc.owlracle.info/sepolia/70d38ce1826c4a60bb2a8e05a6c8b20f",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://api.zan.top/eth-sepolia",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "ZAN",
+      "isPublic": true
+    },
+    {
+      "url": "https://eth-sepolia.g.alchemy.com/v2/WddzdzI2o9S3COdT73d5w6AIogbKq4X-",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "Alchemy",
+      "isPublic": true
+    },
+    {
+      "url": "https://sepolia.drpc.org",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "dRPC",
+      "isPublic": true
+    },
+    {
+      "url": "https://rpc.notadegen.com/eth/sepolia",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "NotADegen",
+      "isPublic": true
+    },
+    {
+      "url": "https://rpc.sepolia.org",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "Sepolia",
+      "isPublic": true
+    },
+    {
+      "url": "https://rpc2.sepolia.org",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "Sepolia",
+      "isPublic": true
+    },
+    {
+      "url": "https://ethereum-sepolia.rpc.subquery.network/public",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "SubQuery",
+      "isPublic": true
+    },
+    {
+      "url": "https://rpc.sepolia.ethpandaops.io",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://eth-sepolia.g.alchemy.com/v2/demo",
+      "tracking": "yes",
+      "isOpenSource": false,
+      "provider": "Alchemy",
+      "isPublic": true
+    },
+    {
+      "url": "https://sepolia.gateway.tenderly.co",
+      "tracking": "yes",
+      "isOpenSource": false,
+      "provider": "Tenderly",
+      "isPublic": true
+    },
+    {
+      "url": "https://gateway.tenderly.co/public/sepolia",
+      "tracking": "yes",
+      "isOpenSource": false,
+      "provider": "Tenderly",
+      "isPublic": true
+    },
+    {
+      "url": "https://sphinx.shardeum.org",
+      "tracking": "yes",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://dapps.shardeum.org",
+      "tracking": "yes",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://ethereum-sepolia.gateway.tatum.io",
+      "tracking": "yes",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    }
+  ]
+}

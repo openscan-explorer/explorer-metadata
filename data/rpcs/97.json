@@ -1,0 +1,118 @@
+{
+  "chainId": 97,
+  "updatedAt": "2025-12-29",
+  "endpoints": [
+    {
+      "url": "https://bsc-testnet.drpc.org",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "dRPC",
+      "isPublic": true
+    },
+    {
+      "url": "https://endpoints.omniatech.io/v1/bsc/testnet/public",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "Omnia",
+      "isPublic": true
+    },
+    {
+      "url": "https://bsc-testnet-rpc.publicnode.com",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "PublicNode",
+      "isPublic": true
+    },
+    {
+      "url": "https://bsc-testnet.public.blastapi.io",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "Blast",
+      "isPublic": true
+    },
+    {
+      "url": "https://bnb-testnet.api.onfinality.io/public",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "OnFinality",
+      "isPublic": true
+    },
+    {
+      "url": "https://public.stackup.sh/api/v1/node/bsc-testnet",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "Stackup",
+      "isPublic": true
+    },
+    {
+      "url": "https://bsc-testnet.therpc.io",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "TheRPC",
+      "isPublic": true
+    },
+    {
+      "url": "https://bsc-testnet.4everland.org/v1/37fa9972c1b1cd5fab542c7bdd4cde2f",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://api.zan.top/bsc-testnet",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "ZAN",
+      "isPublic": true
+    },
+    {
+      "url": "https://data-seed-prebsc-1-s1.bnbchain.org:8545",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "BNB Chain",
+      "isPublic": true
+    },
+    {
+      "url": "https://data-seed-prebsc-2-s1.bnbchain.org:8545",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "BNB Chain",
+      "isPublic": true
+    },
+    {
+      "url": "https://data-seed-prebsc-1-s2.bnbchain.org:8545",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "BNB Chain",
+      "isPublic": true
+    },
+    {
+      "url": "https://data-seed-prebsc-2-s2.bnbchain.org:8545",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "BNB Chain",
+      "isPublic": true
+    },
+    {
+      "url": "https://data-seed-prebsc-1-s3.bnbchain.org:8545",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "BNB Chain",
+      "isPublic": true
+    },
+    {
+      "url": "https://data-seed-prebsc-2-s3.bnbchain.org:8545",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "BNB Chain",
+      "isPublic": true
+    },
+    {
+      "url": "https://bsctestapi.terminet.io/rpc",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "Terminet",
+      "isPublic": true
+    }
+  ]
+}

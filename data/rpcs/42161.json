@@ -1,0 +1,188 @@
+{
+  "chainId": 42161,
+  "updatedAt": "2025-12-29",
+  "endpoints": [
+    {
+      "url": "https://1rpc.io/arb",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "1RPC",
+      "isPublic": true
+    },
+    {
+      "url": "https://arbitrum.drpc.org",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "dRPC",
+      "isPublic": true
+    },
+    {
+      "url": "https://public-arb-mainnet.fastnode.io",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "FastNode",
+      "isPublic": true
+    },
+    {
+      "url": "https://arbitrum.meowrpc.com",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "MeowRPC",
+      "isPublic": true
+    },
+    {
+      "url": "https://endpoints.omniatech.io/v1/arbitrum/one/public",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "Omnia",
+      "isPublic": true
+    },
+    {
+      "url": "https://arb-one.api.pocket.network",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "Pocket Network",
+      "isPublic": true
+    },
+    {
+      "url": "https://arbitrum-one-rpc.publicnode.com",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "PublicNode",
+      "isPublic": true
+    },
+    {
+      "url": "https://api.stateless.solutions/arbitrum-one/v1/demo",
+      "tracking": "none",
+      "isOpenSource": false,
+      "provider": "Stateless",
+      "isPublic": true
+    },
+    {
+      "url": "https://arbitrum-one.public.blastapi.io",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "Blast",
+      "isPublic": true
+    },
+    {
+      "url": "https://arbitrum.public.blockpi.network/v1/rpc/public",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "BlockPI",
+      "isPublic": true
+    },
+    {
+      "url": "https://arbitrum-one-public.nodies.app",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "Nodies",
+      "isPublic": true
+    },
+    {
+      "url": "https://arbitrum.api.onfinality.io/public",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "OnFinality",
+      "isPublic": true
+    },
+    {
+      "url": "https://rpc.poolz.finance/arbitrum",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "Poolz",
+      "isPublic": true
+    },
+    {
+      "url": "https://public.stackup.sh/api/v1/node/arbitrum-one",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "Stackup",
+      "isPublic": true
+    },
+    {
+      "url": "https://arbitrum.therpc.io",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "TheRPC",
+      "isPublic": true
+    },
+    {
+      "url": "https://arb-mainnet-public.unifra.io",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "Unifra",
+      "isPublic": true
+    },
+    {
+      "url": "https://rpc.owlracle.info/arb/70d38ce1826c4a60bb2a8e05a6c8b20f",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://api-arbitrum-mainnet-archive.n.dwellir.com/2ccf18bf-2916-4198-8856-42172854353c",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://api.zan.top/arb-one",
+      "tracking": "limited",
+      "isOpenSource": false,
+      "provider": "ZAN",
+      "isPublic": true
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "Arbitrum",
+      "isPublic": true
+    },
+    {
+      "url": "https://arbitrum.rpc.subquery.network/public",
+      "tracking": "unspecified",
+      "isOpenSource": false,
+      "provider": "SubQuery",
+      "isPublic": true
+    },
+    {
+      "url": "https://arb-mainnet.g.alchemy.com/v2/demo",
+      "tracking": "yes",
+      "isOpenSource": false,
+      "provider": "Alchemy",
+      "isPublic": true
+    },
+    {
+      "url": "https://arbitrum.gateway.tenderly.co",
+      "tracking": "yes",
+      "isOpenSource": false,
+      "provider": "Tenderly",
+      "isPublic": true
+    },
+    {
+      "url": "https://rpc.arb1.arbitrum.gateway.fm",
+      "tracking": "yes",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://arb1.lava.build",
+      "tracking": "yes",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    },
+    {
+      "url": "https://arb-one-mainnet.gateway.tatum.io",
+      "tracking": "yes",
+      "isOpenSource": false,
+      "provider": "Unknown",
+      "isPublic": true
+    }
+  ]
+}

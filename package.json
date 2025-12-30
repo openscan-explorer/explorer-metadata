@@ -12,6 +12,7 @@
     "build": "tsx scripts/build.ts",
     "optimize-images": "tsx scripts/optimize-images.ts",
     "add-token": "tsx scripts/add-token.ts",
+    "import-rpcs": "tsx scripts/import-rpcs.ts",
     "lint": "biome check .",
     "format": "biome format --write ."
   },
