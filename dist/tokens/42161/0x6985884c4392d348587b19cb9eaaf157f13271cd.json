@@ -1,7 +1,7 @@
 {
-  "address": "0x6985884c4392d348587b19cb9eaaf157f13271cd",
-  "chainId": 42161,
-  "name": "LayerZero",
-  "symbol": "ZRO",
-  "decimals": 18
+	"address": "0x6985884c4392d348587b19cb9eaaf157f13271cd",
+	"chainId": 42161,
+	"name": "LayerZero",
+	"symbol": "ZRO",
+	"decimals": 18
 }

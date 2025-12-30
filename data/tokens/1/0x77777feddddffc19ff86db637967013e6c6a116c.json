@@ -1,7 +1,7 @@
 {
-  "address": "0x77777feddddffc19ff86db637967013e6c6a116c",
-  "chainId": 1,
-  "name": "Tornado Cash",
-  "symbol": "TORN",
-  "decimals": 18
+	"address": "0x77777feddddffc19ff86db637967013e6c6a116c",
+	"chainId": 1,
+	"name": "Tornado Cash",
+	"symbol": "TORN",
+	"decimals": 18
 }

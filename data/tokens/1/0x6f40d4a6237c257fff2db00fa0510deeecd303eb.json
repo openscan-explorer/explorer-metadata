@@ -1,7 +1,7 @@
 {
-  "address": "0x6f40d4a6237c257fff2db00fa0510deeecd303eb",
-  "chainId": 1,
-  "name": "Instadapp",
-  "symbol": "INST",
-  "decimals": 18
+	"address": "0x6f40d4a6237c257fff2db00fa0510deeecd303eb",
+	"chainId": 1,
+	"name": "Instadapp",
+	"symbol": "INST",
+	"decimals": 18
 }

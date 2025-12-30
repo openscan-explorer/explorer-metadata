@@ -1,7 +1,7 @@
 {
-  "address": "0x12970e6868f88f6557b76120662c1b3e50a646bf",
-  "chainId": 1,
-  "name": "Milady Meme Coin",
-  "symbol": "LADYS",
-  "decimals": 18
+	"address": "0x12970e6868f88f6557b76120662c1b3e50a646bf",
+	"chainId": 1,
+	"name": "Milady Meme Coin",
+	"symbol": "LADYS",
+	"decimals": 18
 }

@@ -1,7 +1,7 @@
 {
-  "address": "0xbe3ca34d0e3e3616e1c1a8c67e0c1b242d0ec1f4",
-  "chainId": 8453,
-  "name": "SPX6900",
-  "symbol": "SPX",
-  "decimals": 8
+	"address": "0xbe3ca34d0e3e3616e1c1a8c67e0c1b242d0ec1f4",
+	"chainId": 8453,
+	"name": "SPX6900",
+	"symbol": "SPX",
+	"decimals": 8
 }

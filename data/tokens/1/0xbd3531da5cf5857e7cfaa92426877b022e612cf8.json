@@ -1,9 +1,9 @@
 {
-  "address": "0xbd3531da5cf5857e7cfaa92426877b022e612cf8",
-  "chainId": 1,
-  "type": "ERC721",
-  "name": "Pudgy Penguins",
-  "symbol": "PPG",
-  "decimals": 0,
-  "totalSupply": 8888
+	"address": "0xbd3531da5cf5857e7cfaa92426877b022e612cf8",
+	"chainId": 1,
+	"type": "ERC721",
+	"name": "Pudgy Penguins",
+	"symbol": "PPG",
+	"decimals": 0,
+	"totalSupply": 8888
 }

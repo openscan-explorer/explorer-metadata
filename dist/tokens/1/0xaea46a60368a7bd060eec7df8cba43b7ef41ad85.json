@@ -1,7 +1,7 @@
 {
-  "address": "0xaea46a60368a7bd060eec7df8cba43b7ef41ad85",
-  "chainId": 1,
-  "name": "Fetch.ai",
-  "symbol": "FET",
-  "decimals": 18
+	"address": "0xaea46a60368a7bd060eec7df8cba43b7ef41ad85",
+	"chainId": 1,
+	"name": "Fetch.ai",
+	"symbol": "FET",
+	"decimals": 18
 }

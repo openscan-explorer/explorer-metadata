@@ -1,7 +1,7 @@
 {
-  "address": "0x73968b9a57c6e53d41345fd57a6e6ae27d6cdb2f",
-  "chainId": 1,
-  "name": "Stake DAO CRV",
-  "symbol": "sdCRV",
-  "decimals": 18
+	"address": "0x73968b9a57c6e53d41345fd57a6e6ae27d6cdb2f",
+	"chainId": 1,
+	"name": "Stake DAO CRV",
+	"symbol": "sdCRV",
+	"decimals": 18
 }

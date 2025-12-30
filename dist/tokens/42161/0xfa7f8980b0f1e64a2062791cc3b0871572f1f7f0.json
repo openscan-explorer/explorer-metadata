@@ -1,7 +1,7 @@
 {
-  "address": "0xfa7f8980b0f1e64a2062791cc3b0871572f1f7f0",
-  "chainId": 42161,
-  "name": "Uniswap",
-  "symbol": "UNI",
-  "decimals": 18
+	"address": "0xfa7f8980b0f1e64a2062791cc3b0871572f1f7f0",
+	"chainId": 42161,
+	"name": "Uniswap",
+	"symbol": "UNI",
+	"decimals": 18
 }

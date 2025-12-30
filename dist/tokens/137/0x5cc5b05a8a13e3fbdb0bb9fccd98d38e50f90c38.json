@@ -1,9 +1,9 @@
 {
-  "address": "0x5cc5b05a8a13e3fbdb0bb9fccd98d38e50f90c38",
-  "chainId": 137,
-  "type": "ERC721",
-  "name": "The Sandbox LAND",
-  "symbol": "LAND",
-  "decimals": 0,
-  "totalSupply": 166464
+	"address": "0x5cc5b05a8a13e3fbdb0bb9fccd98d38e50f90c38",
+	"chainId": 137,
+	"type": "ERC721",
+	"name": "The Sandbox LAND",
+	"symbol": "LAND",
+	"decimals": 0,
+	"totalSupply": 166464
 }

@@ -1,7 +1,7 @@
 {
-  "address": "0xfe8b128ba8c78aabc59d4c64cee7ff28e9379921",
-  "chainId": 10,
-  "name": "Balancer",
-  "symbol": "BAL",
-  "decimals": 18
+	"address": "0xfe8b128ba8c78aabc59d4c64cee7ff28e9379921",
+	"chainId": 10,
+	"name": "Balancer",
+	"symbol": "BAL",
+	"decimals": 18
 }

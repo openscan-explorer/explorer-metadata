@@ -1,7 +1,7 @@
 {
-  "address": "0xd31a59c85ae9d8edefec411d448f90841571b89c",
-  "chainId": 1,
-  "name": "SOL Wormhole",
-  "symbol": "SOL",
-  "decimals": 9
+	"address": "0xd31a59c85ae9d8edefec411d448f90841571b89c",
+	"chainId": 1,
+	"name": "SOL Wormhole",
+	"symbol": "SOL",
+	"decimals": 9
 }

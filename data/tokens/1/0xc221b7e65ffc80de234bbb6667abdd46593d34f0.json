@@ -1,7 +1,7 @@
 {
-  "address": "0xc221b7e65ffc80de234bbb6667abdd46593d34f0",
-  "chainId": 1,
-  "name": "Wrapped Centrifuge",
-  "symbol": "wCFG",
-  "decimals": 18
+	"address": "0xc221b7e65ffc80de234bbb6667abdd46593d34f0",
+	"chainId": 1,
+	"name": "Wrapped Centrifuge",
+	"symbol": "wCFG",
+	"decimals": 18
 }

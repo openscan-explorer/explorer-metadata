@@ -1,7 +1,7 @@
 {
-  "address": "0xce7de646e7208a4ef112cb6ed5038fa6cc6b12e3",
-  "chainId": 56,
-  "name": "TRON",
-  "symbol": "TRX",
-  "decimals": 6
+	"address": "0xce7de646e7208a4ef112cb6ed5038fa6cc6b12e3",
+	"chainId": 56,
+	"name": "TRON",
+	"symbol": "TRX",
+	"decimals": 6
 }

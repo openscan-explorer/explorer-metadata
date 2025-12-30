@@ -1,7 +1,7 @@
 {
-  "address": "0xedc817a28e8b93b03976fbd4a3ddbc9f7d176c22",
-  "chainId": 8453,
-  "name": "Beefy",
-  "symbol": "BIFI",
-  "decimals": 18
+	"address": "0xedc817a28e8b93b03976fbd4a3ddbc9f7d176c22",
+	"chainId": 8453,
+	"name": "Beefy",
+	"symbol": "BIFI",
+	"decimals": 18
 }

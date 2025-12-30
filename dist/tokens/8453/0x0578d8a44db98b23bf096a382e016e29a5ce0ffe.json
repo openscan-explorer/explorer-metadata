@@ -1,7 +1,7 @@
 {
-  "address": "0x0578d8a44db98b23bf096a382e016e29a5ce0ffe",
-  "chainId": 8453,
-  "name": "higher",
-  "symbol": "HIGHER",
-  "decimals": 18
+	"address": "0x0578d8a44db98b23bf096a382e016e29a5ce0ffe",
+	"chainId": 8453,
+	"name": "higher",
+	"symbol": "HIGHER",
+	"decimals": 18
 }

@@ -1,7 +1,7 @@
 {
-  "address": "0x532f27101965dd16442e59d40670faf5ebb142e4",
-  "chainId": 8453,
-  "name": "Brett",
-  "symbol": "BRETT",
-  "decimals": 18
+	"address": "0x532f27101965dd16442e59d40670faf5ebb142e4",
+	"chainId": 8453,
+	"name": "Brett",
+	"symbol": "BRETT",
+	"decimals": 18
 }

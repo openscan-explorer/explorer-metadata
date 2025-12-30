@@ -1,7 +1,7 @@
 {
-  "address": "0x1c7a460413dd4e964f96d8dfc56e7223ce88cd85",
-  "chainId": 8453,
-  "name": "Seamless WETH",
-  "symbol": "sWETH",
-  "decimals": 18
+	"address": "0x1c7a460413dd4e964f96d8dfc56e7223ce88cd85",
+	"chainId": 8453,
+	"name": "Seamless WETH",
+	"symbol": "sWETH",
+	"decimals": 18
 }

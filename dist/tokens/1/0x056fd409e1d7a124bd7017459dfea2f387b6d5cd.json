@@ -1,7 +1,7 @@
 {
-  "address": "0x056fd409e1d7a124bd7017459dfea2f387b6d5cd",
-  "chainId": 1,
-  "name": "Gemini Dollar",
-  "symbol": "GUSD",
-  "decimals": 2
+	"address": "0x056fd409e1d7a124bd7017459dfea2f387b6d5cd",
+	"chainId": 1,
+	"name": "Gemini Dollar",
+	"symbol": "GUSD",
+	"decimals": 2
 }

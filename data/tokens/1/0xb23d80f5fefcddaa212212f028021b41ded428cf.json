@@ -1,7 +1,7 @@
 {
-  "address": "0xb23d80f5fefcddaa212212f028021b41ded428cf",
-  "chainId": 1,
-  "name": "Prime",
-  "symbol": "PRIME",
-  "decimals": 18
+	"address": "0xb23d80f5fefcddaa212212f028021b41ded428cf",
+	"chainId": 1,
+	"name": "Prime",
+	"symbol": "PRIME",
+	"decimals": 18
 }

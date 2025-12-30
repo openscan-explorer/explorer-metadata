@@ -1,7 +1,7 @@
 {
-  "address": "0xbb0e17ef65f82ab018d8edd776e8dd940327b28b",
-  "chainId": 1,
-  "name": "Axie Infinity",
-  "symbol": "AXS",
-  "decimals": 18
+	"address": "0xbb0e17ef65f82ab018d8edd776e8dd940327b28b",
+	"chainId": 1,
+	"name": "Axie Infinity",
+	"symbol": "AXS",
+	"decimals": 18
 }

@@ -1,7 +1,7 @@
 {
-  "address": "0x1456688345527be1f37e9e627da0837d6f08c925",
-  "chainId": 1,
-  "name": "PayPal USD",
-  "symbol": "PYUSD",
-  "decimals": 6
+	"address": "0x1456688345527be1f37e9e627da0837d6f08c925",
+	"chainId": 1,
+	"name": "PayPal USD",
+	"symbol": "PYUSD",
+	"decimals": 6
 }

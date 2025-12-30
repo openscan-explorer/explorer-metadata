@@ -1,7 +1,7 @@
 {
-  "address": "0x2da56acb9ea78330f947bd57c54119debda7af71",
-  "chainId": 8453,
-  "name": "Mog Coin",
-  "symbol": "MOG",
-  "decimals": 18
+	"address": "0x2da56acb9ea78330f947bd57c54119debda7af71",
+	"chainId": 8453,
+	"name": "Mog Coin",
+	"symbol": "MOG",
+	"decimals": 18
 }

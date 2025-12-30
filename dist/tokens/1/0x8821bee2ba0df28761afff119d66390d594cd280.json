@@ -1,9 +1,9 @@
 {
-  "address": "0x8821bee2ba0df28761afff119d66390d594cd280",
-  "chainId": 1,
-  "type": "ERC721",
-  "name": "DeGods",
-  "symbol": "DEGODS",
-  "decimals": 0,
-  "totalSupply": 10000
+	"address": "0x8821bee2ba0df28761afff119d66390d594cd280",
+	"chainId": 1,
+	"type": "ERC721",
+	"name": "DeGods",
+	"symbol": "DEGODS",
+	"decimals": 0,
+	"totalSupply": 10000
 }

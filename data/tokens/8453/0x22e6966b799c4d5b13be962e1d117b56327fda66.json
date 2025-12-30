@@ -1,7 +1,7 @@
 {
-  "address": "0x22e6966b799c4d5b13be962e1d117b56327fda66",
-  "chainId": 8453,
-  "name": "Seamless",
-  "symbol": "SEAM",
-  "decimals": 18
+	"address": "0x22e6966b799c4d5b13be962e1d117b56327fda66",
+	"chainId": 8453,
+	"name": "Seamless",
+	"symbol": "SEAM",
+	"decimals": 18
 }

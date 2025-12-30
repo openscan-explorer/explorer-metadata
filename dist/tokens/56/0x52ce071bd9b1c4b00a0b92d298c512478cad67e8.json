@@ -1,7 +1,7 @@
 {
-  "address": "0x52ce071bd9b1c4b00a0b92d298c512478cad67e8",
-  "chainId": 56,
-  "name": "Compound",
-  "symbol": "COMP",
-  "decimals": 18
+	"address": "0x52ce071bd9b1c4b00a0b92d298c512478cad67e8",
+	"chainId": 56,
+	"name": "Compound",
+	"symbol": "COMP",
+	"decimals": 18
 }

@@ -1,7 +1,7 @@
 {
-  "address": "0x2dad3a13ef0c6366220f989157009e501e7938f8",
-  "chainId": 8453,
-  "name": "Extra Finance",
-  "symbol": "EXTRA",
-  "decimals": 18
+	"address": "0x2dad3a13ef0c6366220f989157009e501e7938f8",
+	"chainId": 8453,
+	"name": "Extra Finance",
+	"symbol": "EXTRA",
+	"decimals": 18
 }

@@ -1,7 +1,7 @@
 {
-  "address": "0xd1d2eb1b1e90b638588728b4130137d262c87cae",
-  "chainId": 1,
-  "name": "Gala",
-  "symbol": "GALA",
-  "decimals": 8
+	"address": "0xd1d2eb1b1e90b638588728b4130137d262c87cae",
+	"chainId": 1,
+	"name": "Gala",
+	"symbol": "GALA",
+	"decimals": 8
 }

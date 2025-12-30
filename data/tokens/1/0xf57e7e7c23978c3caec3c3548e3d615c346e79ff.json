@@ -1,7 +1,7 @@
 {
-  "address": "0xf57e7e7c23978c3caec3c3548e3d615c346e79ff",
-  "chainId": 1,
-  "name": "Immutable X",
-  "symbol": "IMX",
-  "decimals": 18
+	"address": "0xf57e7e7c23978c3caec3c3548e3d615c346e79ff",
+	"chainId": 1,
+	"name": "Immutable X",
+	"symbol": "IMX",
+	"decimals": 18
 }

@@ -1,9 +1,9 @@
 {
-  "address": "0x949bed087ff0241e04e98d807de3c3dd97eaa381",
-  "chainId": 8453,
-  "type": "ERC721",
-  "name": "Mochimons",
-  "symbol": "MOCHI",
-  "decimals": 0,
-  "totalSupply": 3333
+	"address": "0x949bed087ff0241e04e98d807de3c3dd97eaa381",
+	"chainId": 8453,
+	"type": "ERC721",
+	"name": "Mochimons",
+	"symbol": "MOCHI",
+	"decimals": 0,
+	"totalSupply": 3333
 }

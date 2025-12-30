@@ -1,9 +1,9 @@
 {
-  "address": "0x6325439389e0797ab35752b4f43a14c004f22a9c",
-  "chainId": 42161,
-  "type": "ERC721",
-  "name": "Smol Brains",
-  "symbol": "SMOLBRAIN",
-  "decimals": 0,
-  "totalSupply": 10640
+	"address": "0x6325439389e0797ab35752b4f43a14c004f22a9c",
+	"chainId": 42161,
+	"type": "ERC721",
+	"name": "Smol Brains",
+	"symbol": "SMOLBRAIN",
+	"decimals": 0,
+	"totalSupply": 10640
 }

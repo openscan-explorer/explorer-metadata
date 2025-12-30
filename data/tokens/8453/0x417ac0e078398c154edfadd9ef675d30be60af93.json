@@ -1,7 +1,7 @@
 {
-  "address": "0x417ac0e078398c154edfadd9ef675d30be60af93",
-  "chainId": 8453,
-  "name": "Curve DAO Token",
-  "symbol": "CRV",
-  "decimals": 18
+	"address": "0x417ac0e078398c154edfadd9ef675d30be60af93",
+	"chainId": 8453,
+	"name": "Curve DAO Token",
+	"symbol": "CRV",
+	"decimals": 18
 }

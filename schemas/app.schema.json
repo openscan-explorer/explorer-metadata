@@ -1,126 +1,126 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://metadata.openscan.io/schemas/app.schema.json",
-  "title": "App",
-  "description": "Crypto app metadata for OpenScan explorer (wallets, dApps, exchanges, tools)",
-  "type": "object",
-  "required": ["id", "name", "type"],
-  "properties": {
-    "id": {
-      "type": "string",
-      "pattern": "^[a-z0-9-]+$",
-      "description": "Unique identifier (lowercase, alphanumeric with hyphens)"
-    },
-    "name": {
-      "type": "string",
-      "minLength": 1,
-      "maxLength": 64,
-      "description": "Display name"
-    },
-    "type": {
-      "type": "string",
-      "enum": ["wallet", "dapp", "exchange", "tool", "infrastructure"],
-      "description": "App category"
-    },
-    "description": {
-      "type": "string",
-      "maxLength": 500,
-      "description": "Short description"
-    },
-    "subscription": {
-      "type": "object",
-      "required": ["tier", "expiresAt"],
-      "properties": {
-        "tier": {
-          "type": "integer",
-          "minimum": 1,
-          "description": "Subscription tier (1: Backer, 2: Partner, 3: Ally)"
-        },
-        "expiresAt": {
-          "type": "string",
-          "format": "date",
-          "description": "Subscription expiration date (YYYY-MM-DD)"
-        }
-      },
-      "description": "Subscription details"
-    },
-    "verified": {
-      "type": "boolean",
-      "default": false,
-      "description": "Whether the app is verified"
-    },
-    "logo": {
-      "type": "string",
-      "description": "Relative path to app logo"
-    },
-    "profile": {
-      "type": "string",
-      "description": "Relative path to markdown profile"
-    },
-    "contracts": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "required": ["chainId", "address"],
-        "properties": {
-          "chainId": {
-            "type": "integer",
-            "description": "Chain ID"
-          },
-          "address": {
-            "type": "string",
-            "pattern": "^0x[a-fA-F0-9]{40}$",
-            "description": "Contract address"
-          },
-          "label": {
-            "type": "string",
-            "description": "Human-readable label (e.g., 'Router', 'Factory')"
-          },
-          "verified": {
-            "type": "boolean",
-            "description": "Whether contract source is verified"
-          }
-        }
-      },
-      "description": "Important contracts associated with this app"
-    },
-    "networks": {
-      "type": "array",
-      "items": {
-        "type": "integer"
-      },
-      "description": "Chain IDs where the app is deployed"
-    },
-    "links": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "required": ["name", "url"],
-        "properties": {
-          "name": {
-            "type": "string",
-            "description": "Link display name (e.g., Website, App, Docs)"
-          },
-          "url": {
-            "type": "string",
-            "format": "uri",
-            "description": "Link URL"
-          },
-          "description": {
-            "type": "string",
-            "description": "Optional description of the link"
-          }
-        }
-      },
-      "description": "App links"
-    },
-    "tags": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      },
-      "description": "Categorization tags (e.g., defi, nft, lending)"
-    }
-  },
-  "additionalProperties": false
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "https://metadata.openscan.io/schemas/app.schema.json",
+	"title": "App",
+	"description": "Crypto app metadata for OpenScan explorer (wallets, dApps, exchanges, tools)",
+	"type": "object",
+	"required": ["id", "name", "type"],
+	"properties": {
+		"id": {
+			"type": "string",
+			"pattern": "^[a-z0-9-]+$",
+			"description": "Unique identifier (lowercase, alphanumeric with hyphens)"
+		},
+		"name": {
+			"type": "string",
+			"minLength": 1,
+			"maxLength": 64,
+			"description": "Display name"
+		},
+		"type": {
+			"type": "string",
+			"enum": ["wallet", "dapp", "exchange", "tool", "infrastructure"],
+			"description": "App category"
+		},
+		"description": {
+			"type": "string",
+			"maxLength": 500,
+			"description": "Short description"
+		},
+		"subscription": {
+			"type": "object",
+			"required": ["tier", "expiresAt"],
+			"properties": {
+				"tier": {
+					"type": "integer",
+					"minimum": 1,
+					"description": "Subscription tier (1: Backer, 2: Partner, 3: Ally)"
+				},
+				"expiresAt": {
+					"type": "string",
+					"format": "date",
+					"description": "Subscription expiration date (YYYY-MM-DD)"
+				}
+			},
+			"description": "Subscription details"
+		},
+		"verified": {
+			"type": "boolean",
+			"default": false,
+			"description": "Whether the app is verified"
+		},
+		"logo": {
+			"type": "string",
+			"description": "Relative path to app logo"
+		},
+		"profile": {
+			"type": "string",
+			"description": "Relative path to markdown profile"
+		},
+		"contracts": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"required": ["chainId", "address"],
+				"properties": {
+					"chainId": {
+						"type": "integer",
+						"description": "Chain ID"
+					},
+					"address": {
+						"type": "string",
+						"pattern": "^0x[a-fA-F0-9]{40}$",
+						"description": "Contract address"
+					},
+					"label": {
+						"type": "string",
+						"description": "Human-readable label (e.g., 'Router', 'Factory')"
+					},
+					"verified": {
+						"type": "boolean",
+						"description": "Whether contract source is verified"
+					}
+				}
+			},
+			"description": "Important contracts associated with this app"
+		},
+		"networks": {
+			"type": "array",
+			"items": {
+				"type": "integer"
+			},
+			"description": "Chain IDs where the app is deployed"
+		},
+		"links": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"required": ["name", "url"],
+				"properties": {
+					"name": {
+						"type": "string",
+						"description": "Link display name (e.g., Website, App, Docs)"
+					},
+					"url": {
+						"type": "string",
+						"format": "uri",
+						"description": "Link URL"
+					},
+					"description": {
+						"type": "string",
+						"description": "Optional description of the link"
+					}
+				}
+			},
+			"description": "App links"
+		},
+		"tags": {
+			"type": "array",
+			"items": {
+				"type": "string"
+			},
+			"description": "Categorization tags (e.g., defi, nft, lending)"
+		}
+	},
+	"additionalProperties": false
 }

@@ -1,7 +1,7 @@
 {
-  "address": "0xecbb3c47d54a9d8bf3cade74e63c6fe3b9fe43b2",
-  "chainId": 8453,
-  "name": "MOCHI",
-  "symbol": "MOCHI",
-  "decimals": 18
+	"address": "0xecbb3c47d54a9d8bf3cade74e63c6fe3b9fe43b2",
+	"chainId": 8453,
+	"name": "MOCHI",
+	"symbol": "MOCHI",
+	"decimals": 18
 }

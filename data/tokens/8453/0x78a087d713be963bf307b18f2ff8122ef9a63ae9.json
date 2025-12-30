@@ -1,7 +1,7 @@
 {
-  "address": "0x78a087d713be963bf307b18f2ff8122ef9a63ae9",
-  "chainId": 8453,
-  "name": "Baseswap Token",
-  "symbol": "BSWAP",
-  "decimals": 18
+	"address": "0x78a087d713be963bf307b18f2ff8122ef9a63ae9",
+	"chainId": 8453,
+	"name": "Baseswap Token",
+	"symbol": "BSWAP",
+	"decimals": 18
 }

@@ -1,7 +1,7 @@
 {
-  "address": "0x9a26f5433671751c3276a065f57e5a02d2817973",
-  "chainId": 8453,
-  "name": "Keyboard Cat",
-  "symbol": "KEYCAT",
-  "decimals": 18
+	"address": "0x9a26f5433671751c3276a065f57e5a02d2817973",
+	"chainId": 8453,
+	"name": "Keyboard Cat",
+	"symbol": "KEYCAT",
+	"decimals": 18
 }

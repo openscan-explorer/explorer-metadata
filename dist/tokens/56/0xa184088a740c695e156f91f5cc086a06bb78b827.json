@@ -1,7 +1,7 @@
 {
-  "address": "0xa184088a740c695e156f91f5cc086a06bb78b827",
-  "chainId": 56,
-  "name": "AUTOv2",
-  "symbol": "AUTO",
-  "decimals": 18
+	"address": "0xa184088a740c695e156f91f5cc086a06bb78b827",
+	"chainId": 56,
+	"name": "AUTOv2",
+	"symbol": "AUTO",
+	"decimals": 18
 }

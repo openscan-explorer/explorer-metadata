@@ -1,7 +1,7 @@
 {
-  "address": "0x4621b7a9c75199271f773ebd9a499dbd165c3191",
-  "chainId": 8453,
-  "name": "Dolomite",
-  "symbol": "DOLO",
-  "decimals": 18
+	"address": "0x4621b7a9c75199271f773ebd9a499dbd165c3191",
+	"chainId": 8453,
+	"name": "Dolomite",
+	"symbol": "DOLO",
+	"decimals": 18
 }

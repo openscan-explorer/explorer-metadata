@@ -1,27 +1,27 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://metadata.openscan.io/schemas/event.schema.json",
-  "title": "Events",
-  "description": "Chain-specific event signatures for OpenScan explorer. Events are indexed by topic0 (keccak256 hash of the event signature).",
-  "type": "object",
-  "additionalProperties": {
-    "type": "object",
-    "properties": {
-      "event": {
-        "type": "string",
-        "description": "Event signature (e.g., 'Transfer(address,address,uint256)')",
-        "pattern": "^[A-Za-z_][A-Za-z0-9_]*\\(.*\\)$"
-      },
-      "description": {
-        "type": "string",
-        "description": "Human-readable description of the event"
-      }
-    },
-    "required": ["event", "description"],
-    "additionalProperties": false
-  },
-  "propertyNames": {
-    "pattern": "^0x[a-f0-9]{64}$",
-    "description": "Topic0 hash (keccak256 of event signature)"
-  }
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "https://metadata.openscan.io/schemas/event.schema.json",
+	"title": "Events",
+	"description": "Chain-specific event signatures for OpenScan explorer. Events are indexed by topic0 (keccak256 hash of the event signature).",
+	"type": "object",
+	"additionalProperties": {
+		"type": "object",
+		"properties": {
+			"event": {
+				"type": "string",
+				"description": "Event signature (e.g., 'Transfer(address,address,uint256)')",
+				"pattern": "^[A-Za-z_][A-Za-z0-9_]*\\(.*\\)$"
+			},
+			"description": {
+				"type": "string",
+				"description": "Human-readable description of the event"
+			}
+		},
+		"required": ["event", "description"],
+		"additionalProperties": false
+	},
+	"propertyNames": {
+		"pattern": "^0x[a-f0-9]{64}$",
+		"description": "Topic0 hash (keccak256 of event signature)"
+	}
 }

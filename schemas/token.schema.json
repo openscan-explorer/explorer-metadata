@@ -1,142 +1,142 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://metadata.openscan.io/schemas/token.schema.json",
-  "title": "Token",
-  "description": "Token metadata for OpenScan explorer. Supports ERC20, ERC721, and ERC1155 tokens. Free listings require: address, chainId, name, symbol, decimals, and verified contract. Paid subscriptions unlock additional features like logo, profile, links, and project info.",
-  "type": "object",
-  "required": ["address", "chainId", "name", "symbol", "decimals"],
-  "properties": {
-    "address": {
-      "type": "string",
-      "pattern": "^0x[a-fA-F0-9]{40}$",
-      "description": "Token contract address (checksummed)"
-    },
-    "chainId": {
-      "type": "integer",
-      "description": "Chain ID where the token is deployed"
-    },
-    "type": {
-      "type": "string",
-      "enum": ["ERC20", "ERC721", "ERC1155"],
-      "default": "ERC20",
-      "description": "Token standard type"
-    },
-    "name": {
-      "type": "string",
-      "minLength": 1,
-      "maxLength": 64,
-      "description": "Token name"
-    },
-    "symbol": {
-      "type": "string",
-      "minLength": 1,
-      "maxLength": 16,
-      "description": "Token symbol"
-    },
-    "decimals": {
-      "type": "integer",
-      "minimum": 0,
-      "maximum": 18,
-      "description": "Token decimals"
-    },
-    "subscription": {
-      "type": "object",
-      "required": ["tier", "expiresAt"],
-      "properties": {
-        "tier": {
-          "type": "integer",
-          "minimum": 1,
-          "description": "Subscription tier (1: Backer, 2: Partner, 3: Ally)"
-        },
-        "expiresAt": {
-          "type": "string",
-          "format": "date",
-          "description": "Subscription expiration date (YYYY-MM-DD)"
-        }
-      },
-      "description": "Subscription details"
-    },
-    "verified": {
-      "type": "boolean",
-      "default": false,
-      "description": "Whether the token is verified"
-    },
-    "logo": {
-      "type": "string",
-      "description": "Relative path to token logo"
-    },
-    "profile": {
-      "type": "string",
-      "description": "Relative path to markdown profile"
-    },
-    "project": {
-      "type": "object",
-      "properties": {
-        "name": {
-          "type": "string",
-          "description": "Project or company name"
-        },
-        "description": {
-          "type": "string",
-          "maxLength": 500,
-          "description": "Short description of the token/project"
-        }
-      }
-    },
-    "links": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "required": ["name", "url"],
-        "properties": {
-          "name": {
-            "type": "string",
-            "description": "Link display name (e.g., Website, Twitter, GitHub)"
-          },
-          "url": {
-            "type": "string",
-            "format": "uri",
-            "description": "Link URL"
-          },
-          "description": {
-            "type": "string",
-            "description": "Optional description of the link"
-          }
-        }
-      },
-      "description": "Project links"
-    },
-    "networks": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "required": ["chainId", "address"],
-        "properties": {
-          "chainId": {
-            "type": "integer",
-            "description": "Chain ID"
-          },
-          "address": {
-            "type": "string",
-            "pattern": "^0x[a-fA-F0-9]{40}$",
-            "description": "Token contract address on this chain"
-          }
-        }
-      },
-      "description": "Other networks where this token is deployed"
-    },
-    "tags": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      },
-      "description": "Categorization tags (e.g., stablecoin, defi, governance)"
-    },
-    "totalSupply": {
-      "type": "integer",
-      "minimum": 0,
-      "description": "Total supply for NFT collections (ERC721/ERC1155)"
-    }
-  },
-  "additionalProperties": false
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "https://metadata.openscan.io/schemas/token.schema.json",
+	"title": "Token",
+	"description": "Token metadata for OpenScan explorer. Supports ERC20, ERC721, and ERC1155 tokens. Free listings require: address, chainId, name, symbol, decimals, and verified contract. Paid subscriptions unlock additional features like logo, profile, links, and project info.",
+	"type": "object",
+	"required": ["address", "chainId", "name", "symbol", "decimals"],
+	"properties": {
+		"address": {
+			"type": "string",
+			"pattern": "^0x[a-fA-F0-9]{40}$",
+			"description": "Token contract address (checksummed)"
+		},
+		"chainId": {
+			"type": "integer",
+			"description": "Chain ID where the token is deployed"
+		},
+		"type": {
+			"type": "string",
+			"enum": ["ERC20", "ERC721", "ERC1155"],
+			"default": "ERC20",
+			"description": "Token standard type"
+		},
+		"name": {
+			"type": "string",
+			"minLength": 1,
+			"maxLength": 64,
+			"description": "Token name"
+		},
+		"symbol": {
+			"type": "string",
+			"minLength": 1,
+			"maxLength": 16,
+			"description": "Token symbol"
+		},
+		"decimals": {
+			"type": "integer",
+			"minimum": 0,
+			"maximum": 18,
+			"description": "Token decimals"
+		},
+		"subscription": {
+			"type": "object",
+			"required": ["tier", "expiresAt"],
+			"properties": {
+				"tier": {
+					"type": "integer",
+					"minimum": 1,
+					"description": "Subscription tier (1: Backer, 2: Partner, 3: Ally)"
+				},
+				"expiresAt": {
+					"type": "string",
+					"format": "date",
+					"description": "Subscription expiration date (YYYY-MM-DD)"
+				}
+			},
+			"description": "Subscription details"
+		},
+		"verified": {
+			"type": "boolean",
+			"default": false,
+			"description": "Whether the token is verified"
+		},
+		"logo": {
+			"type": "string",
+			"description": "Relative path to token logo"
+		},
+		"profile": {
+			"type": "string",
+			"description": "Relative path to markdown profile"
+		},
+		"project": {
+			"type": "object",
+			"properties": {
+				"name": {
+					"type": "string",
+					"description": "Project or company name"
+				},
+				"description": {
+					"type": "string",
+					"maxLength": 500,
+					"description": "Short description of the token/project"
+				}
+			}
+		},
+		"links": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"required": ["name", "url"],
+				"properties": {
+					"name": {
+						"type": "string",
+						"description": "Link display name (e.g., Website, Twitter, GitHub)"
+					},
+					"url": {
+						"type": "string",
+						"format": "uri",
+						"description": "Link URL"
+					},
+					"description": {
+						"type": "string",
+						"description": "Optional description of the link"
+					}
+				}
+			},
+			"description": "Project links"
+		},
+		"networks": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"required": ["chainId", "address"],
+				"properties": {
+					"chainId": {
+						"type": "integer",
+						"description": "Chain ID"
+					},
+					"address": {
+						"type": "string",
+						"pattern": "^0x[a-fA-F0-9]{40}$",
+						"description": "Token contract address on this chain"
+					}
+				}
+			},
+			"description": "Other networks where this token is deployed"
+		},
+		"tags": {
+			"type": "array",
+			"items": {
+				"type": "string"
+			},
+			"description": "Categorization tags (e.g., stablecoin, defi, governance)"
+		},
+		"totalSupply": {
+			"type": "integer",
+			"minimum": 0,
+			"description": "Total supply for NFT collections (ERC721/ERC1155)"
+		}
+	},
+	"additionalProperties": false
 }

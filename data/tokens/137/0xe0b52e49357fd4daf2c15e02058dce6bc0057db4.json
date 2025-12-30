@@ -1,7 +1,7 @@
 {
-  "address": "0xe0b52e49357fd4daf2c15e02058dce6bc0057db4",
-  "chainId": 137,
-  "name": "agEUR",
-  "symbol": "agEUR",
-  "decimals": 18
+	"address": "0xe0b52e49357fd4daf2c15e02058dce6bc0057db4",
+	"chainId": 137,
+	"name": "agEUR",
+	"symbol": "agEUR",
+	"decimals": 18
 }

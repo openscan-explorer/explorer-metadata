@@ -1,7 +1,7 @@
 {
-  "address": "0x5283d291dbcf85356a21ba090e6db59121208b44",
-  "chainId": 1,
-  "name": "Blur",
-  "symbol": "BLUR",
-  "decimals": 18
+	"address": "0x5283d291dbcf85356a21ba090e6db59121208b44",
+	"chainId": 1,
+	"name": "Blur",
+	"symbol": "BLUR",
+	"decimals": 18
 }

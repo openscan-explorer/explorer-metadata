@@ -1,7 +1,7 @@
 {
-  "address": "0x4e352cf164e64adcbad318c3a1e222e9eba4ce42",
-  "chainId": 42161,
-  "name": "Merkle",
-  "symbol": "MKL",
-  "decimals": 18
+	"address": "0x4e352cf164e64adcbad318c3a1e222e9eba4ce42",
+	"chainId": 42161,
+	"name": "Merkle",
+	"symbol": "MKL",
+	"decimals": 18
 }

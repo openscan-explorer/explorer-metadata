@@ -1,8 +1,8 @@
 {
-  "address": "0x86935f11c86623dec8a25696e1c19a8659cbf95d",
-  "chainId": 137,
-  "type": "ERC721",
-  "name": "Aavegotchi",
-  "symbol": "GOTCHI",
-  "decimals": 0
+	"address": "0x86935f11c86623dec8a25696e1c19a8659cbf95d",
+	"chainId": 137,
+	"type": "ERC721",
+	"name": "Aavegotchi",
+	"symbol": "GOTCHI",
+	"decimals": 0
 }

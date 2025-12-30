@@ -1,9 +1,9 @@
 {
-  "address": "0x5f41842cff838120271d772c6994f051d418a4ad",
-  "chainId": 56,
-  "type": "ERC721",
-  "name": "PixelSweeper",
-  "symbol": "SWPR",
-  "decimals": 0,
-  "totalSupply": 10000
+	"address": "0x5f41842cff838120271d772c6994f051d418a4ad",
+	"chainId": 56,
+	"type": "ERC721",
+	"name": "PixelSweeper",
+	"symbol": "SWPR",
+	"decimals": 0,
+	"totalSupply": 10000
 }

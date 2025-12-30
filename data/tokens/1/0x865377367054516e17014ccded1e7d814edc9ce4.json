@@ -1,7 +1,7 @@
 {
-  "address": "0x865377367054516e17014ccded1e7d814edc9ce4",
-  "chainId": 1,
-  "name": "Dola USD Stablecoin",
-  "symbol": "DOLA",
-  "decimals": 18
+	"address": "0x865377367054516e17014ccded1e7d814edc9ce4",
+	"chainId": 1,
+	"name": "Dola USD Stablecoin",
+	"symbol": "DOLA",
+	"decimals": 18
 }

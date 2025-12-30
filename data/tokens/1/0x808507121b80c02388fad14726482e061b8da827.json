@@ -1,7 +1,7 @@
 {
-  "address": "0x808507121b80c02388fad14726482e061b8da827",
-  "chainId": 1,
-  "name": "Pendle",
-  "symbol": "PENDLE",
-  "decimals": 18
+	"address": "0x808507121b80c02388fad14726482e061b8da827",
+	"chainId": 1,
+	"name": "Pendle",
+	"symbol": "PENDLE",
+	"decimals": 18
 }

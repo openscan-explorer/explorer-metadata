@@ -1,7 +1,7 @@
 {
-  "address": "0xaddb6a0412de1ba0f936dcaeb8aaa24578dcf3b2",
-  "chainId": 10,
-  "name": "Coinbase Wrapped Staked ETH",
-  "symbol": "cbETH",
-  "decimals": 18
+	"address": "0xaddb6a0412de1ba0f936dcaeb8aaa24578dcf3b2",
+	"chainId": 10,
+	"name": "Coinbase Wrapped Staked ETH",
+	"symbol": "cbETH",
+	"decimals": 18
 }

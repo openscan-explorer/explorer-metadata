@@ -1,68 +1,68 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://metadata.openscan.io/schemas/supporter.schema.json",
-  "title": "Supporter",
-  "description": "Record of an OpenScan supporter with their subscription history",
-  "type": "object",
-  "required": ["id", "type", "startedAt"],
-  "properties": {
-    "id": {
-      "type": "string",
-      "description": "Reference to the entity (token address, chainId, app id, or org id)"
-    },
-    "type": {
-      "type": "string",
-      "enum": ["token", "network", "app", "organization"],
-      "description": "Type of supporter"
-    },
-    "chainId": {
-      "type": "integer",
-      "description": "Chain ID (required for tokens, optional for others)"
-    },
-    "name": {
-      "type": "string",
-      "description": "Display name of the supporter"
-    },
-    "startedAt": {
-      "type": "string",
-      "format": "date",
-      "description": "Date when they first became a supporter (YYYY-MM-DD)"
-    },
-    "currentTier": {
-      "type": "integer",
-      "minimum": 1,
-      "description": "Current subscription tier (1: Backer, 2: Partner, 3: Ally)"
-    },
-    "expiresAt": {
-      "type": "string",
-      "format": "date",
-      "description": "Current subscription expiration date (YYYY-MM-DD)"
-    },
-    "history": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "required": ["tier", "from", "to"],
-        "properties": {
-          "tier": {
-            "type": "integer",
-            "minimum": 1,
-            "description": "Subscription tier"
-          },
-          "from": {
-            "type": "string",
-            "format": "date",
-            "description": "Start date of this subscription period"
-          },
-          "to": {
-            "type": "string",
-            "format": "date",
-            "description": "End date of this subscription period"
-          }
-        }
-      },
-      "description": "Subscription history"
-    }
-  },
-  "additionalProperties": false
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "https://metadata.openscan.io/schemas/supporter.schema.json",
+	"title": "Supporter",
+	"description": "Record of an OpenScan supporter with their subscription history",
+	"type": "object",
+	"required": ["id", "type", "startedAt"],
+	"properties": {
+		"id": {
+			"type": "string",
+			"description": "Reference to the entity (token address, chainId, app id, or org id)"
+		},
+		"type": {
+			"type": "string",
+			"enum": ["token", "network", "app", "organization"],
+			"description": "Type of supporter"
+		},
+		"chainId": {
+			"type": "integer",
+			"description": "Chain ID (required for tokens, optional for others)"
+		},
+		"name": {
+			"type": "string",
+			"description": "Display name of the supporter"
+		},
+		"startedAt": {
+			"type": "string",
+			"format": "date",
+			"description": "Date when they first became a supporter (YYYY-MM-DD)"
+		},
+		"currentTier": {
+			"type": "integer",
+			"minimum": 1,
+			"description": "Current subscription tier (1: Backer, 2: Partner, 3: Ally)"
+		},
+		"expiresAt": {
+			"type": "string",
+			"format": "date",
+			"description": "Current subscription expiration date (YYYY-MM-DD)"
+		},
+		"history": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"required": ["tier", "from", "to"],
+				"properties": {
+					"tier": {
+						"type": "integer",
+						"minimum": 1,
+						"description": "Subscription tier"
+					},
+					"from": {
+						"type": "string",
+						"format": "date",
+						"description": "Start date of this subscription period"
+					},
+					"to": {
+						"type": "string",
+						"format": "date",
+						"description": "End date of this subscription period"
+					}
+				}
+			},
+			"description": "Subscription history"
+		}
+	},
+	"additionalProperties": false
 }

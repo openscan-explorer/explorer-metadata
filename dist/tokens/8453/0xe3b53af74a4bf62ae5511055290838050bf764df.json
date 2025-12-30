@@ -1,7 +1,7 @@
 {
-  "address": "0xe3b53af74a4bf62ae5511055290838050bf764df",
-  "chainId": 8453,
-  "name": "StargateToken",
-  "symbol": "STG",
-  "decimals": 18
+	"address": "0xe3b53af74a4bf62ae5511055290838050bf764df",
+	"chainId": 8453,
+	"name": "StargateToken",
+	"symbol": "STG",
+	"decimals": 18
 }

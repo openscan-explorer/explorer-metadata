@@ -1,7 +1,7 @@
 {
-  "address": "0xbaa5cc21fd487b8fcc2f632f3f4e8d37262a0842",
-  "chainId": 8453,
-  "name": "Morpho Token",
-  "symbol": "MORPHO",
-  "decimals": 18
+	"address": "0xbaa5cc21fd487b8fcc2f632f3f4e8d37262a0842",
+	"chainId": 8453,
+	"name": "Morpho Token",
+	"symbol": "MORPHO",
+	"decimals": 18
 }

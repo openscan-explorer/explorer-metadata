@@ -1,7 +1,7 @@
 {
-  "address": "0x0a27e060c0406f8ab7b64e3bee036a37e5a62853",
-  "chainId": 8453,
-  "name": "ChainLink Token",
-  "symbol": "LINK",
-  "decimals": 18
+	"address": "0x0a27e060c0406f8ab7b64e3bee036a37e5a62853",
+	"chainId": 8453,
+	"name": "ChainLink Token",
+	"symbol": "LINK",
+	"decimals": 18
 }

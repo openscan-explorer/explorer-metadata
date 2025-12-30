@@ -1,7 +1,7 @@
 {
-  "address": "0x6f8a06447ff6fcf75d803135a7de15ce88c1d4ec",
-  "chainId": 137,
-  "name": "SHIBA INU",
-  "symbol": "SHIB",
-  "decimals": 18
+	"address": "0x6f8a06447ff6fcf75d803135a7de15ce88c1d4ec",
+	"chainId": 137,
+	"name": "SHIBA INU",
+	"symbol": "SHIB",
+	"decimals": 18
 }

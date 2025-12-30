@@ -1,8 +1,8 @@
 {
-  "address": "0xa93c62d7a23a1d31dcfc4a285401f8d4ed1f5cc4",
-  "chainId": 137,
-  "type": "ERC721",
-  "name": "Reddit Collectible Avatars",
-  "symbol": "AVATAR",
-  "decimals": 0
+	"address": "0xa93c62d7a23a1d31dcfc4a285401f8d4ed1f5cc4",
+	"chainId": 137,
+	"type": "ERC721",
+	"name": "Reddit Collectible Avatars",
+	"symbol": "AVATAR",
+	"decimals": 0
 }

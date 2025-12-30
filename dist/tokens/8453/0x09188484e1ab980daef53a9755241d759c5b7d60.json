@@ -1,7 +1,7 @@
 {
-  "address": "0x09188484e1ab980daef53a9755241d759c5b7d60",
-  "chainId": 8453,
-  "name": "Miggles",
-  "symbol": "MIGGLES",
-  "decimals": 18
+	"address": "0x09188484e1ab980daef53a9755241d759c5b7d60",
+	"chainId": 8453,
+	"name": "Miggles",
+	"symbol": "MIGGLES",
+	"decimals": 18
 }

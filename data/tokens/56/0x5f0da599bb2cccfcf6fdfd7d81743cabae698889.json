@@ -1,7 +1,7 @@
 {
-  "address": "0x5f0da599bb2cccfcf6fdfd7d81743cabae698889",
-  "chainId": 56,
-  "name": "Maker",
-  "symbol": "MKR",
-  "decimals": 18
+	"address": "0x5f0da599bb2cccfcf6fdfd7d81743cabae698889",
+	"chainId": 56,
+	"name": "Maker",
+	"symbol": "MKR",
+	"decimals": 18
 }

@@ -1,7 +1,7 @@
 {
-  "address": "0x18c11fd286c5ec11c3b683caa813b77f5163a122",
-  "chainId": 42161,
-  "name": "Gains Network",
-  "symbol": "GNS",
-  "decimals": 18
+	"address": "0x18c11fd286c5ec11c3b683caa813b77f5163a122",
+	"chainId": 42161,
+	"name": "Gains Network",
+	"symbol": "GNS",
+	"decimals": 18
 }

@@ -1,7 +1,7 @@
 {
-  "address": "0x83f20f44975d03b1b09e64809b757c47f942beea",
-  "chainId": 1,
-  "name": "Savings Dai",
-  "symbol": "sDAI",
-  "decimals": 18
+	"address": "0x83f20f44975d03b1b09e64809b757c47f942beea",
+	"chainId": 1,
+	"name": "Savings Dai",
+	"symbol": "sDAI",
+	"decimals": 18
 }

@@ -1,9 +1,9 @@
 {
-  "address": "0xed5af388653567af2f388e6224dc7c4b3241c544",
-  "chainId": 1,
-  "type": "ERC721",
-  "name": "Azuki",
-  "symbol": "AZUKI",
-  "decimals": 0,
-  "totalSupply": 10000
+	"address": "0xed5af388653567af2f388e6224dc7c4b3241c544",
+	"chainId": 1,
+	"type": "ERC721",
+	"name": "Azuki",
+	"symbol": "AZUKI",
+	"decimals": 0,
+	"totalSupply": 10000
 }

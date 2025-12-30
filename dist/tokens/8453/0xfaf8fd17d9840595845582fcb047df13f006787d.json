@@ -1,7 +1,7 @@
 {
-  "address": "0xfaf8fd17d9840595845582fcb047df13f006787d",
-  "chainId": 8453,
-  "name": "Ondo",
-  "symbol": "ONDO",
-  "decimals": 18
+	"address": "0xfaf8fd17d9840595845582fcb047df13f006787d",
+	"chainId": 8453,
+	"name": "Ondo",
+	"symbol": "ONDO",
+	"decimals": 18
 }

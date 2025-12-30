@@ -1,7 +1,7 @@
 {
-  "address": "0x2af5d2ad76741191d15dfe7bf6ac92d4bd912ca3",
-  "chainId": 1,
-  "name": "LEO Token",
-  "symbol": "LEO",
-  "decimals": 18
+	"address": "0x2af5d2ad76741191d15dfe7bf6ac92d4bd912ca3",
+	"chainId": 1,
+	"name": "LEO Token",
+	"symbol": "LEO",
+	"decimals": 18
 }

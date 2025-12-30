@@ -1,7 +1,7 @@
 {
-  "address": "0x60a3e35cc302bfa44cb36dc52a6d85b7e508de5a",
-  "chainId": 8453,
-  "name": "EURC",
-  "symbol": "EURC",
-  "decimals": 6
+	"address": "0x60a3e35cc302bfa44cb36dc52a6d85b7e508de5a",
+	"chainId": 8453,
+	"name": "EURC",
+	"symbol": "EURC",
+	"decimals": 6
 }

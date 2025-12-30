@@ -1,107 +1,107 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://metadata.openscan.io/schemas/organization.schema.json",
-  "title": "Organization",
-  "description": "Company/organization metadata for OpenScan explorer (infrastructure providers, VCs, foundations)",
-  "type": "object",
-  "required": ["id", "name", "type"],
-  "properties": {
-    "id": {
-      "type": "string",
-      "pattern": "^[a-z0-9-]+$",
-      "description": "Unique identifier (lowercase, alphanumeric with hyphens)"
-    },
-    "name": {
-      "type": "string",
-      "minLength": 1,
-      "maxLength": 64,
-      "description": "Display name"
-    },
-    "type": {
-      "type": "string",
-      "enum": ["foundation", "infrastructure", "venture", "research", "other"],
-      "description": "Organization category"
-    },
-    "description": {
-      "type": "string",
-      "maxLength": 500,
-      "description": "Short description"
-    },
-    "subscription": {
-      "type": "object",
-      "required": ["tier", "expiresAt"],
-      "properties": {
-        "tier": {
-          "type": "integer",
-          "minimum": 1,
-          "description": "Subscription tier (1: Backer, 2: Partner, 3: Ally)"
-        },
-        "expiresAt": {
-          "type": "string",
-          "format": "date",
-          "description": "Subscription expiration date (YYYY-MM-DD)"
-        }
-      },
-      "description": "Subscription details"
-    },
-    "logo": {
-      "type": "string",
-      "description": "Relative path to organization logo"
-    },
-    "profile": {
-      "type": "string",
-      "description": "Relative path to markdown profile"
-    },
-    "contracts": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "required": ["chainId", "address"],
-        "properties": {
-          "chainId": {
-            "type": "integer",
-            "description": "Chain ID"
-          },
-          "address": {
-            "type": "string",
-            "pattern": "^0x[a-fA-F0-9]{40}$",
-            "description": "Contract address"
-          },
-          "label": {
-            "type": "string",
-            "description": "Human-readable label"
-          },
-          "verified": {
-            "type": "boolean",
-            "description": "Whether contract source is verified"
-          }
-        }
-      },
-      "description": "Important contracts associated with this organization"
-    },
-    "links": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "required": ["name", "url"],
-        "properties": {
-          "name": {
-            "type": "string",
-            "description": "Link display name (e.g., Website, Blog, Docs)"
-          },
-          "url": {
-            "type": "string",
-            "format": "uri",
-            "description": "Link URL"
-          },
-          "description": {
-            "type": "string",
-            "description": "Optional description of the link"
-          }
-        }
-      },
-      "description": "Organization links"
-    }
-  },
-  "additionalProperties": false
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "https://metadata.openscan.io/schemas/organization.schema.json",
+	"title": "Organization",
+	"description": "Company/organization metadata for OpenScan explorer (infrastructure providers, VCs, foundations)",
+	"type": "object",
+	"required": ["id", "name", "type"],
+	"properties": {
+		"id": {
+			"type": "string",
+			"pattern": "^[a-z0-9-]+$",
+			"description": "Unique identifier (lowercase, alphanumeric with hyphens)"
+		},
+		"name": {
+			"type": "string",
+			"minLength": 1,
+			"maxLength": 64,
+			"description": "Display name"
+		},
+		"type": {
+			"type": "string",
+			"enum": ["foundation", "infrastructure", "venture", "research", "other"],
+			"description": "Organization category"
+		},
+		"description": {
+			"type": "string",
+			"maxLength": 500,
+			"description": "Short description"
+		},
+		"subscription": {
+			"type": "object",
+			"required": ["tier", "expiresAt"],
+			"properties": {
+				"tier": {
+					"type": "integer",
+					"minimum": 1,
+					"description": "Subscription tier (1: Backer, 2: Partner, 3: Ally)"
+				},
+				"expiresAt": {
+					"type": "string",
+					"format": "date",
+					"description": "Subscription expiration date (YYYY-MM-DD)"
+				}
+			},
+			"description": "Subscription details"
+		},
+		"logo": {
+			"type": "string",
+			"description": "Relative path to organization logo"
+		},
+		"profile": {
+			"type": "string",
+			"description": "Relative path to markdown profile"
+		},
+		"contracts": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"required": ["chainId", "address"],
+				"properties": {
+					"chainId": {
+						"type": "integer",
+						"description": "Chain ID"
+					},
+					"address": {
+						"type": "string",
+						"pattern": "^0x[a-fA-F0-9]{40}$",
+						"description": "Contract address"
+					},
+					"label": {
+						"type": "string",
+						"description": "Human-readable label"
+					},
+					"verified": {
+						"type": "boolean",
+						"description": "Whether contract source is verified"
+					}
+				}
+			},
+			"description": "Important contracts associated with this organization"
+		},
+		"links": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"required": ["name", "url"],
+				"properties": {
+					"name": {
+						"type": "string",
+						"description": "Link display name (e.g., Website, Blog, Docs)"
+					},
+					"url": {
+						"type": "string",
+						"format": "uri",
+						"description": "Link URL"
+					},
+					"description": {
+						"type": "string",
+						"description": "Optional description of the link"
+					}
+				}
+			},
+			"description": "Organization links"
+		}
+	},
+	"additionalProperties": false
 }

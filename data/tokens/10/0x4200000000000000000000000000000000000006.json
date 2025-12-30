@@ -1,7 +1,7 @@
 {
-  "address": "0x4200000000000000000000000000000000000006",
-  "chainId": 10,
-  "name": "Wrapped Ether",
-  "symbol": "WETH",
-  "decimals": 18
+	"address": "0x4200000000000000000000000000000000000006",
+	"chainId": 10,
+	"name": "Wrapped Ether",
+	"symbol": "WETH",
+	"decimals": 18
 }

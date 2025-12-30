@@ -1,18 +1,34 @@
 {
-  "id": "openscan",
-  "name": "OpenScan",
-  "type": "infrastructure",
-  "description": "Open-source blockchain explorer and metadata repository for EVM networks",
-  "subscription": {
-    "tier": 3,
-    "expiresAt": "2099-12-31"
-  },
-  "logo": "assets/organizations/openscan.png",
-  "profile": "profiles/organizations/openscan.md",
-  "links": [
-    { "name": "Website", "url": "https://openscan.io", "description": "Official OpenScan website" },
-    { "name": "GitHub", "url": "https://github.com/openscan-io", "description": "OpenScan GitHub" },
-    { "name": "Docs", "url": "https://docs.openscan.io", "description": "Documentation" },
-    { "name": "Twitter", "url": "https://twitter.com/openscan_io", "description": "OpenScan Twitter" }
-  ]
+	"id": "openscan",
+	"name": "OpenScan",
+	"type": "infrastructure",
+	"description": "Open-source blockchain explorer and metadata repository for EVM networks",
+	"subscription": {
+		"tier": 3,
+		"expiresAt": "2099-12-31"
+	},
+	"logo": "assets/organizations/openscan.png",
+	"profile": "profiles/organizations/openscan.md",
+	"links": [
+		{
+			"name": "Website",
+			"url": "https://openscan.io",
+			"description": "Official OpenScan website"
+		},
+		{
+			"name": "GitHub",
+			"url": "https://github.com/openscan-io",
+			"description": "OpenScan GitHub"
+		},
+		{
+			"name": "Docs",
+			"url": "https://docs.openscan.io",
+			"description": "Documentation"
+		},
+		{
+			"name": "Twitter",
+			"url": "https://twitter.com/openscan_io",
+			"description": "OpenScan Twitter"
+		}
+	]
 }

@@ -1,7 +1,7 @@
 {
-  "address": "0xca5d8f8a8d49439357d3cf46ca2e720702f132b8",
-  "chainId": 8453,
-  "name": "GHO",
-  "symbol": "GHO",
-  "decimals": 18
+	"address": "0xca5d8f8a8d49439357d3cf46ca2e720702f132b8",
+	"chainId": 8453,
+	"name": "GHO",
+	"symbol": "GHO",
+	"decimals": 18
 }

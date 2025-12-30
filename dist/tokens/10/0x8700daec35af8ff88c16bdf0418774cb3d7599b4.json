@@ -1,7 +1,7 @@
 {
-  "address": "0x8700daec35af8ff88c16bdf0418774cb3d7599b4",
-  "chainId": 10,
-  "name": "Synthetix Network Token",
-  "symbol": "SNX",
-  "decimals": 18
+	"address": "0x8700daec35af8ff88c16bdf0418774cb3d7599b4",
+	"chainId": 10,
+	"name": "Synthetix Network Token",
+	"symbol": "SNX",
+	"decimals": 18
 }

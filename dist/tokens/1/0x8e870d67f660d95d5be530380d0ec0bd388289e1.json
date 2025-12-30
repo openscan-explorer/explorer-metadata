@@ -1,7 +1,7 @@
 {
-  "address": "0x8e870d67f660d95d5be530380d0ec0bd388289e1",
-  "chainId": 1,
-  "name": "Pax Dollar",
-  "symbol": "USDP",
-  "decimals": 18
+	"address": "0x8e870d67f660d95d5be530380d0ec0bd388289e1",
+	"chainId": 1,
+	"name": "Pax Dollar",
+	"symbol": "USDP",
+	"decimals": 18
 }

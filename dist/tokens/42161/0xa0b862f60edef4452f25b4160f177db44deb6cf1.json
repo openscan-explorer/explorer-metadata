@@ -1,7 +1,7 @@
 {
-  "address": "0xa0b862f60edef4452f25b4160f177db44deb6cf1",
-  "chainId": 42161,
-  "name": "Gnosis",
-  "symbol": "GNO",
-  "decimals": 18
+	"address": "0xa0b862f60edef4452f25b4160f177db44deb6cf1",
+	"chainId": 42161,
+	"name": "Gnosis",
+	"symbol": "GNO",
+	"decimals": 18
 }

@@ -1,9 +1,9 @@
 {
-  "address": "0xcb28749c24af4797808364d71d71539bc01e76d4",
-  "chainId": 8453,
-  "type": "ERC721",
-  "name": "Based Punks",
-  "symbol": "BPUNK",
-  "decimals": 0,
-  "totalSupply": 5000
+	"address": "0xcb28749c24af4797808364d71d71539bc01e76d4",
+	"chainId": 8453,
+	"type": "ERC721",
+	"name": "Based Punks",
+	"symbol": "BPUNK",
+	"decimals": 0,
+	"totalSupply": 5000
 }

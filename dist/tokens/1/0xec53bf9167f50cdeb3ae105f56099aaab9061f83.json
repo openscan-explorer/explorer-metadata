@@ -1,7 +1,7 @@
 {
-  "address": "0xec53bf9167f50cdeb3ae105f56099aaab9061f83",
-  "chainId": 1,
-  "name": "Eigen",
-  "symbol": "EIGEN",
-  "decimals": 18
+	"address": "0xec53bf9167f50cdeb3ae105f56099aaab9061f83",
+	"chainId": 1,
+	"name": "Eigen",
+	"symbol": "EIGEN",
+	"decimals": 18
 }

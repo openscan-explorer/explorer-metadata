@@ -1,9 +1,9 @@
 {
-  "address": "0xede855ced3e5a59aaa267abdddb0db21ccfe5072",
-  "chainId": 42161,
-  "type": "ERC721",
-  "name": "Diamond Pepes",
-  "symbol": "DPEPE",
-  "decimals": 0,
-  "totalSupply": 2222
+	"address": "0xede855ced3e5a59aaa267abdddb0db21ccfe5072",
+	"chainId": 42161,
+	"type": "ERC721",
+	"name": "Diamond Pepes",
+	"symbol": "DPEPE",
+	"decimals": 0,
+	"totalSupply": 2222
 }

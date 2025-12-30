@@ -1,9 +1,9 @@
 {
-  "address": "0x217ec1ac929a17481446a76ff9b95b9a64f298cf",
-  "chainId": 8453,
-  "type": "ERC721",
-  "name": "Based Fellas",
-  "symbol": "FELLAS",
-  "decimals": 0,
-  "totalSupply": 9997
+	"address": "0x217ec1ac929a17481446a76ff9b95b9a64f298cf",
+	"chainId": 8453,
+	"type": "ERC721",
+	"name": "Based Fellas",
+	"symbol": "FELLAS",
+	"decimals": 0,
+	"totalSupply": 9997
 }

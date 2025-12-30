@@ -1,7 +1,7 @@
 {
-  "address": "0xdfa46478f9e5ea86d57387849598dbfb2e964b02",
-  "chainId": 10,
-  "name": "MAI",
-  "symbol": "MAI",
-  "decimals": 18
+	"address": "0xdfa46478f9e5ea86d57387849598dbfb2e964b02",
+	"chainId": 10,
+	"name": "MAI",
+	"symbol": "MAI",
+	"decimals": 18
 }

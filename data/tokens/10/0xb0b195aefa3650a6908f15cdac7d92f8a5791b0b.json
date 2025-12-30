@@ -1,7 +1,7 @@
 {
-  "address": "0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b",
-  "chainId": 10,
-  "name": "BOB",
-  "symbol": "BOB",
-  "decimals": 18
+	"address": "0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b",
+	"chainId": 10,
+	"name": "BOB",
+	"symbol": "BOB",
+	"decimals": 18
 }

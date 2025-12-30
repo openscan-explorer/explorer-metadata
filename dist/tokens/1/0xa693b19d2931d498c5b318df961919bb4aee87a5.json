@@ -1,7 +1,7 @@
 {
-  "address": "0xa693b19d2931d498c5b318df961919bb4aee87a5",
-  "chainId": 1,
-  "name": "Ether.fi",
-  "symbol": "ETHFI",
-  "decimals": 18
+	"address": "0xa693b19d2931d498c5b318df961919bb4aee87a5",
+	"chainId": 1,
+	"name": "Ether.fi",
+	"symbol": "ETHFI",
+	"decimals": 18
 }

@@ -1,7 +1,7 @@
 {
-  "address": "0xfc5e3743e9fac8bb60408797607352e24db7d65e",
-  "chainId": 8453,
-  "name": "Frax Ether",
-  "symbol": "frxETH",
-  "decimals": 18
+	"address": "0xfc5e3743e9fac8bb60408797607352e24db7d65e",
+	"chainId": 8453,
+	"name": "Frax Ether",
+	"symbol": "frxETH",
+	"decimals": 18
 }

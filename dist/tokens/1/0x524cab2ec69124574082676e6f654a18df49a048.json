@@ -1,9 +1,9 @@
 {
-  "address": "0x524cab2ec69124574082676e6f654a18df49a048",
-  "chainId": 1,
-  "type": "ERC721",
-  "name": "Lil Pudgys",
-  "symbol": "LP",
-  "decimals": 0,
-  "totalSupply": 22222
+	"address": "0x524cab2ec69124574082676e6f654a18df49a048",
+	"chainId": 1,
+	"type": "ERC721",
+	"name": "Lil Pudgys",
+	"symbol": "LP",
+	"decimals": 0,
+	"totalSupply": 22222
 }

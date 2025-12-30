@@ -1,7 +1,7 @@
 {
-  "address": "0xcc7ff230365bd730ee4b352cc2492cedac49383e",
-  "chainId": 8453,
-  "name": "Velodrome",
-  "symbol": "VELO",
-  "decimals": 18
+	"address": "0xcc7ff230365bd730ee4b352cc2492cedac49383e",
+	"chainId": 8453,
+	"name": "Velodrome",
+	"symbol": "VELO",
+	"decimals": 18
 }

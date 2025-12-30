@@ -1,21 +1,25 @@
 {
-  "address": "0xc21d97673B9E0B3AA53a06439F71fDc1facE393B",
-  "chainId": 11155111,
-  "name": "Xeenus",
-  "symbol": "XEENUS",
-  "decimals": 18,
-  "subscription": {
-    "tier": 1,
-    "expiresAt": "2099-12-31"
-  },
-  "verified": true,
-  "logo": "assets/tokens/11155111/0xc21d97673B9E0B3AA53a06439F71fDc1facE393B.png",
-  "project": {
-    "name": "Xeenus Token",
-    "description": "Test ERC20 token for development and testing purposes"
-  },
-  "links": [
-    { "name": "GitHub", "url": "https://github.com/bokkypoobah/WeenusTokenFaucet", "description": "Weenus Token Faucet repository" }
-  ],
-  "tags": ["testnet", "faucet", "development"]
+	"address": "0xc21d97673B9E0B3AA53a06439F71fDc1facE393B",
+	"chainId": 11155111,
+	"name": "Xeenus",
+	"symbol": "XEENUS",
+	"decimals": 18,
+	"subscription": {
+		"tier": 1,
+		"expiresAt": "2099-12-31"
+	},
+	"verified": true,
+	"logo": "assets/tokens/11155111/0xc21d97673B9E0B3AA53a06439F71fDc1facE393B.png",
+	"project": {
+		"name": "Xeenus Token",
+		"description": "Test ERC20 token for development and testing purposes"
+	},
+	"links": [
+		{
+			"name": "GitHub",
+			"url": "https://github.com/bokkypoobah/WeenusTokenFaucet",
+			"description": "Weenus Token Faucet repository"
+		}
+	],
+	"tags": ["testnet", "faucet", "development"]
 }

@@ -1,8 +1,8 @@
 {
-  "address": "0xfa14e1157f35e1dad95dc3f822a9d18c40e360e2",
-  "chainId": 10,
-  "type": "ERC721",
-  "name": "Optimism Quest SBT",
-  "symbol": "OPQUEST",
-  "decimals": 0
+	"address": "0xfa14e1157f35e1dad95dc3f822a9d18c40e360e2",
+	"chainId": 10,
+	"type": "ERC721",
+	"name": "Optimism Quest SBT",
+	"symbol": "OPQUEST",
+	"decimals": 0
 }
