@@ -17,8 +17,7 @@ function question(prompt: string): Promise<string> {
 	});
 }
 
-function toChecksumAddress(address: string): string {
-	// Basic lowercase - in production, use ethers.getAddress() or viem
+function normalizeAddress(address: string): string {
 	return address.toLowerCase();
 }
 
@@ -43,11 +42,11 @@ async function main(): Promise<void> {
 		console.error("Invalid address format");
 		process.exit(1);
 	}
-	const checksumAddress = toChecksumAddress(address);
+	const normalizedAddress = normalizeAddress(address);
 
 	// Check if already exists
 	const tokenDir = path.join(ROOT_DIR, "data/tokens", String(chainId));
-	const tokenFile = path.join(tokenDir, `${checksumAddress}.json`);
+	const tokenFile = path.join(tokenDir, `${normalizedAddress}.json`);
 	if (fs.existsSync(tokenFile)) {
 		console.error(`Token already exists at ${tokenFile}`);
 		process.exit(1);
@@ -69,7 +68,7 @@ async function main(): Promise<void> {
 
 	// Build token object
 	const token: Record<string, unknown> = {
-		address: checksumAddress,
+		address: normalizedAddress,
 		chainId,
 		name,
 		symbol,
@@ -78,15 +77,23 @@ async function main(): Promise<void> {
 	};
 
 	// Add project info if provided
-	const project: Record<string, string> = {};
-	if (projectName) project.name = projectName;
-	if (description) project.description = description;
-	if (website) project.website = website;
-	if (twitter) project.twitter = twitter;
-	if (github) project.github = github;
-
-	if (Object.keys(project).length > 0) {
+	if (projectName || description) {
+		const project: Record<string, string> = {};
+		if (projectName) project.name = projectName;
+		if (description) project.description = description;
 		token.project = project;
+	}
+
+	// Add links if provided
+	const links: Array<{ name: string; url: string }> = [];
+	if (website) links.push({ name: "Website", url: website });
+	if (twitter)
+		links.push({ name: "Twitter", url: `https://twitter.com/${twitter}` });
+	if (github)
+		links.push({ name: "GitHub", url: `https://github.com/${github}` });
+
+	if (links.length > 0) {
+		token.links = links;
 	}
 
 	// Create directory if needed
@@ -102,7 +109,7 @@ async function main(): Promise<void> {
 	const createProfile = await question("\nCreate markdown profile? (y/N): ");
 	if (createProfile.toLowerCase() === "y") {
 		const profileDir = path.join(ROOT_DIR, "profiles/tokens", String(chainId));
-		const profileFile = path.join(profileDir, `${checksumAddress}.md`);
+		const profileFile = path.join(profileDir, `${normalizedAddress}.md`);
 
 		if (!fs.existsSync(profileDir)) {
 			fs.mkdirSync(profileDir, { recursive: true });
@@ -127,7 +134,7 @@ ${github ? `- [GitHub](https://github.com/${github})` : ""}
 		console.log(`Profile created at: ${profileFile}`);
 
 		// Update token with profile path
-		token.profile = `profiles/tokens/${chainId}/${checksumAddress}.md`;
+		token.profile = `profiles/tokens/${chainId}/${normalizedAddress}.md`;
 		fs.writeFileSync(tokenFile, `${JSON.stringify(token, null, 2)}\n`);
 	}
 
