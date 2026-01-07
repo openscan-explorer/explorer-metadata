@@ -402,44 +402,46 @@ dist/
 
 ### Endpoints
 
-Base URL: `https://raw.githubusercontent.com/openscan-org/explorer-metadata/main/dist`
+Base URL: `https://cdn.jsdelivr.net/npm/@openscan/metadata/dist`
+
+You can also pin to a specific version: `https://cdn.jsdelivr.net/npm/@openscan/metadata@1.0.0/dist`
 
 ```bash
 # Get all networks
-curl https://raw.githubusercontent.com/openscan-org/explorer-metadata/main/dist/networks.json
+curl https://cdn.jsdelivr.net/npm/@openscan/metadata/dist/networks.json
 
 # Get all apps
-curl https://raw.githubusercontent.com/openscan-org/explorer-metadata/main/dist/apps.json
+curl https://cdn.jsdelivr.net/npm/@openscan/metadata/dist/apps.json
 
 # Get supporters list
-curl https://raw.githubusercontent.com/openscan-org/explorer-metadata/main/dist/supporters.json
+curl https://cdn.jsdelivr.net/npm/@openscan/metadata/dist/supporters.json
 
 # Get donations list
-curl https://raw.githubusercontent.com/openscan-org/explorer-metadata/main/dist/donations.json
+curl https://cdn.jsdelivr.net/npm/@openscan/metadata/dist/donations.json
 
 # Tokens - list all tokens on a network (basic info)
-curl https://raw.githubusercontent.com/openscan-org/explorer-metadata/main/dist/tokens/1/all.json
+curl https://cdn.jsdelivr.net/npm/@openscan/metadata/dist/tokens/1/all.json
 
 # Tokens - get specific token details
-curl https://raw.githubusercontent.com/openscan-org/explorer-metadata/main/dist/tokens/1/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.json
+curl https://cdn.jsdelivr.net/npm/@openscan/metadata/dist/tokens/1/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.json
 
 # Addresses - list all addresses on a network
-curl https://raw.githubusercontent.com/openscan-org/explorer-metadata/main/dist/addresses/1/all.json
+curl https://cdn.jsdelivr.net/npm/@openscan/metadata/dist/addresses/1/all.json
 
 # Addresses - get specific address details
-curl https://raw.githubusercontent.com/openscan-org/explorer-metadata/main/dist/addresses/1/0x7a250d5630b4cf539739df2c5dacb4c659f2488d.json
+curl https://cdn.jsdelivr.net/npm/@openscan/metadata/dist/addresses/1/0x7a250d5630b4cf539739df2c5dacb4c659f2488d.json
 
 # Events - get common events for a network
-curl https://raw.githubusercontent.com/openscan-org/explorer-metadata/main/dist/events/1/common.json
+curl https://cdn.jsdelivr.net/npm/@openscan/metadata/dist/events/1/common.json
 
 # Events - get address-specific events
-curl https://raw.githubusercontent.com/openscan-org/explorer-metadata/main/dist/events/1/0x7a250d5630b4cf539739df2c5dacb4c659f2488d.json
+curl https://cdn.jsdelivr.net/npm/@openscan/metadata/dist/events/1/0x7a250d5630b4cf539739df2c5dacb4c659f2488d.json
 
 # Get a token profile
-curl https://raw.githubusercontent.com/openscan-org/explorer-metadata/main/dist/profiles/tokens/1/0x....md
+curl https://cdn.jsdelivr.net/npm/@openscan/metadata/dist/profiles/tokens/1/0x....md
 
 # Get a token logo
-curl https://raw.githubusercontent.com/openscan-org/explorer-metadata/main/dist/assets/tokens/1/0x....png
+curl https://cdn.jsdelivr.net/npm/@openscan/metadata/dist/assets/tokens/1/0x....png
 ```
 
 ## License

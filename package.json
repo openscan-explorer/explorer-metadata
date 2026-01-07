@@ -1,6 +1,6 @@
 {
 	"name": "@openscan/metadata",
-	"version": "0.1.1",
+	"version": "1.0.0",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/openscan-explorer/explorer-metadata"
@@ -12,6 +12,8 @@
 		"build": "tsx scripts/build.ts",
 		"optimize-images": "tsx scripts/optimize-images.ts",
 		"add-token": "tsx scripts/add-token.ts",
+		"add-app": "tsx scripts/add-app.ts",
+		"add-org": "tsx scripts/add-org.ts",
 		"lint": "biome check .",
 		"format": "biome format --write ."
 	},
@@ -24,6 +26,7 @@
 		"networks"
 	],
 	"license": "MIT",
+	"files": ["dist"],
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.0",
 		"@types/node": "^22.0.0",
