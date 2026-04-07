@@ -1,0 +1,20 @@
+{
+	"networkId": "solana:4uhcVJyU9pJkvQyS88uRDiswHXSCkY3z",
+	"updatedAt": "2026-04-07",
+	"endpoints": [
+		{
+			"url": "https://api.testnet.solana.com",
+			"tracking": "unspecified",
+			"isOpenSource": true,
+			"provider": "Solana Foundation",
+			"isPublic": true
+		},
+		{
+			"url": "https://solana-testnet-rpc.publicnode.com",
+			"tracking": "none",
+			"isOpenSource": false,
+			"provider": "PublicNode",
+			"isPublic": true
+		}
+	]
+}

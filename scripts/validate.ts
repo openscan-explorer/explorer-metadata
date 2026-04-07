@@ -487,6 +487,13 @@ if (fs.existsSync(rpcsDir)) {
 								`networkId should start with bip122: for BTC, got ${content.networkId}`,
 							);
 						}
+					} else if (networkType === "solana") {
+						// Solana: networkId should start with solana:
+						if (content.networkId && !content.networkId.startsWith("solana:")) {
+							additionalErrors.push(
+								`networkId should start with solana: for Solana, got ${content.networkId}`,
+							);
+						}
 					}
 
 					// Check for duplicate URLs
