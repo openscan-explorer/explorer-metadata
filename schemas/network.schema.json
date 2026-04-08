@@ -8,8 +8,8 @@
 	"properties": {
 		"type": {
 			"type": "string",
-			"enum": ["evm", "bitcoin"],
-			"description": "Network family type (evm for EVM-compatible chains, bitcoin for Bitcoin)"
+			"enum": ["evm", "bitcoin", "solana"],
+			"description": "Network family type (evm for EVM-compatible chains, bitcoin for Bitcoin, solana for Solana)"
 		},
 		"networkId": {
 			"type": "string",

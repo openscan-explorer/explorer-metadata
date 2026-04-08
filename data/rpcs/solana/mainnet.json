@@ -1,0 +1,41 @@
+{
+	"networkId": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+	"updatedAt": "2026-04-07",
+	"endpoints": [
+		{
+			"url": "https://api.mainnet-beta.solana.com",
+			"tracking": "unspecified",
+			"isOpenSource": true,
+			"provider": "Solana Foundation",
+			"isPublic": true
+		},
+		{
+			"url": "https://solana-rpc.publicnode.com",
+			"tracking": "none",
+			"isOpenSource": false,
+			"provider": "PublicNode",
+			"isPublic": true
+		},
+		{
+			"url": "https://solana.drpc.org",
+			"tracking": "none",
+			"isOpenSource": false,
+			"provider": "dRPC",
+			"isPublic": true
+		},
+		{
+			"url": "https://rpc.ankr.com/solana",
+			"tracking": "limited",
+			"isOpenSource": false,
+			"provider": "Ankr",
+			"isPublic": true
+		},
+		{
+			"url": "https://solana.api.pocket.network",
+			"tracking": "none",
+			"isOpenSource": true,
+			"provider": "Pocket Network",
+			"isPublic": true
+		}
+	]
+}
