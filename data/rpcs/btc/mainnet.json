@@ -1,6 +1,6 @@
 {
 	"networkId": "bip122:000000000019d6689c085ae165831e93",
-	"updatedAt": "2026-02-12T00:00:00Z",
+	"updatedAt": "2026-04-21T12:46:10.004Z",
 	"endpoints": [
 		{
 			"url": "https://mempool.space/api",
@@ -28,6 +28,13 @@
 			"tracking": "none",
 			"isOpenSource": false,
 			"provider": "dRPC",
+			"isPublic": true
+		},
+		{
+			"url": "https://bitcoin.api.onfinality.io/public",
+			"tracking": "unspecified",
+			"isOpenSource": false,
+			"provider": "OnFinality",
 			"isPublic": true
 		}
 	]
