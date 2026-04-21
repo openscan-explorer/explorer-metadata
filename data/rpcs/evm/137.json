@@ -1,6 +1,6 @@
 {
 	"networkId": "eip155:137",
-	"updatedAt": "2026-02-22",
+	"updatedAt": "2026-04-21",
 	"endpoints": [
 		{
 			"url": "https://1rpc.io/matic",
@@ -14,20 +14,6 @@
 			"tracking": "none",
 			"isOpenSource": false,
 			"provider": "dRPC",
-			"isPublic": true
-		},
-		{
-			"url": "https://polygon.meowrpc.com",
-			"tracking": "none",
-			"isOpenSource": false,
-			"provider": "MeowRPC",
-			"isPublic": true
-		},
-		{
-			"url": "https://endpoints.omniatech.io/v1/matic/mainnet/public",
-			"tracking": "none",
-			"isOpenSource": false,
-			"provider": "Omnia",
 			"isPublic": true
 		},
 		{
@@ -45,20 +31,6 @@
 			"isPublic": true
 		},
 		{
-			"url": "https://rpc.ankr.com/polygon",
-			"tracking": "limited",
-			"isOpenSource": false,
-			"provider": "Ankr",
-			"isPublic": true
-		},
-		{
-			"url": "https://polygon-mainnet.public.blastapi.io",
-			"tracking": "limited",
-			"isOpenSource": false,
-			"provider": "Blast",
-			"isPublic": true
-		},
-		{
 			"url": "https://polygon-public.nodies.app",
 			"tracking": "limited",
 			"isOpenSource": false,
@@ -70,41 +42,6 @@
 			"tracking": "limited",
 			"isOpenSource": false,
 			"provider": "OnFinality",
-			"isPublic": true
-		},
-		{
-			"url": "https://rpc.poolz.finance/polygon",
-			"tracking": "limited",
-			"isOpenSource": false,
-			"provider": "Poolz",
-			"isPublic": true
-		},
-		{
-			"url": "https://public.stackup.sh/api/v1/node/polygon-mainnet",
-			"tracking": "limited",
-			"isOpenSource": false,
-			"provider": "Stackup",
-			"isPublic": true
-		},
-		{
-			"url": "https://polygon.therpc.io",
-			"tracking": "limited",
-			"isOpenSource": false,
-			"provider": "TheRPC",
-			"isPublic": true
-		},
-		{
-			"url": "https://polygon-mainnet.4everland.org/v1/37fa9972c1b1cd5fab542c7bdd4cde2f",
-			"tracking": "limited",
-			"isOpenSource": false,
-			"provider": "Unknown",
-			"isPublic": true
-		},
-		{
-			"url": "https://rpc.owlracle.info/poly/70d38ce1826c4a60bb2a8e05a6c8b20f",
-			"tracking": "limited",
-			"isOpenSource": false,
-			"provider": "Unknown",
 			"isPublic": true
 		},
 		{
@@ -129,52 +66,10 @@
 			"isPublic": true
 		},
 		{
-			"url": "https://polygon-rpc.com",
-			"tracking": "unspecified",
-			"isOpenSource": false,
-			"provider": "Unknown",
-			"isPublic": true
-		},
-		{
 			"url": "https://polygon-mainnet.rpcfast.com?api_key=xbhWBI1Wkguk8SNMu1bvvLurPGLXmgwYeC4S6g2H7WdwFigZSmPWVZRxrskEQwIf",
 			"tracking": "unspecified",
 			"isOpenSource": false,
 			"provider": "Unknown",
-			"isPublic": true
-		},
-		{
-			"url": "https://rpc-mainnet.matic.network",
-			"tracking": "unspecified",
-			"isOpenSource": false,
-			"provider": "Unknown",
-			"isPublic": true
-		},
-		{
-			"url": "https://matic-mainnet.chainstacklabs.com",
-			"tracking": "unspecified",
-			"isOpenSource": false,
-			"provider": "Unknown",
-			"isPublic": true
-		},
-		{
-			"url": "https://rpc-mainnet.maticvigil.com",
-			"tracking": "unspecified",
-			"isOpenSource": false,
-			"provider": "Unknown",
-			"isPublic": true
-		},
-		{
-			"url": "https://matic-mainnet-full-rpc.bwarelabs.com",
-			"tracking": "unspecified",
-			"isOpenSource": false,
-			"provider": "Unknown",
-			"isPublic": true
-		},
-		{
-			"url": "https://polygon-mainnet.g.alchemy.com/v2/demo",
-			"tracking": "yes",
-			"isOpenSource": false,
-			"provider": "Alchemy",
 			"isPublic": true
 		},
 		{
@@ -200,13 +95,6 @@
 		},
 		{
 			"url": "https://go.getblock.io/02667b699f05444ab2c64f9bff28f027",
-			"tracking": "yes",
-			"isOpenSource": false,
-			"provider": "Unknown",
-			"isPublic": true
-		},
-		{
-			"url": "https://polygon.rpc.blxrbdn.com",
 			"tracking": "yes",
 			"isOpenSource": false,
 			"provider": "Unknown",

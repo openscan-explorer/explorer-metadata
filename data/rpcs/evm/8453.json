@@ -1,6 +1,6 @@
 {
 	"networkId": "eip155:8453",
-	"updatedAt": "2026-02-22",
+	"updatedAt": "2026-04-21",
 	"endpoints": [
 		{
 			"url": "https://1rpc.io/base",
@@ -31,13 +31,6 @@
 			"isPublic": true
 		},
 		{
-			"url": "https://endpoints.omniatech.io/v1/base/mainnet/public",
-			"tracking": "none",
-			"isOpenSource": false,
-			"provider": "Omnia",
-			"isPublic": true
-		},
-		{
 			"url": "https://base.api.pocket.network",
 			"tracking": "none",
 			"isOpenSource": false,
@@ -49,13 +42,6 @@
 			"tracking": "none",
 			"isOpenSource": false,
 			"provider": "PublicNode",
-			"isPublic": true
-		},
-		{
-			"url": "https://rpcbase.hairylabs.io/rpc",
-			"tracking": "none",
-			"isOpenSource": false,
-			"provider": "Unknown",
 			"isPublic": true
 		},
 		{
@@ -73,52 +59,10 @@
 			"isPublic": true
 		},
 		{
-			"url": "https://base-mainnet.diamondswap.org/rpc",
-			"tracking": "limited",
-			"isOpenSource": false,
-			"provider": "DiamondSwap",
-			"isPublic": true
-		},
-		{
 			"url": "https://base-public.nodies.app",
 			"tracking": "limited",
 			"isOpenSource": false,
 			"provider": "Nodies",
-			"isPublic": true
-		},
-		{
-			"url": "https://base.api.onfinality.io/public",
-			"tracking": "limited",
-			"isOpenSource": false,
-			"provider": "OnFinality",
-			"isPublic": true
-		},
-		{
-			"url": "https://rpc.poolz.finance/base",
-			"tracking": "limited",
-			"isOpenSource": false,
-			"provider": "Poolz",
-			"isPublic": true
-		},
-		{
-			"url": "https://public.stackup.sh/api/v1/node/base-mainnet",
-			"tracking": "limited",
-			"isOpenSource": false,
-			"provider": "Stackup",
-			"isPublic": true
-		},
-		{
-			"url": "https://base.therpc.io",
-			"tracking": "limited",
-			"isOpenSource": false,
-			"provider": "TheRPC",
-			"isPublic": true
-		},
-		{
-			"url": "https://rpc.owlracle.info/base/70d38ce1826c4a60bb2a8e05a6c8b20f",
-			"tracking": "limited",
-			"isOpenSource": false,
-			"provider": "Unknown",
 			"isPublic": true
 		},
 		{
@@ -157,24 +101,10 @@
 			"isPublic": true
 		},
 		{
-			"url": "https://rpc.notadegen.com/base",
-			"tracking": "unspecified",
-			"isOpenSource": false,
-			"provider": "NotADegen",
-			"isPublic": true
-		},
-		{
 			"url": "https://base.rpc.subquery.network/public",
 			"tracking": "unspecified",
 			"isOpenSource": false,
 			"provider": "SubQuery",
-			"isPublic": true
-		},
-		{
-			"url": "https://li-fi-base.intustechno.workers.dev/rpc",
-			"tracking": "unspecified",
-			"isOpenSource": false,
-			"provider": "Unknown",
 			"isPublic": true
 		},
 		{
@@ -200,13 +130,6 @@
 		},
 		{
 			"url": "https://base.lava.build",
-			"tracking": "yes",
-			"isOpenSource": false,
-			"provider": "Unknown",
-			"isPublic": true
-		},
-		{
-			"url": "https://rpc.numa.network/base",
 			"tracking": "yes",
 			"isOpenSource": false,
 			"provider": "Unknown",

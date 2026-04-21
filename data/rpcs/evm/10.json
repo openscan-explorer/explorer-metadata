@@ -1,6 +1,6 @@
 {
 	"networkId": "eip155:10",
-	"updatedAt": "2026-02-22",
+	"updatedAt": "2026-04-21",
 	"endpoints": [
 		{
 			"url": "https://1rpc.io/op",
@@ -24,45 +24,10 @@
 			"isPublic": true
 		},
 		{
-			"url": "https://optimism.meowrpc.com",
-			"tracking": "none",
-			"isOpenSource": false,
-			"provider": "MeowRPC",
-			"isPublic": true
-		},
-		{
-			"url": "https://endpoints.omniatech.io/v1/op/mainnet/public",
-			"tracking": "none",
-			"isOpenSource": false,
-			"provider": "Omnia",
-			"isPublic": true
-		},
-		{
-			"url": "https://optimism.api.pocket.network",
-			"tracking": "none",
-			"isOpenSource": false,
-			"provider": "Pocket Network",
-			"isPublic": true
-		},
-		{
 			"url": "https://optimism-rpc.publicnode.com",
 			"tracking": "none",
 			"isOpenSource": false,
 			"provider": "PublicNode",
-			"isPublic": true
-		},
-		{
-			"url": "https://api.stateless.solutions/optimism/v1/demo",
-			"tracking": "none",
-			"isOpenSource": false,
-			"provider": "Stateless",
-			"isPublic": true
-		},
-		{
-			"url": "https://optimism-mainnet.public.blastapi.io",
-			"tracking": "limited",
-			"isOpenSource": false,
-			"provider": "Blast",
 			"isPublic": true
 		},
 		{
@@ -84,34 +49,6 @@
 			"tracking": "limited",
 			"isOpenSource": false,
 			"provider": "OnFinality",
-			"isPublic": true
-		},
-		{
-			"url": "https://public.stackup.sh/api/v1/node/optimism-mainnet",
-			"tracking": "limited",
-			"isOpenSource": false,
-			"provider": "Stackup",
-			"isPublic": true
-		},
-		{
-			"url": "https://optimism.therpc.io",
-			"tracking": "limited",
-			"isOpenSource": false,
-			"provider": "TheRPC",
-			"isPublic": true
-		},
-		{
-			"url": "https://opt-mainnet.4everland.org/v1/37fa9972c1b1cd5fab542c7bdd4cde2f",
-			"tracking": "limited",
-			"isOpenSource": false,
-			"provider": "Unknown",
-			"isPublic": true
-		},
-		{
-			"url": "https://rpc.owlracle.info/opt/70d38ce1826c4a60bb2a8e05a6c8b20f",
-			"tracking": "limited",
-			"isOpenSource": false,
-			"provider": "Unknown",
 			"isPublic": true
 		},
 		{
@@ -150,13 +87,6 @@
 			"isPublic": true
 		},
 		{
-			"url": "https://opt-mainnet.g.alchemy.com/v2/demo",
-			"tracking": "yes",
-			"isOpenSource": false,
-			"provider": "Alchemy",
-			"isPublic": true
-		},
-		{
 			"url": "https://optimism.gateway.tenderly.co",
 			"tracking": "yes",
 			"isOpenSource": false,
@@ -171,13 +101,6 @@
 			"isPublic": true
 		},
 		{
-			"url": "https://rpc.optimism.gateway.fm",
-			"tracking": "yes",
-			"isOpenSource": false,
-			"provider": "Unknown",
-			"isPublic": true
-		},
-		{
 			"url": "https://optimism-mainnet.gateway.tatum.io",
 			"tracking": "yes",
 			"isOpenSource": false,
@@ -186,20 +109,6 @@
 		},
 		{
 			"url": "https://go.getblock.io/e8a75f8dcf614861becfbcb185be6eb4",
-			"tracking": "yes",
-			"isOpenSource": false,
-			"provider": "Unknown",
-			"isPublic": true
-		},
-		{
-			"url": "https://rpc.buildbear.io/esquivelfabian",
-			"tracking": "yes",
-			"isOpenSource": false,
-			"provider": "Unknown",
-			"isPublic": true
-		},
-		{
-			"url": "https://optimism.lava.build",
 			"tracking": "yes",
 			"isOpenSource": false,
 			"provider": "Unknown",
