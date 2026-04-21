@@ -1,5 +1,5 @@
 {
-	"updatedAt": "2026-04-21T12:27:17.939Z",
+	"updatedAt": "2026-04-21T12:50:03.113Z",
 	"networks": [
 		{
 			"type": "evm",
@@ -272,6 +272,7 @@
 			"currency": "ETH",
 			"color": "#28A0F0",
 			"isTestnet": true,
+			"logo": "assets/networks/421614.svg",
 			"links": [
 				{
 					"name": "Bridge",
@@ -295,6 +296,7 @@
 			"currency": "ETH",
 			"color": "#FF0420",
 			"isTestnet": true,
+			"logo": "assets/networks/11155420.svg",
 			"links": [
 				{
 					"name": "Bridge",
@@ -318,6 +320,7 @@
 			"currency": "ETH",
 			"color": "#0052FF",
 			"isTestnet": true,
+			"logo": "assets/networks/84532.svg",
 			"links": [
 				{
 					"name": "Faucet",
@@ -341,6 +344,7 @@
 			"currency": "POL",
 			"color": "#8247E5",
 			"isTestnet": true,
+			"logo": "assets/networks/80002.svg",
 			"links": [
 				{
 					"name": "Faucet",
@@ -364,6 +368,7 @@
 			"currency": "AVAX",
 			"color": "#E84142",
 			"isTestnet": true,
+			"logo": "assets/networks/43113.svg",
 			"links": [
 				{
 					"name": "Faucet",
