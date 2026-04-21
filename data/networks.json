@@ -1,5 +1,5 @@
 {
-	"updatedAt": "2025-12-01",
+	"updatedAt": "2026-04-21T12:27:17.939Z",
 	"networks": [
 		{
 			"type": "evm",
@@ -258,6 +258,121 @@
 				{
 					"name": "Docs",
 					"url": "https://docs.bnbchain.org",
+					"description": "Developer documentation"
+				}
+			]
+		},
+		{
+			"type": "evm",
+			"networkId": "eip155:421614",
+			"chainId": 421614,
+			"name": "Arbitrum Sepolia",
+			"shortName": "Arb Sepolia",
+			"description": "Arbitrum testnet for developers",
+			"currency": "ETH",
+			"color": "#28A0F0",
+			"isTestnet": true,
+			"links": [
+				{
+					"name": "Bridge",
+					"url": "https://bridge.arbitrum.io",
+					"description": "Bridge from Sepolia"
+				},
+				{
+					"name": "Docs",
+					"url": "https://docs.arbitrum.io",
+					"description": "Developer documentation"
+				}
+			]
+		},
+		{
+			"type": "evm",
+			"networkId": "eip155:11155420",
+			"chainId": 11155420,
+			"name": "Optimism Sepolia",
+			"shortName": "OP Sepolia",
+			"description": "Optimism testnet for developers",
+			"currency": "ETH",
+			"color": "#FF0420",
+			"isTestnet": true,
+			"links": [
+				{
+					"name": "Bridge",
+					"url": "https://app.optimism.io/bridge",
+					"description": "Bridge from Sepolia"
+				},
+				{
+					"name": "Docs",
+					"url": "https://docs.optimism.io",
+					"description": "Developer documentation"
+				}
+			]
+		},
+		{
+			"type": "evm",
+			"networkId": "eip155:84532",
+			"chainId": 84532,
+			"name": "Base Sepolia",
+			"shortName": "Base Sepolia",
+			"description": "Base testnet for developers",
+			"currency": "ETH",
+			"color": "#0052FF",
+			"isTestnet": true,
+			"links": [
+				{
+					"name": "Faucet",
+					"url": "https://www.coinbase.com/faucets/base-ethereum-sepolia-faucet",
+					"description": "Get testnet ETH"
+				},
+				{
+					"name": "Docs",
+					"url": "https://docs.base.org",
+					"description": "Developer documentation"
+				}
+			]
+		},
+		{
+			"type": "evm",
+			"networkId": "eip155:80002",
+			"chainId": 80002,
+			"name": "Polygon Amoy",
+			"shortName": "Amoy",
+			"description": "Polygon testnet for developers",
+			"currency": "POL",
+			"color": "#8247E5",
+			"isTestnet": true,
+			"links": [
+				{
+					"name": "Faucet",
+					"url": "https://faucet.polygon.technology",
+					"description": "Get testnet POL"
+				},
+				{
+					"name": "Docs",
+					"url": "https://docs.polygon.technology",
+					"description": "Developer documentation"
+				}
+			]
+		},
+		{
+			"type": "evm",
+			"networkId": "eip155:43113",
+			"chainId": 43113,
+			"name": "Avalanche Fuji",
+			"shortName": "Fuji",
+			"description": "Avalanche testnet for developers",
+			"currency": "AVAX",
+			"color": "#E84142",
+			"isTestnet": true,
+			"links": [
+				{
+					"name": "Faucet",
+					"url": "https://faucet.avax.network",
+					"description": "Get testnet AVAX"
+				},
+				{
+					"name": "Docs",
+					"url": "https://docs.avax.network",
 					"description": "Developer documentation"
 				}
 			]
