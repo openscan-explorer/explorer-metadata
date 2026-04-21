@@ -1,0 +1,48 @@
+{
+	"networkId": "eip155:11155420",
+	"updatedAt": "2026-04-21T12:39:57.608Z",
+	"endpoints": [
+		{
+			"url": "https://optimism-sepolia-public.nodies.app",
+			"tracking": "limited",
+			"isOpenSource": false,
+			"provider": "Nodies",
+			"isPublic": true
+		},
+		{
+			"url": "https://optimism-sepolia.api.onfinality.io/public",
+			"tracking": "limited",
+			"isOpenSource": false,
+			"provider": "OnFinality",
+			"isPublic": true
+		},
+		{
+			"url": "https://api.zan.top/opt-sepolia",
+			"tracking": "limited",
+			"isOpenSource": false,
+			"provider": "ZAN",
+			"isPublic": true
+		},
+		{
+			"url": "https://optimism-sepolia.drpc.org",
+			"tracking": "unspecified",
+			"isOpenSource": false,
+			"provider": "dRPC",
+			"isPublic": true
+		},
+		{
+			"url": "https://sepolia.optimism.io",
+			"tracking": "unspecified",
+			"isOpenSource": false,
+			"provider": "Optimism",
+			"isPublic": true
+		},
+		{
+			"url": "https://optimism-sepolia.gateway.tenderly.co",
+			"tracking": "yes",
+			"isOpenSource": false,
+			"provider": "Tenderly",
+			"isPublic": true
+		}
+	]
+}

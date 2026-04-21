@@ -1,0 +1,55 @@
+{
+	"networkId": "eip155:84532",
+	"updatedAt": "2026-04-21T12:40:57.612Z",
+	"endpoints": [
+		{
+			"url": "https://base-sepolia.drpc.org",
+			"tracking": "none",
+			"isOpenSource": false,
+			"provider": "dRPC",
+			"isPublic": true
+		},
+		{
+			"url": "https://base-testnet.api.pocket.network",
+			"tracking": "none",
+			"isOpenSource": false,
+			"provider": "Pocket Network",
+			"isPublic": true
+		},
+		{
+			"url": "https://base-sepolia-public.nodies.app",
+			"tracking": "limited",
+			"isOpenSource": false,
+			"provider": "Nodies",
+			"isPublic": true
+		},
+		{
+			"url": "https://rpc.sentio.xyz/base-sepolia",
+			"tracking": "limited",
+			"isOpenSource": false,
+			"provider": "Unknown",
+			"isPublic": true
+		},
+		{
+			"url": "https://sepolia.base.org",
+			"tracking": "unspecified",
+			"isOpenSource": false,
+			"provider": "Base",
+			"isPublic": true
+		},
+		{
+			"url": "https://base-sepolia-rpc.publicnode.com",
+			"tracking": "unspecified",
+			"isOpenSource": false,
+			"provider": "PublicNode",
+			"isPublic": true
+		},
+		{
+			"url": "https://base-sepolia.gateway.tenderly.co",
+			"tracking": "yes",
+			"isOpenSource": false,
+			"provider": "Tenderly",
+			"isPublic": true
+		}
+	]
+}

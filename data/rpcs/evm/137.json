@@ -1,6 +1,6 @@
 {
 	"networkId": "eip155:137",
-	"updatedAt": "2026-04-21",
+	"updatedAt": "2026-04-21T12:34:57.574Z",
 	"endpoints": [
 		{
 			"url": "https://1rpc.io/matic",
@@ -70,6 +70,13 @@
 			"tracking": "unspecified",
 			"isOpenSource": false,
 			"provider": "Unknown",
+			"isPublic": true
+		},
+		{
+			"url": "https://polygon-mainnet.g.alchemy.com/v2/demo",
+			"tracking": "yes",
+			"isOpenSource": false,
+			"provider": "Alchemy",
 			"isPublic": true
 		},
 		{

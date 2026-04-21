@@ -1,0 +1,55 @@
+{
+	"networkId": "eip155:421614",
+	"updatedAt": "2026-04-21T12:38:57.601Z",
+	"endpoints": [
+		{
+			"url": "https://arbitrum-sepolia.drpc.org",
+			"tracking": "none",
+			"isOpenSource": false,
+			"provider": "dRPC",
+			"isPublic": true
+		},
+		{
+			"url": "https://arbitrum-sepolia-testnet.api.pocket.network",
+			"tracking": "none",
+			"isOpenSource": false,
+			"provider": "Pocket Network",
+			"isPublic": true
+		},
+		{
+			"url": "https://arbitrum-sepolia.api.onfinality.io/public",
+			"tracking": "limited",
+			"isOpenSource": false,
+			"provider": "OnFinality",
+			"isPublic": true
+		},
+		{
+			"url": "https://api.zan.top/arb-sepolia",
+			"tracking": "limited",
+			"isOpenSource": false,
+			"provider": "ZAN",
+			"isPublic": true
+		},
+		{
+			"url": "https://sepolia-rollup.arbitrum.io/rpc",
+			"tracking": "unspecified",
+			"isOpenSource": false,
+			"provider": "Arbitrum",
+			"isPublic": true
+		},
+		{
+			"url": "https://arbitrum-sepolia-rpc.publicnode.com",
+			"tracking": "unspecified",
+			"isOpenSource": false,
+			"provider": "PublicNode",
+			"isPublic": true
+		},
+		{
+			"url": "https://arbitrum-sepolia.gateway.tenderly.co",
+			"tracking": "yes",
+			"isOpenSource": false,
+			"provider": "Tenderly",
+			"isPublic": true
+		}
+	]
+}

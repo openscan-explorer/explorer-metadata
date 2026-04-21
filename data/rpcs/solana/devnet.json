@@ -1,6 +1,6 @@
 {
 	"networkId": "solana:EtWTRABZaYq6iMfeYKouRu166VU2xqa1",
-	"updatedAt": "2026-04-07",
+	"updatedAt": "2026-04-07T00:00:00Z",
 	"endpoints": [
 		{
 			"url": "https://api.devnet.solana.com",

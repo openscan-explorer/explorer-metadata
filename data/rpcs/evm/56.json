@@ -1,6 +1,6 @@
 {
 	"networkId": "eip155:56",
-	"updatedAt": "2026-04-21",
+	"updatedAt": "2026-04-21T12:33:57.570Z",
 	"endpoints": [
 		{
 			"url": "https://1rpc.io/bnb",

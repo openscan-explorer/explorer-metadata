@@ -1,6 +1,6 @@
 {
 	"networkId": "eip155:43114",
-	"updatedAt": "2026-04-21",
+	"updatedAt": "2026-04-21T12:35:57.579Z",
 	"endpoints": [
 		{
 			"url": "https://1rpc.io/avax/c",

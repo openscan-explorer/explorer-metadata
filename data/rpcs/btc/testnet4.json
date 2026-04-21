@@ -1,6 +1,6 @@
 {
 	"networkId": "bip122:00000000da84f2bafbbc53dee25a72ae",
-	"updatedAt": "2026-02-13",
+	"updatedAt": "2026-02-13T00:00:00Z",
 	"endpoints": [
 		{
 			"url": "https://mempool.space/testnet4/api",

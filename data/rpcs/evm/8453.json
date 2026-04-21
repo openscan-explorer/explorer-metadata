@@ -1,6 +1,6 @@
 {
 	"networkId": "eip155:8453",
-	"updatedAt": "2026-04-21",
+	"updatedAt": "2026-04-21T12:30:57.548Z",
 	"endpoints": [
 		{
 			"url": "https://1rpc.io/base",

@@ -1,6 +1,6 @@
 {
 	"networkId": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-	"updatedAt": "2026-04-07",
+	"updatedAt": "2026-04-07T00:00:00Z",
 	"endpoints": [
 		{
 			"url": "https://api.mainnet-beta.solana.com",

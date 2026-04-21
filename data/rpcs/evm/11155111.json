@@ -1,6 +1,6 @@
 {
 	"networkId": "eip155:11155111",
-	"updatedAt": "2026-04-21",
+	"updatedAt": "2026-04-21T12:36:57.590Z",
 	"endpoints": [
 		{
 			"url": "https://0xrpc.io/sep",
@@ -77,13 +77,6 @@
 			"tracking": "unspecified",
 			"isOpenSource": false,
 			"provider": "Unknown",
-			"isPublic": true
-		},
-		{
-			"url": "https://eth-sepolia.g.alchemy.com/v2/demo",
-			"tracking": "yes",
-			"isOpenSource": false,
-			"provider": "Alchemy",
 			"isPublic": true
 		},
 		{

@@ -1,6 +1,6 @@
 {
 	"networkId": "bip122:000000000019d6689c085ae165831e93",
-	"updatedAt": "2026-02-12",
+	"updatedAt": "2026-02-12T00:00:00Z",
 	"endpoints": [
 		{
 			"url": "https://mempool.space/api",

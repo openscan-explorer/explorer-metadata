@@ -1,0 +1,34 @@
+{
+	"networkId": "eip155:43113",
+	"updatedAt": "2026-04-21T12:42:57.625Z",
+	"endpoints": [
+		{
+			"url": "https://avalanche-fuji.drpc.org",
+			"tracking": "none",
+			"isOpenSource": false,
+			"provider": "dRPC",
+			"isPublic": true
+		},
+		{
+			"url": "https://avalanche-fuji-c-chain-rpc.publicnode.com",
+			"tracking": "none",
+			"isOpenSource": false,
+			"provider": "PublicNode",
+			"isPublic": true
+		},
+		{
+			"url": "https://api.zan.top/avax-fuji/ext/bc/C/rpc",
+			"tracking": "limited",
+			"isOpenSource": false,
+			"provider": "ZAN",
+			"isPublic": true
+		},
+		{
+			"url": "https://api.avax-test.network/ext/bc/C/rpc",
+			"tracking": "unspecified",
+			"isOpenSource": false,
+			"provider": "Unknown",
+			"isPublic": true
+		}
+	]
+}

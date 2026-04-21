@@ -1,6 +1,6 @@
 {
 	"networkId": "eip155:97",
-	"updatedAt": "2026-04-21",
+	"updatedAt": "2026-04-21T12:37:57.596Z",
 	"endpoints": [
 		{
 			"url": "https://bsc-testnet.drpc.org",

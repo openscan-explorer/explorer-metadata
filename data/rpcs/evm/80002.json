@@ -1,0 +1,62 @@
+{
+	"networkId": "eip155:80002",
+	"updatedAt": "2026-04-21T12:41:57.620Z",
+	"endpoints": [
+		{
+			"url": "https://polygon-amoy.drpc.org",
+			"tracking": "none",
+			"isOpenSource": false,
+			"provider": "dRPC",
+			"isPublic": true
+		},
+		{
+			"url": "https://polygon-amoy-public.nodies.app",
+			"tracking": "limited",
+			"isOpenSource": false,
+			"provider": "Nodies",
+			"isPublic": true
+		},
+		{
+			"url": "https://polygon-amoy.api.onfinality.io/public",
+			"tracking": "limited",
+			"isOpenSource": false,
+			"provider": "OnFinality",
+			"isPublic": true
+		},
+		{
+			"url": "https://api.zan.top/polygon-amoy",
+			"tracking": "limited",
+			"isOpenSource": false,
+			"provider": "ZAN",
+			"isPublic": true
+		},
+		{
+			"url": "https://polygon-amoy-bor-rpc.publicnode.com",
+			"tracking": "unspecified",
+			"isOpenSource": false,
+			"provider": "PublicNode",
+			"isPublic": true
+		},
+		{
+			"url": "https://rpc-amoy.polygon.technology",
+			"tracking": "unspecified",
+			"isOpenSource": false,
+			"provider": "Unknown",
+			"isPublic": true
+		},
+		{
+			"url": "https://polygon-amoy.gateway.tenderly.co",
+			"tracking": "yes",
+			"isOpenSource": false,
+			"provider": "Tenderly",
+			"isPublic": true
+		},
+		{
+			"url": "https://polygon-amoy.gateway.tatum.io",
+			"tracking": "yes",
+			"isOpenSource": false,
+			"provider": "Unknown",
+			"isPublic": true
+		}
+	]
+}
