@@ -47,6 +47,47 @@ interface RpcEndpoint {
 	isPublic: boolean;
 }
 
+const REQUEST_TIMEOUT_MS = 10_000;
+const TOTAL_BUDGET_MS = 60_000;
+
+async function measureLatency(url: string): Promise<number | null> {
+	const deadline = Date.now() + TOTAL_BUDGET_MS;
+	const body = JSON.stringify({
+		jsonrpc: "2.0",
+		id: 1,
+		method: "eth_blockNumber",
+		params: [],
+	});
+
+	while (Date.now() < deadline) {
+		const remaining = deadline - Date.now();
+		const timeout = Math.min(REQUEST_TIMEOUT_MS, remaining);
+		if (timeout <= 0) break;
+
+		const controller = new AbortController();
+		const timer = setTimeout(() => controller.abort(), timeout);
+		const start = Date.now();
+
+		try {
+			const res = await fetch(url, {
+				method: "POST",
+				headers: { "content-type": "application/json" },
+				body,
+				signal: controller.signal,
+			});
+			clearTimeout(timer);
+			if (!res.ok) continue;
+			const json = (await res.json()) as { result?: string; error?: unknown };
+			if (json.error || typeof json.result !== "string") continue;
+			return Date.now() - start;
+		} catch {
+			clearTimeout(timer);
+		}
+	}
+
+	return null;
+}
+
 // Map known RPC providers by URL patterns
 function getProvider(url: string): string | undefined {
 	const patterns: Record<string, string> = {
@@ -152,8 +193,17 @@ async function importFromChainlist(): Promise<void> {
 			return true;
 		});
 
+		// Probe endpoints in parallel; drop any that don't respond within budget
+		const latencies = await Promise.all(
+			uniqueEndpoints.map((ep) => measureLatency(ep.url)),
+		);
+		const liveEndpoints = uniqueEndpoints.filter(
+			(_, i) => latencies[i] !== null,
+		);
+		const dead = uniqueEndpoints.length - liveEndpoints.length;
+
 		// Sort: prefer tracking "none" first, then by provider name
-		uniqueEndpoints.sort((a, b) => {
+		liveEndpoints.sort((a, b) => {
 			const trackingOrder = { none: 0, limited: 1, unspecified: 2, yes: 3 };
 			const aOrder =
 				trackingOrder[a.tracking as keyof typeof trackingOrder] ?? 2;
@@ -166,16 +216,17 @@ async function importFromChainlist(): Promise<void> {
 		const networkId = `eip155:${chainId}`;
 		const output = {
 			networkId,
-			updatedAt: new Date().toISOString().split("T")[0],
-			endpoints: uniqueEndpoints,
+			updatedAt: new Date().toISOString(),
+			endpoints: liveEndpoints,
 		};
 
 		const filePath = path.join(RPCS_DIR, `${chainId}.json`);
 		fs.writeFileSync(filePath, `${JSON.stringify(output, null, 2)}\n`);
 		const dupes = endpoints.length - uniqueEndpoints.length;
 		const dupeNote = dupes > 0 ? ` (${dupes} duplicates removed)` : "";
+		const deadNote = dead > 0 ? ` (${dead} unresponsive removed)` : "";
 		console.log(
-			`  Chain ${chainId} (${network.name}): Imported ${uniqueEndpoints.length} endpoints${dupeNote}`,
+			`  Chain ${chainId} (${network.name}): Imported ${liveEndpoints.length} endpoints${dupeNote}${deadNote}`,
 		);
 	}
 

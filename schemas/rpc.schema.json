@@ -13,8 +13,8 @@
 		},
 		"updatedAt": {
 			"type": "string",
-			"format": "date",
-			"description": "Last update date (YYYY-MM-DD)"
+			"format": "date-time",
+			"description": "Last update timestamp (ISO 8601)"
 		},
 		"endpoints": {
 			"type": "array",

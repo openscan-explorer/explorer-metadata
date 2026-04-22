@@ -1,26 +1,12 @@
 {
 	"networkId": "eip155:43114",
-	"updatedAt": "2026-03-04",
+	"updatedAt": "2026-04-21T12:35:57.579Z",
 	"endpoints": [
 		{
-			"url": "https://api.avax.network/ext/bc/C/rpc",
+			"url": "https://1rpc.io/avax/c",
 			"tracking": "none",
 			"isOpenSource": false,
-			"provider": "Avalanche",
-			"isPublic": true
-		},
-		{
-			"url": "https://avalanche-c-chain-rpc.publicnode.com",
-			"tracking": "none",
-			"isOpenSource": false,
-			"provider": "PublicNode",
-			"isPublic": true
-		},
-		{
-			"url": "https://avax.meowrpc.com",
-			"tracking": "none",
-			"isOpenSource": false,
-			"provider": "MeowRPC",
+			"provider": "1RPC",
 			"isPublic": true
 		},
 		{
@@ -31,17 +17,66 @@
 			"isPublic": true
 		},
 		{
-			"url": "https://1rpc.io/avax/c",
+			"url": "https://avax.api.pocket.network",
 			"tracking": "none",
 			"isOpenSource": false,
-			"provider": "1RPC",
+			"provider": "Pocket Network",
 			"isPublic": true
 		},
 		{
-			"url": "https://avax-pokt.nodies.app/ext/bc/C/rpc",
+			"url": "https://avalanche-c-chain-rpc.publicnode.com",
 			"tracking": "none",
 			"isOpenSource": false,
+			"provider": "PublicNode",
+			"isPublic": true
+		},
+		{
+			"url": "https://avalanche-public.nodies.app/ext/bc/C/rpc",
+			"tracking": "limited",
+			"isOpenSource": false,
 			"provider": "Nodies",
+			"isPublic": true
+		},
+		{
+			"url": "https://avalanche.api.onfinality.io/public/ext/bc/C/rpc",
+			"tracking": "limited",
+			"isOpenSource": false,
+			"provider": "OnFinality",
+			"isPublic": true
+		},
+		{
+			"url": "https://rpc.sentio.xyz/avalanche",
+			"tracking": "limited",
+			"isOpenSource": false,
+			"provider": "Unknown",
+			"isPublic": true
+		},
+		{
+			"url": "https://api.zan.top/avax-mainnet/ext/bc/C/rpc",
+			"tracking": "limited",
+			"isOpenSource": false,
+			"provider": "ZAN",
+			"isPublic": true
+		},
+		{
+			"url": "https://api.avax.network/ext/bc/C/rpc",
+			"tracking": "unspecified",
+			"isOpenSource": false,
+			"provider": "Unknown",
+			"isPublic": true
+		},
+		{
+			"url": "https://avalanche-mainnet.gateway.tenderly.co",
+			"tracking": "yes",
+			"isOpenSource": false,
+			"provider": "Tenderly",
+			"isPublic": true
+		},
+		{
+			"url": "https://spectrum-01.simplystaking.xyz/avalanche-mn-rpc/ext/bc/C/rpc",
+			"tracking": "yes",
+			"isOpenSource": false,
+			"provider": "Unknown",
 			"isPublic": true
 		}
 	]

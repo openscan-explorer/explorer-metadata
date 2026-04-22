@@ -1,6 +1,6 @@
 {
 	"networkId": "solana:4uhcVJyU9pJkvQyS88uRDiswHXSCkY3z",
-	"updatedAt": "2026-04-07",
+	"updatedAt": "2026-04-07T00:00:00Z",
 	"endpoints": [
 		{
 			"url": "https://api.testnet.solana.com",

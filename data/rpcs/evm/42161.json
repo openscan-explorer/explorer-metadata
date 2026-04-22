@@ -1,6 +1,6 @@
 {
 	"networkId": "eip155:42161",
-	"updatedAt": "2026-02-22",
+	"updatedAt": "2026-04-21T12:31:57.558Z",
 	"endpoints": [
 		{
 			"url": "https://1rpc.io/arb",
@@ -31,13 +31,6 @@
 			"isPublic": true
 		},
 		{
-			"url": "https://endpoints.omniatech.io/v1/arbitrum/one/public",
-			"tracking": "none",
-			"isOpenSource": false,
-			"provider": "Omnia",
-			"isPublic": true
-		},
-		{
 			"url": "https://arb-one.api.pocket.network",
 			"tracking": "none",
 			"isOpenSource": false,
@@ -49,13 +42,6 @@
 			"tracking": "none",
 			"isOpenSource": false,
 			"provider": "PublicNode",
-			"isPublic": true
-		},
-		{
-			"url": "https://api.stateless.solutions/arbitrum-one/v1/demo",
-			"tracking": "none",
-			"isOpenSource": false,
-			"provider": "Stateless",
 			"isPublic": true
 		},
 		{
@@ -84,41 +70,6 @@
 			"tracking": "limited",
 			"isOpenSource": false,
 			"provider": "OnFinality",
-			"isPublic": true
-		},
-		{
-			"url": "https://rpc.poolz.finance/arbitrum",
-			"tracking": "limited",
-			"isOpenSource": false,
-			"provider": "Poolz",
-			"isPublic": true
-		},
-		{
-			"url": "https://public.stackup.sh/api/v1/node/arbitrum-one",
-			"tracking": "limited",
-			"isOpenSource": false,
-			"provider": "Stackup",
-			"isPublic": true
-		},
-		{
-			"url": "https://arbitrum.therpc.io",
-			"tracking": "limited",
-			"isOpenSource": false,
-			"provider": "TheRPC",
-			"isPublic": true
-		},
-		{
-			"url": "https://arb-mainnet-public.unifra.io",
-			"tracking": "limited",
-			"isOpenSource": false,
-			"provider": "Unifra",
-			"isPublic": true
-		},
-		{
-			"url": "https://rpc.owlracle.info/arb/70d38ce1826c4a60bb2a8e05a6c8b20f",
-			"tracking": "limited",
-			"isOpenSource": false,
-			"provider": "Unknown",
 			"isPublic": true
 		},
 		{
@@ -157,31 +108,10 @@
 			"isPublic": true
 		},
 		{
-			"url": "https://arb-mainnet.g.alchemy.com/v2/demo",
-			"tracking": "yes",
-			"isOpenSource": false,
-			"provider": "Alchemy",
-			"isPublic": true
-		},
-		{
-			"url": "https://rpc.ankr.com/arbitrum/c4cc6a8c87ec30258076de433ab2cf3d834228aae3fc4d76087873e4fea11635",
-			"tracking": "yes",
-			"isOpenSource": false,
-			"provider": "Ankr",
-			"isPublic": true
-		},
-		{
 			"url": "https://arbitrum.gateway.tenderly.co",
 			"tracking": "yes",
 			"isOpenSource": false,
 			"provider": "Tenderly",
-			"isPublic": true
-		},
-		{
-			"url": "https://rpc.arb1.arbitrum.gateway.fm",
-			"tracking": "yes",
-			"isOpenSource": false,
-			"provider": "Unknown",
 			"isPublic": true
 		},
 		{
