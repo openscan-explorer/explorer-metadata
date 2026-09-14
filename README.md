@@ -30,7 +30,7 @@ explorer-metadata/
 └── schemas/                                      # JSON Schema definitions
 ```
 
-**Network types:** Data directories are organized by network type (`evm/`, `btc/`). EVM networks use chain IDs as identifiers (e.g., `evm/1/`), while Bitcoin networks use slugs (e.g., `btc/mainnet/`).
+**Network types:** Data directories are organized by network type (`evm/`, `btc/`, `solana/`, `zec/`). EVM networks use chain IDs as identifiers (e.g., `evm/1/`), while the others use slugs (e.g., `btc/mainnet/`, `zec/mainnet/`).
 
 ## Adding Metadata
 
@@ -175,6 +175,8 @@ Networks are identified using [CAIP-2](https://github.com/ChainAgnostic/CAIPs/bl
 |--------------|--------|---------|
 | EVM chains | `eip155:{chainId}` | `eip155:1` (Ethereum), `eip155:137` (Polygon) |
 | Bitcoin | `bip122:{genesisHash}` | `bip122:000000000019d6689c085ae165831e93` |
+| Solana | `solana:{genesisHash}` | `solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp` |
+| Zcash | `bip122:{genesisHash}` | `bip122:00040fe8ec8471911baa1db1266ea15d` |
 
 ### App
 
@@ -428,7 +430,9 @@ dist/
 ├── rpcs/
 │   ├── all.json                    # Summary of all RPC endpoints
 │   ├── evm/{chainId}.json          # RPC endpoints per EVM chain
-│   └── btc/{slug}.json             # RPC endpoints per Bitcoin network
+│   ├── btc/{slug}.json             # RPC endpoints per Bitcoin network
+│   ├── solana/{slug}.json          # RPC endpoints per Solana network
+│   └── zec/{slug}.json             # RPC endpoints per Zcash network
 ├── networks.json                   # All networks
 ├── apps.json                       # All apps
 ├── organizations.json              # All organizations
