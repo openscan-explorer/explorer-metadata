@@ -1,0 +1,20 @@
+{
+	"networkId": "bip122:00040fe8ec8471911baa1db1266ea15d",
+	"updatedAt": "2026-09-14T15:16:56.000Z",
+	"endpoints": [
+		{
+			"url": "https://zcash-mainnet-zebrad.gateway.tatum.io",
+			"tracking": "unspecified",
+			"isOpenSource": false,
+			"provider": "Tatum",
+			"isPublic": true
+		},
+		{
+			"url": "https://zcash-mainnet.gateway.tatum.io",
+			"tracking": "unspecified",
+			"isOpenSource": false,
+			"provider": "Tatum",
+			"isPublic": true
+		}
+	]
+}
