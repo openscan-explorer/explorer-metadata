@@ -494,6 +494,13 @@ if (fs.existsSync(rpcsDir)) {
 								`networkId should start with solana: for Solana, got ${content.networkId}`,
 							);
 						}
+					} else if (networkType === "zec") {
+						// Zcash is a Bitcoin fork and shares the bip122: namespace
+						if (content.networkId && !content.networkId.startsWith("bip122:")) {
+							additionalErrors.push(
+								`networkId should start with bip122: for Zcash, got ${content.networkId}`,
+							);
+						}
 					}
 
 					// Check for duplicate URLs
