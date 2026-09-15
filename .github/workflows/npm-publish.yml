@@ -16,6 +16,18 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - run: npm ci
       - run: npm run build
+      - id: dist-tag
+        run: |
+          version=$(jq -r .version package.json)
+          if [[ "$version" == *-* ]]; then
+            tag="${version#*-}"
+            tag="${tag%%.*}"
+            [[ "$tag" =~ ^[A-Za-z] ]] || tag=next
+          else
+            tag=latest
+          fi
+          echo "tag=$tag" >> "$GITHUB_OUTPUT"
       - uses: JS-DevTools/npm-publish@v4
         with:
           registry: "https://registry.npmjs.org/"
+          tag: ${{ steps.dist-tag.outputs.tag }}
